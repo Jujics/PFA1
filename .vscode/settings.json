@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Pfa.sln"
+    "dotnet.defaultSolution": "PFA1.sln"
 }
