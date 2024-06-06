@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class SoulZonePlacement : MonoBehaviour, IDropHandler
+public class BoatPlacementSoul : MonoBehaviour, IDropHandler
 {
+    public GameObject[] SlotPos;
     public void OnDrop(PointerEventData eventData)
     {
         Debug.Log("Droped");
