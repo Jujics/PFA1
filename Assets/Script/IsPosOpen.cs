@@ -7,7 +7,6 @@ using UnityEngine;
 public class IsPosOpen : MonoBehaviour
 {
     public bool isEmpty;
-    public int id;
 
     void Start()
     {

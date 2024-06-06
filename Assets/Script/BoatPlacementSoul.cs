@@ -7,6 +7,7 @@ using UnityEngine.EventSystems;
 public class BoatPlacementSoul : MonoBehaviour, IDropHandler
 {
     public GameObject[] SlotPos;
+    public GameObject[] OpenSlot;
     public GameObject ParentOf;
     private DragAndDrop IdTransfer;
     private bool FoundPlace = false;
@@ -14,27 +15,29 @@ public class BoatPlacementSoul : MonoBehaviour, IDropHandler
 
     public void OnDrop(PointerEventData eventData)
     {
-        Debug.Log("Droped");
+        Debug.Log("Dropped");
         if (eventData.pointerDrag != null)
         {
             IdTransfer = eventData.pointerDrag.GetComponent<DragAndDrop>();
-            int i = 0;
-            while (FoundPlace == false || i == SlotPos.Length)
+            for (int i = 0; i < OpenSlot.Length; i++)
             {
+                if (OpenSlot[i] == null)
+                {
+                    if (IdTransfer.PreviousSlot != null)
+                    {
+                        int previousIndex = System.Array.IndexOf(SlotPos, IdTransfer.PreviousSlot);
+                        if (previousIndex != -1)
+                        {
+                            OpenSlot[previousIndex] = null;
+                        }
+                    }
+                    OpenSlot[i] = eventData.pointerDrag;
+                    eventData.pointerDrag.transform.position = SlotPos[i].transform.position;
+                    eventData.pointerDrag.transform.SetParent(SlotPos[i].transform);
+                    IdTransfer.PreviousSlot = SlotPos[i];
 
-                IsOp = SlotPos[i].GetComponent<IsPosOpen>();
-                if (IsOp.isEmpty == false)
-                {
-                    eventData.pointerDrag.transform.parent = this.gameObject.transform;
-                    eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition =
-                        SlotPos[i].GetComponent<RectTransform>().anchoredPosition;
-                    IdTransfer.CurrentBoatPlacementId = IsOp.id;
                     FoundPlace = true;
-                    IsOp.isEmpty = true;
-                }
-                else
-                {
-                    i += 1;
+                    break;
                 }
             }
 

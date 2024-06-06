@@ -5,49 +5,48 @@ using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler,IEndDragHandler, IDragHandler
+public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
-   public int CurrentBoatPlacementId;
-   public GameObject Boat;
-   public GameObject MainCan;
-   public IsPosOpen SetBackToFalse;
-   private RectTransform rectTransform;
-   private CanvasGroup canvasGroup;
+    public GameObject Boat;
+    public GameObject MainCan;
+    public GameObject PreviousSlot; 
+    private RectTransform rectTransform;
+    private CanvasGroup canvasGroup;
 
-   private void Start()
-   {
-      CurrentBoatPlacementId = 18;
-   }
+    private void Awake()
+    {
+        rectTransform = GetComponent<RectTransform>();
+        canvasGroup = GetComponent<CanvasGroup>();
+    }
 
-   private void Awake()
-   {
-      rectTransform = GetComponent<RectTransform>();
-      canvasGroup = GetComponent<CanvasGroup>();
-   }
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        Debug.Log("OnPointerDown");
+    }
 
-   public void OnPointerDown(PointerEventData eventData)
-   {
-      Debug.Log("Onpointerdown");
-      GameObject ZonePl = Boat.transform.GetChild(CurrentBoatPlacementId).gameObject;
-      SetBackToFalse = ZonePl.GetComponent<IsPosOpen>();
-      SetBackToFalse.isEmpty = false;
-   }
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        Debug.Log("OnBeginDrag");
+        canvasGroup.blocksRaycasts = false;
+        PreviousSlot = transform.parent.gameObject;
+        transform.SetParent(MainCan.transform);
+    }
 
-   public void OnBeginDrag(PointerEventData eventData)
-   {
-      Debug.Log("OnBeginDrag");
-      canvasGroup.blocksRaycasts = false;
-   }
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        Debug.Log("OnEndDrag");
+        canvasGroup.blocksRaycasts = true;
 
-   public void OnEndDrag(PointerEventData eventData)
-   {
-      Debug.Log("OnEndDrag");
-      canvasGroup.blocksRaycasts = true;
-   }
+        if (transform.parent == MainCan.transform)
+        {
+            transform.SetParent(PreviousSlot.transform);
+            transform.position = PreviousSlot.transform.position;
+        }
+    }
 
-   public void OnDrag(PointerEventData eventData)
-   {
-      Debug.Log("Draging");
-      rectTransform.anchoredPosition += eventData.delta;
-   }
+    public void OnDrag(PointerEventData eventData)
+    {
+        Debug.Log("Dragging");
+        rectTransform.anchoredPosition += eventData.delta;
+    }
 }

@@ -113,6 +113,19 @@ MonoBehaviour:
   - {fileID: 6071167162064586261}
   - {fileID: 8569852322406814633}
   - {fileID: 1781285520625397019}
+  OpenSlot:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   ParentOf: {fileID: 0}
 --- !u!1 &693379967706590744
 GameObject:
@@ -163,7 +176,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEmpty: 0
-  id: 0
 --- !u!1 &826571605966370806
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,7 +225,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEmpty: 0
-  id: 0
 --- !u!1 &1627823970163506387
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,7 +274,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEmpty: 0
-  id: 0
 --- !u!1 &1781285520625397019
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,7 +323,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEmpty: 0
-  id: 0
 --- !u!1 &3663374498537557021
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,7 +372,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEmpty: 0
-  id: 0
 --- !u!1 &4385050313126278602
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,7 +421,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEmpty: 0
-  id: 1
 --- !u!1 &4683340256206731363
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,7 +470,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEmpty: 0
-  id: 0
 --- !u!1 &5193134727355958646
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,7 +519,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEmpty: 0
-  id: 0
 --- !u!1 &6071167162064586261
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,7 +568,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEmpty: 0
-  id: 0
 --- !u!1 &7751054081977318037
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,7 +617,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEmpty: 0
-  id: 2
 --- !u!1 &8569852322406814633
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,7 +666,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEmpty: 0
-  id: 0
 --- !u!1 &8803462071424121455
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,4 +715,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isEmpty: 0
-  id: 0
