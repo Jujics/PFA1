@@ -40,7 +40,6 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         if (transform.parent == MainCan.transform)
         {
             transform.SetParent(PreviousSlot.transform);
-            transform.position = PreviousSlot.transform.position;
         }
     }
 
