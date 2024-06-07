@@ -8,7 +8,7 @@ using UnityEngine.EventSystems;
 public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
     public GameObject Boat;
-    public GameObject MainCan;
+    public Transform MainCan;
     public GameObject PreviousSlot; 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
@@ -29,6 +29,17 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         Debug.Log("OnBeginDrag");
         canvasGroup.blocksRaycasts = false;
         PreviousSlot = transform.parent.gameObject;
+        BoatPlacementSoul boatPlacementSoul = FindObjectOfType<BoatPlacementSoul>();
+        for (int i = 0; i < boatPlacementSoul.OpenSlot.Length; i++)
+        {
+            if (boatPlacementSoul.OpenSlot[i] == gameObject)
+            {
+                boatPlacementSoul.OpenSlot[i] = null;
+                transform.SetParent(MainCan);
+                break;
+            }
+        }
+
         transform.SetParent(MainCan.transform);
     }
 
@@ -36,11 +47,6 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     {
         Debug.Log("OnEndDrag");
         canvasGroup.blocksRaycasts = true;
-
-        if (transform.parent == MainCan.transform)
-        {
-            transform.SetParent(PreviousSlot.transform);
-        }
     }
 
     public void OnDrag(PointerEventData eventData)

@@ -89,6 +89,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c42c2c8dd97eac43a74aad92ff9538c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Boat: {fileID: 0}
+  MainCan: {fileID: 0}
+  PreviousSlot: {fileID: 0}
 --- !u!225 &8130873380359901443
 CanvasGroup:
   m_ObjectHideFlags: 0
