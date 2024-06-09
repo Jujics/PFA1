@@ -37,6 +37,7 @@ public class FileManager : MonoBehaviour, IDropHandler
         int index = 0;
         foreach (var item in itemQueue)
         {
+            item.transform.SetParent(slots[index]);
             item.GetComponent<RectTransform>().anchoredPosition = slots[index].anchoredPosition;
             index++;
         }
@@ -52,8 +53,7 @@ public class FileManager : MonoBehaviour, IDropHandler
         doorOpen = false;
         GameObject currentItem = itemQueue.Dequeue();
         currentItem.GetComponent<RectTransform>().anchoredPosition = door.anchoredPosition;
-
-        // Simulate door closing
+        currentItem.SetActive(false);
         Debug.Log("Door is closed for " + doorCooldown + " seconds.");
         yield return new WaitForSeconds(doorCooldown);
         Debug.Log("Door is open.");
