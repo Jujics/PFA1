@@ -21,9 +21,9 @@ public class SoulManager : MonoBehaviour
             case 1:
                 int NumbreOfBad = Rnd.NextInt(1, 2);
                 int i = 0;
-                while(i != NumbreOfBad)
+                while(i != 10)
                     {
-                        
+                        SoulInfo.Add();
                     }
                 break;
             case 2:
