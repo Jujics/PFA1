@@ -1,4 +1,218 @@
-ID,NAME,CLASS,GRAVITY
-01,PlaceHolder,Normal,1
-02,Tuer c'est mal,Soldat,1
-03,Tuer c'est mal,Normal,3
+ID,NAME,GRAVITY //1 correspond au neutre, 2 au négatifs
+1,,1
+2,,2
+4,A sauvé un enfant de la noyade1	
+5,Meurtre,2	
+6,Assassinat,2
+7,A soigné les plaies d'un animal,1	
+8,Enlèvement,2
+9,Esclavagisme,2
+10,Prenait en compte les critiques,1	
+11,Acte de Guerre,2	
+12,Homicide,2
+13,N'a jamais menti,1
+14,Dépense sa richesse sans compter,2
+15,A crée un incendie volontairement,2
+16,Pacifiste,1
+17,Avide,2	
+18,Consommation d'Ambroisie,2
+19,Philosophe,1	
+20,Paresseux,2
+21,A été retrouvé ivre mort,2
+22,Mangeais 5 fruits et légumes par jour,1	
+23,Recherchait le pouvoir,2
+24,Violent,2
+25,A aidé un fermier en difficulté,1
+26,A fait un marché et ne l'a jamais respecté,2
+27,A sauvé un chat dans un arbre,1	
+28,Chassait des animaux sans nécessité,2
+29,Infidèle,2
+30,A toujours bu avec modération,1
+31,Insultait souvent les dieux dans sa barbe,1
+32,Intolérance,2
+33,A partager ses richesses,1
+34,N'agissait selon aucun code moral,2	
+35,Recherche de pouvoir théologique,2
+36,Semait des graines d'arbres,1
+37,Se pensait libre de penser,1	
+38,N'honorait pas les dieux,2
+39,Adorait les animaux,1
+40,Prenait plus que ce dont il avait besoin,2
+41,S'appelait Œdipe,2
+42,Adorait la nature,1
+43,Cannibalisme,2
+44,Bienfaiteur,1
+45,Aimait sans compter,1
+46,Involontaire,2
+47,Se prenait pour un vampire,1
+48,Ménageais ses confrères,1	
+49,A crée un incendie,2
+50,A joué au Baseball avec ses adversaires,1
+51,Ecoutait les problèmes des autres,1
+52,Gâchait du vin pour montrer sa richesse,2
+53,Adorait semer le chaos,2
+54,Se battait pour l'égalité,1
+55,Sacrifiait des animaux au nom des dieux,1
+56,A toujours détourné le regard,1
+57,Confiant,1
+58,Est parti acheter du lait,1	
+59,Gardait les secrets confiés,1	
+60,Serviable,1	
+61,Authentique,1	
+62,Attentif,1	
+63,Apaisant,1	
+64,Amusant,1	
+65,Amical,1	
+66,Humble,1	
+67,Loyal,1	
+68,Intelligent,1	
+69,Inspirant,1		
+70,Imaginatif,1	
+71,Mature,1	
+72,Modeste,1	
+73,Optimiste,1		
+74,Original,1	
+75,Passioné,1	
+76,Patient,1	
+77,Persévérant,1	
+78,Tolérant,1	
+79,Spontané,1	
+80,Sociable,1	
+81,Sincère,1	
+82,Fan de Socrates,1	
+83,Simple,1	
+84,A toujours adoré les maths,1	
+85,A couru dans un incendie,1	
+86,A nettoyé des amphores sacrées,1		
+87,A toujours prié les dieux,1		
+88,Grand Admirateur de Platon,1	
+89,Malin,1	
+90,Charismatique,1	
+91,Coopératif,1		
+92,Courtois,1	
+93,Cultivé ,1	
+94,Curieux,1	
+95,Calme,1	
+96,A porté des chaussettes déparaillées,2
+97,N'a jamais compris les maths,1
+98,A déjà failli être frappé par l'orage,1		
+99,N'a jamais fait la guerre,1	
+100,Légèrement fanatique du Feu,1	
+101,Solitaire,1	
+102,N'a jamais mangé de fruit,1	
+103,N'a jamais mangé de viande,1	
+104,N'a jamais mangé de légumes,1	
+105,Exceptionnellement fort,1	
+106,Simplet,1
+107,N'aimait pas les enfants,1		
+108,Possédait une tonne d'amphores,1	
+109,N'acceptait pas la critique,2
+110,A failli être noyé,1
+111,A failli être mangé par un animal,1	
+112,A déjà pris part à un débat,1	
+113,N'a jamais pris part à un débat,1	
+114,N'arrivait jamais au bout de ses idées,1	
+115,Ne finissait jamais ses projets,1
+116,S'imaginait dans un monde crée par des GD,1	
+117,Avait un ami nommé Dimitri Kotek,1	
+118,S'affalait toujours dans les fauteuils,1	
+119,Ne dormait pas bien,1	
+120,Assistait souvent à des débats,1	
+121,Mal à l'aise avec les autres humains,1		
+122,Mal à l'aise avec les animaux,1	
+123,Peur des Araignées,1
+124,Peur des chiens,1
+125,Peur des chats,1
+126,Peur des serpents,1	
+127,Peur des espaces clos,1	
+128,Peur des espaces ouverts,1	
+129,Peur des trous,1
+130,Peur des monstres,1	
+131,Peur du noir,1
+132,Peur de mourir,1
+133,Accélérait souvent le pas sans raison,1		
+134,Ne buvait que de l'eau chaude,1	
+135,N'a jamais cru en la philosophie,1	
+136,N'était pas très sociable,1	
+137,N'avait aucune réparti,1	
+138,Ne savait pas écrire,1		
+139,Savait écrire,1
+140,Ne savait pas lire,1	
+141,Savait lire,1
+142,Râlait souvent,1
+143,Affirmait que la Terre était ronde,1	
+144,Affirmait que la Terre était plate,1	
+145,Affirmait que la Terre était une pyramide,1		
+146,Affirmait sortir d'une caverne,1	
+147,Aparaissait toujours de manière innatendu,1	
+148,N'était pas sage étant petit,2	
+149,Elevé par des loups,1
+150,Elevé par des Ours,1
+151,Elevé par des Otaries,1	
+152,Appliquait de la crème sur sa peau,1		
+153,Avalait souvent sa salvie,1		
+154,Est porté disparu,1
+155,Était mort en mer il y a dix ans...Apparemment,1	
+156,Affirmait pouvoir créer de l'eau,1	
+157,Porte une marque de naissance en forme de U,1	
+158,Fronçait les sourcils quand il faisait nuit,1	
+159,Frappait l'air sans raison,1	
+160,Ratait toujours ses repas,1	
+161,"A imaginé un concept de ""Retraite""",1	
+162,"A imaginé un concept de ""Congés""",1	
+163,"A imaginé un concept de ""Tri des Déchets""",1	
+164,Se dit avoir inventé la Roue,1	
+165,Pêchait souvent,1	
+166,A déjà mangé de la terre,1		
+167,A sauté d'une grande hauteur en espérant voler,1	
+168,N'a jamais réussi à bien dormir,1	
+169,S'est déjà pris pour un envoyé des Dieux,2	
+170,N'a jamais vu de Gorille,1	
+171,N'a jamais vu de Cobra,1	
+172,A déjà été sur Chypres,1	
+173,A déjà quitter la Grèce,1
+174,S'est fait lapider par erreur,1	
+175,A accidentellement cassé un chariot,1	
+176,A déjà fait tomber sa tablette à gravure,1		
+177,A déjà tenté de brasser son propre alcool,1		
+178,Emettait souvent des avis contradictoires,1	
+179,S'appelait Dimitri Kotek avant,1	
+180,Séjournait chez son oncle,1	
+181,A déjà vu la mort dans les yeux,1	
+182,Était présent lors de l'Odyssée,2	
+183,Avait déjà tout prévu,1	
+184,N'allais jamais voir ses parents,1		
+185,A révélé des équations essentielles,1	
+186,Criait sur tout les toits qu'il était immortel,2	
+187,S'adaptait peu à la vie en société,1	
+188,Songeais souvent à ce qu'il y a après la mort,1	
+189,Ambigue,1	
+190,Son humour laisse à désirer,1	
+191,S'entretenait avec lui-même régulièrement,1	
+192,Pimpais régulièrement son char,1	
+193,Fan de requins,1	
+194,Frère d'Objetek Nik,1	
+195,Branché avec les jeunes,1	
+196,N'aimait pas l'eau,1	
+197,Songeais souvent à songer plus souvent,1	
+198,S'agitait dans son sommeil,1	
+199,Avait des rêves assez régulièrement,1	
+200,N'a jamais cauchemardé,1	
+201,Ne faisais que cauchemardé,1	
+202,Unijambiste,1	
+203,Manchot,1	
+204,Fan du Pilate,1		
+205,S'éclipsait avant son tour lors des débats,1	
+206,Séjournait chez ses parents,1	
+207,Séjournait dans la forêt,1		
+208,Séjournait incognito,1	
+209,Un spartiate pacifiste,2	
+210,Créateur de l'ancêtre de la pizza,1		
+211,Frère d'un ours,1	
+212,Se croyait issu d'un demi-dieu,2	
+213,A déjà officiellement été emprisonné à tord,1	
+214,Ne réagissait pas souvent à son prénom,1	
+215,Pensais se réincarner en mourrant,2		
+216,Voudrait un autographe d'Hadès,2	
+217,A inventé le lancer de disque,1	
+218,A inventé la gravure,1
