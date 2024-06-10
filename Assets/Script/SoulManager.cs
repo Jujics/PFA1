@@ -1,34 +1,41 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = Unity.Mathematics.Random;
 
 public class SoulManager : MonoBehaviour
 {
     public GameObject GetSeqManager;
     private Dictionary<string, int> SoulInfo = new Dictionary<string, int>();
     private SequenceManager SQ;
-    
+
     void Start()
     {
         SQ = GetSeqManager.GetComponent<SequenceManager>();
-        switch (SQ.DayNumber)
+        Random Rnd = new Random((uint)DateTime.Now.Ticks); 
+        int color = Rnd.NextInt(1, 3); 
+        SoulInfo.Add("color",color);
+        switch (color)
         {
             case 1:
-                
-                //SoulInfo.Add("Act1",int i);
+                int NumbreOfBad = Rnd.NextInt(1, 2);
+                int i = 0;
+                while(i != NumbreOfBad)
+                    {
+                        
+                    }
                 break;
             case 2:
+                //
                 break;
             case 3:
-                break;
-            case 4:
-                break;
-            case 5:
+                //
                 break;
         }
+        int IsWhite = Rnd.NextInt(1, 100);
     }
 
-    // Update is called once per frame
     void Update()
     {
         
