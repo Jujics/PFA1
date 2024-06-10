@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5685319658584751558}
   - component: {fileID: 343406110492484942}
   - component: {fileID: 4683915612282817157}
+  - component: {fileID: 2793747082207199380}
   - component: {fileID: 8130873380359901443}
   m_Layer: 5
   m_Name: Soul
@@ -89,9 +90,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c42c2c8dd97eac43a74aad92ff9538c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boat: {fileID: 0}
+  Boat: {fileID: 302365845106910134, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
   MainCan: {fileID: 0}
   PreviousSlot: {fileID: 0}
+--- !u!114 &2793747082207199380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628991572536704348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!225 &8130873380359901443
 CanvasGroup:
   m_ObjectHideFlags: 0
