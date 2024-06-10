@@ -15,7 +15,7 @@ public class SoulManager : MonoBehaviour
         {
             case 1:
                 
-                SoulInfo.Add("",);
+                //SoulInfo.Add("Act1",int i);
                 break;
             case 2:
                 break;
