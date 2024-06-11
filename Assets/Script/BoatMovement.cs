@@ -1,20 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class BoatMovement : MonoBehaviour
 {
-    public SliderScript Slider;
-    public RectTransform rectTransform;
-    public GameObject SliderTarget;
-    public float speed = 200f; 
-    public float interval; 
-    private float timer;
-
-    public float SliderTime;
-
-    public bool isTP = false;
-    public int BoatPassage = -1;
+    public RectTransform rectTransform; 
+    public float MaxTravelTime;
+    public float CurrentTravelTime;
+    private bool Pause = true;
+    private Vector2 StartPosition, EndPosition;
+    
 
     void Start()
     {
@@ -22,50 +19,34 @@ public class BoatMovement : MonoBehaviour
         {
             rectTransform = GetComponent<RectTransform>();
         }
-        timer = interval;
+        StartPosition = new Vector2(Screen.width, rectTransform.anchoredPosition.y);
+        EndPosition = new Vector2(-1225, rectTransform.anchoredPosition.y);
     }
 
     void Update()
     {
-        timer -= Time.deltaTime;
-        
-        if (timer <= 0)
+        if (!Pause && CurrentTravelTime < MaxTravelTime)
         {
-            StartCoroutine(MoveFromRightToLeft());
-            timer = interval;
+            CurrentTravelTime += Time.deltaTime;
+            if (CurrentTravelTime >= MaxTravelTime)
+            {
+                CurrentTravelTime = MaxTravelTime;
+                Pause = true;
+            }
+
+            float t = CurrentTravelTime / MaxTravelTime;
+            rectTransform.anchoredPosition = Vector2.Lerp(StartPosition, EndPosition, t);
         }
     }
 
-    private IEnumerator MoveFromRightToLeft()
+    public void StartMovement()
     {
-        float screenWidth = Screen.width;
-        float targetX = -1225;
-        float preTargetX = -1220;
+        Reset();
+        Pause = false;
+    }
 
-
-        if (isTP)
-        {
-            Debug.Log("Wait");
-            yield return new WaitForSeconds(interval);
-            isTP = false;
-        }
-
-        while (rectTransform.anchoredPosition.x > targetX)
-        {
-            rectTransform.anchoredPosition += Vector2.left * speed * Time.deltaTime;
-
-            yield return null;
-        }
-
-        if(rectTransform.anchoredPosition.x <= SliderTarget.transform.position.x)
-            Slider.canMoveSlider = true;    
-
-        
-        Slider.thisSlider.value = 0;
-
-
-        rectTransform.anchoredPosition = new Vector2(screenWidth, rectTransform.anchoredPosition.y);
-        BoatPassage += 1;
-        isTP = true;
+    private void Reset()
+    {
+        CurrentTravelTime = 0;
     }
 }

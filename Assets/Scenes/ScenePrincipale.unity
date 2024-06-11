@@ -1572,17 +1572,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4992922033060735100, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
   m_PrefabInstance: {fileID: 886229530}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &886229533 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5493231666225451687, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
-  m_PrefabInstance: {fileID: 886229530}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 496195189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 564a18c20c447d84dbe28877db82e652, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &901317885
 GameObject:
   m_ObjectHideFlags: 0
@@ -2516,9 +2505,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7864b8b7dddd5c245953ad8dfafd3554, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boat: {fileID: 886229533}
-  canMoveSlider: 0
-  thisSlider: {fileID: 0}
+  TotalTime: 10
+  BoatStartTime: 5
+  OnBoatStartTime:
+    m_PersistentCalls:
+      m_Calls: []
+  Slider: {fileID: 1647619251}
 --- !u!114 &1647619251
 MonoBehaviour:
   m_ObjectHideFlags: 0

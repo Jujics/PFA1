@@ -1,33 +1,54 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
-using UnityEngine.UIElements.Experimental;
 
 public class SliderScript : MonoBehaviour
 {
-    public BoatMovement Boat;
-    public bool canMoveSlider = false;
-
-    public Slider thisSlider;
-
-    // Start is called before the first frame update
-    void Start()
+    public float TotalTime;
+    public float BoatStartTime;
+    public UnityEvent OnBoatStartTime;
+    public UnityEvent OnTimerEnd;
+    public Slider Slider;
+    private float _currentTime;
+    private bool EventTriggered = false;
+    private bool Pause = true;
+    
+    public void StartSlider()
     {
-        thisSlider = GetComponent<Slider>();
+        Reset();
+        Pause = false;
+        
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (canMoveSlider)
-            StartCoroutine(MoveSlider());
+        if (!Pause && _currentTime < TotalTime)
+        {
+            _currentTime += Time.deltaTime;
+            if (!EventTriggered && _currentTime > BoatStartTime)
+            {
+                OnBoatStartTime.Invoke();
+                EventTriggered = true;
+            }
+
+            if (_currentTime >= TotalTime)
+            {
+                _currentTime = TotalTime;
+                Pause = true;
+                OnTimerEnd.Invoke();
+            }
+        }
+
+        Slider.value = 100 * _currentTime / TotalTime;
     }
 
-    public IEnumerator MoveSlider()
+    [ContextMenu("Reset")]
+    public void Reset()
     {
-        thisSlider.value += Time.deltaTime * thisSlider.maxValue/100 * Boat.interval; 
-        yield return new WaitForEndOfFrame();
+        EventTriggered = false;
+        _currentTime = 0;
     }
-
 }
