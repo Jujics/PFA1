@@ -19,11 +19,12 @@ public class SoulManager : MonoBehaviour
         SoulInfo.Add("color",color);
         
         
-        var result = CSVReader.ParseCSV(File.ReadAllText(@"/Assets/CSV/Actes.csv"));
-
+        var result = CSVReader.ParseCSV(File.ReadAllText(@"Assets/Script/Actes.csv"));
+        
         foreach(var line in result){
+            Debug.Log(line);
             foreach(var col in line){
-                Console.WriteLine(col);
+                
             }
         }
         
