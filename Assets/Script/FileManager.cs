@@ -59,6 +59,7 @@ public class FileManager : MonoBehaviour, IDropHandler
         Debug.Log("Door is open.");
 
         doorOpen = true;
+        
         UpdateQueuePositions();
     }
 }

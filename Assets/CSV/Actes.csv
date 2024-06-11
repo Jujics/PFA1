@@ -1,7 +1,7 @@
-ID,NAME,GRAVITY //1 correspond au neutre, 2 au négatifs
-1,,1
-2,,2
-4,A sauvé un enfant de la noyade1	
+ID,NAME,GRAVITY
+1,A inventé le lancer de disque,1
+2,A inventé la gravure,1
+4,A sauvé un enfant de la noyade,1	
 5,Meurtre,2	
 6,Assassinat,2
 7,A soigné les plaies d'un animal,1	
@@ -213,6 +213,4 @@ ID,NAME,GRAVITY //1 correspond au neutre, 2 au négatifs
 213,A déjà officiellement été emprisonné à tord,1	
 214,Ne réagissait pas souvent à son prénom,1	
 215,Pensais se réincarner en mourrant,2		
-216,Voudrait un autographe d'Hadès,2	
-217,A inventé le lancer de disque,1	
-218,A inventé la gravure,1
+216,Voudrait un autographe d'Hadès,2
