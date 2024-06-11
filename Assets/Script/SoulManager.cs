@@ -3,21 +3,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = Unity.Mathematics.Random;
+using System.IO;
 
 public class SoulManager : MonoBehaviour
 {
     public GameObject GetSeqManager;
     private Dictionary<string, int> SoulInfo = new Dictionary<string, int>();
-    private SequenceManager SQ;
+    //private SequenceManager SQ;
 
     void Start()
     {
-        SQ = GetSeqManager.GetComponent<SequenceManager>();
+        //SQ = GetSeqManager.GetComponent<SequenceManager>();
         Random Rnd = new Random((uint)DateTime.Now.Ticks); 
         int color = Rnd.NextInt(1, 3); 
         SoulInfo.Add("color",color);
+        
+        
+        var result = CSVReader.ParseCSV(File.ReadAllText(@"/Assets/CSV/Actes.csv"));
+
+        foreach(var line in result){
+            foreach(var col in line){
+                Console.WriteLine(col);
+            }
+        }
+        
         switch (color)
         {
+                
             case 1:
                 int NumbreOfBad = Rnd.NextInt(1, 2);
                 int i = 0;
@@ -25,9 +37,13 @@ public class SoulManager : MonoBehaviour
                     {
                         //pull random object from csv
                         SoulInfo.Add("Deed" + i ,0);
+                        //check for exceptions
                         i += 1;
                     }
                 break;
+            
+            
+            
             case 2:
                 int NumbreOfBad2= Rnd.NextInt(3, 4);
                 int n = 0;
@@ -38,23 +54,54 @@ public class SoulManager : MonoBehaviour
                     n += 1;
                 }
                 break;
+            
+            
+            
             case 3:
-                int NumbreOfBad3= Rnd.NextInt(3, 4);
+                int NumbreOfBad3 = Rnd.NextInt(5, 10);
                 int f = 0;
-                while(f != 10)
+                switch (NumbreOfBad3)
                 {
-                    //pull random object from csv
-                    SoulInfo.Add("Deed" + f ,0);
-                    f += 1;
+                    case 5:
+                        int CsvRnd = Rnd.NextInt(1, 216);
+                        SoulInfo.Add("Deed1",CsvRnd);
+                        CsvRnd = Rnd.NextInt(1, 216);
+                        SoulInfo.Add("Deed2",CsvRnd);
+                        CsvRnd = Rnd.NextInt(1, 216);
+                        SoulInfo.Add("Deed3",CsvRnd);
+                        CsvRnd = Rnd.NextInt(1, 216);
+                        SoulInfo.Add("Deed4",CsvRnd);
+                        CsvRnd = Rnd.NextInt(1, 216);
+                        SoulInfo.Add("Deed5",CsvRnd);
+                        break;
+                    case 6:
+                        int CsvRnd6 = Rnd.NextInt(1, 216);
+                        SoulInfo.Add("Deed1",CsvRnd6);
+                        CsvRnd6 = Rnd.NextInt(1, 216);
+                        SoulInfo.Add("Deed2",CsvRnd6);
+                        CsvRnd6 = Rnd.NextInt(1, 216);
+                        SoulInfo.Add("Deed3",CsvRnd6);
+                        CsvRnd6 = Rnd.NextInt(1, 216);
+                        SoulInfo.Add("Deed4",CsvRnd6);
+                        CsvRnd6 = Rnd.NextInt(1, 216);
+                        SoulInfo.Add("Deed5",CsvRnd6);
+                        break;
                 }
+                    
+                
                 break;
         }
+        
+        
+        
+        
+        
         int IsWhite = Rnd.NextInt(1, 100);
 
         switch (IsWhite)
         {
             case >70:
-                //set as white
+                //set white as true
                 break;
         }
         //set color
