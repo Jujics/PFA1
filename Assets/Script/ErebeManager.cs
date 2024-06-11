@@ -44,11 +44,11 @@ public class ErebeManager : MonoBehaviour, IDropHandler
 
         if (doorOpen && itemQueue.Count > 0)
         {
-            //StartCoroutine(ProcessNextItem());
+            StartCoroutine(ProcessNextItem());
         }
     }
 
-    /*private IEnumerator ProcessNextItem()
+    private IEnumerator ProcessNextItem()
     {
         doorOpen = false;
         GameObject currentItem = itemQueue.Dequeue();
@@ -62,5 +62,5 @@ public class ErebeManager : MonoBehaviour, IDropHandler
         
         UpdateQueuePositions();
         
-    }*/
+    }
 }
