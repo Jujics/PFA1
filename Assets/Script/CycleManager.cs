@@ -34,6 +34,7 @@ public class CycleManager : MonoBehaviour
 
     public void OnBoatStartTime()
     {
+        
         BoatMovement.StartMovement();
     }
 

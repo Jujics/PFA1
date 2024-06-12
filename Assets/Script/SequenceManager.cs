@@ -64,6 +64,9 @@ public class SequenceManager : MonoBehaviour
         SettingsPanel.SetActive(false);
         MainMenuPanel.SetActive(true); 
     }
+    
+    
+    
 
 
 
