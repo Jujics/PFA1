@@ -6,11 +6,12 @@ using UnityEngine.UI;
 public class RivalManager : MonoBehaviour
 {
     public int ValueOnStart;
+    public int MaxValue;
 
     void Start()
     {
         Slider Slider = GetComponentInChildren<Slider>();
-        Slider.maxValue = 100;
+        Slider.maxValue = MaxValue;
         Slider.value = ValueOnStart;
     }
 
