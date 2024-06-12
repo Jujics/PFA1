@@ -12,6 +12,13 @@ public class FileManager : MonoBehaviour, IDropHandler
 
     private bool doorOpen = true;
 
+    public GameObject Player;
+    public int ScoreParAme;
+
+    public void Start()
+    {
+        Player = GameObject.Find("Player");
+    }
     public void OnDrop(PointerEventData eventData)
     {
         Debug.Log("Dropped");
@@ -57,6 +64,7 @@ public class FileManager : MonoBehaviour, IDropHandler
         Debug.Log("Door is closed for " + doorCooldown + " seconds.");
         yield return new WaitForSeconds(doorCooldown);
         //score
+        Player.GetComponent<PlayerTrust>().GainScore(ScoreParAme);
         Debug.Log("Door is open.");
 
         doorOpen = true;
