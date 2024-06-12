@@ -14,7 +14,7 @@ public class BoatMovement : MonoBehaviour
     public GameObject[] DayTwoList;
     public GameObject[] DayThreeList;
     public GameObject[] DayFourList;
-    public GameObject[] DayfiveList;
+    public GameObject[] DayFiveList;
     private bool Pause = true;
     private Vector2 StartPosition, EndPosition;
     
@@ -50,28 +50,131 @@ public class BoatMovement : MonoBehaviour
         CycleManager cycleManager;
         cycleManager = CycleManagerHolder.GetComponent<CycleManager>();
         Reset();
-        switch (cycleManager.CurrentCycle)
+        switch (cycleManager.CurrentDay)
         {
-            case 0:
-                DayOneList[0].SetActive(true);
+            case 1 :
+                switch (cycleManager.CurrentCycle)
+                {
+                    case 0:
+                        DayOneList[0].SetActive(true);
+                        break;
+                    case 1:
+                        DayOneList[0].SetActive(false);
+                        DayOneList[1].SetActive(true);
+                        break;
+                    case 2:
+                        DayOneList[1].SetActive(false);
+                        DayOneList[2].SetActive(true);
+                        break;
+                    case 3:
+                        DayOneList[2].SetActive(false);
+                        DayOneList[3].SetActive(true);
+                        break;
+                    case 4:
+                        DayOneList[3].SetActive(false);
+                        DayOneList[4].SetActive(true);
+                        break;
+                }
                 break;
-            case 1:
-                DayOneList[0].SetActive(false);
-                DayOneList[1].SetActive(true);
+            case 2 :
+                switch (cycleManager.CurrentCycle)
+                {
+                    case 0:
+                        DayTwoList[0].SetActive(true);
+                        break;
+                    case 1:
+                        DayTwoList[0].SetActive(false);
+                        DayTwoList[1].SetActive(true);
+                        break;
+                    case 2:
+                        DayTwoList[1].SetActive(false);
+                        DayTwoList[2].SetActive(true);
+                        break;
+                    case 3:
+                        DayTwoList[2].SetActive(false);
+                        DayTwoList[3].SetActive(true);
+                        break;
+                    case 4:
+                        DayTwoList[3].SetActive(false);
+                        DayTwoList[4].SetActive(true);
+                        break;
+                }
                 break;
-            case 2:
-                DayOneList[1].SetActive(false);
-                DayOneList[2].SetActive(true);
+            case 3 :
+                switch (cycleManager.CurrentCycle)
+                {
+                    case 0:
+                        DayThreeList[0].SetActive(true);
+                        break;
+                    case 1:
+                        DayThreeList[0].SetActive(false);
+                        DayThreeList[1].SetActive(true);
+                        break;
+                    case 2:
+                        DayThreeList[1].SetActive(false);
+                        DayThreeList[2].SetActive(true);
+                        break;
+                    case 3:
+                        DayThreeList[2].SetActive(false);
+                        DayThreeList[3].SetActive(true);
+                        break;
+                    case 4:
+                        DayThreeList[3].SetActive(false);
+                        DayThreeList[4].SetActive(true);
+                        break;
+                }
                 break;
-            case 3:
-                DayOneList[2].SetActive(false);
-                DayOneList[3].SetActive(true);
+            case 4 :
+                switch (cycleManager.CurrentCycle)
+                {
+                    case 0:
+                        DayFourList[0].SetActive(true);
+                        break;
+                    case 1:
+                        DayFourList[0].SetActive(false);
+                        DayFourList[1].SetActive(true);
+                        break;
+                    case 2:
+                        DayFourList[1].SetActive(false);
+                        DayFourList[2].SetActive(true);
+                        break;
+                    case 3:
+                        DayFourList[2].SetActive(false);
+                        DayFourList[3].SetActive(true);
+                        break;
+                    case 4:
+                        DayFourList[3].SetActive(false);
+                        DayFourList[4].SetActive(true);
+                        break;
+                }
                 break;
-            case 4:
-                DayOneList[3].SetActive(false);
-                DayOneList[4].SetActive(true);
+            case 5 :
+                switch (cycleManager.CurrentCycle)
+                {
+                    case 0:
+                        DayFiveList[0].SetActive(true);
+                        break;
+                    case 1:
+                        DayFiveList[0].SetActive(false);
+                        DayFiveList[1].SetActive(true);
+                        break;
+                    case 2:
+                        DayFiveList[1].SetActive(false);
+                        DayFiveList[2].SetActive(true);
+                        break;
+                    case 3:
+                        DayFiveList[2].SetActive(false);
+                        DayFiveList[3].SetActive(true);
+                        break;
+                    case 4:
+                        DayFiveList[3].SetActive(false);
+                        DayFiveList[4].SetActive(true);
+                        break;
+                }
                 break;
         }
+    
+            
         Pause = false;
     }
 

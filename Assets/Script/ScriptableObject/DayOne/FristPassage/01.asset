@@ -12,8 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: 01
   m_EditorClassIdentifier: 
-  name: 
-  ActGravity: 
-  Acts: []
-  _colorOfSoul: 0
+  name: connard
+  ActGravity: 00000000000000000000000000000000010000000000000000000000010000000000000001000000
+  Acts:
+  - ertg
+  - iju
+  - oiph
+  - oiph
+  - oiugb
+  - op
+  - jpoi
+  - giu
+  - iugv
+  - oih
+  colorOfSoul: 0
   IsWhite: 0

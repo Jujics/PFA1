@@ -5,8 +5,11 @@ using UnityEngine.Events;
 
 public class CycleManager : MonoBehaviour
 {
+    public int CurrentDay;
+    public int MaxDays;
     public int MaxCycle;
     public int CurrentCycle;
+    public float TimeUntilEndDay;
     public SliderScript SliderScript;
     public BoatMovement BoatMovement;
     public UnityEvent OnLastCycle;
@@ -24,9 +27,9 @@ public class CycleManager : MonoBehaviour
         CurrentCycle++;
         if (CurrentCycle < MaxCycle)
         {
-            if (CurrentCycle == MaxCycle - 1) ;
+            if (CurrentCycle == MaxCycle - 1) 
             {
-                OnLastCycle.Invoke();
+                LastCycle();
             }
             StartNewCycle();
         }
@@ -34,12 +37,35 @@ public class CycleManager : MonoBehaviour
 
     public void OnBoatStartTime()
     {
-        
         BoatMovement.StartMovement();
     }
 
     public void StartNewCycle()
     {
         SliderScript.StartSlider();
+    }
+
+    public void LastCycle()
+    {
+        //make the bell sound
+        StartCoroutine(WaitUntilEndLevel());
+    }
+
+    private IEnumerator WaitUntilEndLevel()
+    {
+        yield return new WaitForSeconds(TimeUntilEndDay);
+        //add ui logic
+        if (CurrentDay < MaxDays)
+        {
+            //compare score
+            CurrentDay++;
+            CurrentCycle = 0;
+            StartNewCycle();
+        }
+        else
+        {
+            //set end screen
+        }
+
     }
 }
