@@ -1,0 +1,2 @@
+Total Actions: 8
+Total time: 33,9854 seconds
