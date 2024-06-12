@@ -22,13 +22,11 @@ public class SequenceManager : MonoBehaviour
 
 
 
-    // Start is called before the first frame update
     void Start()
     {
         SettingsPanel.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
         

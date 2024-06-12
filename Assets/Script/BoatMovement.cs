@@ -9,6 +9,11 @@ public class BoatMovement : MonoBehaviour
     public RectTransform rectTransform; 
     public float MaxTravelTime;
     public float CurrentTravelTime;
+    public GameObject[] DayOneList;
+    public GameObject[] DayTwoList;
+    public GameObject[] DayThreeList;
+    public GameObject[] DayFourList;
+    public GameObject[] DayfiveList;
     private bool Pause = true;
     private Vector2 StartPosition, EndPosition;
     
@@ -41,6 +46,7 @@ public class BoatMovement : MonoBehaviour
 
     public void StartMovement()
     {
+        
         Reset();
         Pause = false;
     }
