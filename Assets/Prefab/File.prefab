@@ -167,6 +167,8 @@ MonoBehaviour:
   - {fileID: 379318367475782163}
   door: {fileID: 6689487295458636063}
   doorCooldown: 2
+  Player: {fileID: 0}
+  ScoreParAme: 1
 --- !u!222 &2333154422987500053
 CanvasRenderer:
   m_ObjectHideFlags: 0
