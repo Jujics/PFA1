@@ -11,6 +11,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public TMP_Text Name;
     public TMP_Text[] Deed;
     public bool InErebe;
+    public bool DieOutScreen, DieWhileWait, DieOnWrongDoor, DieOnCorrectDoor;
     private GameObject PanelInfo;
     private float TimeLeft;
 

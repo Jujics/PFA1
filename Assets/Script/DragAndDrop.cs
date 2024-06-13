@@ -12,16 +12,19 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     public GameObject PreviousSlot; 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
+    private SoulDataGrab _soulDataGrab;
 
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
+        _soulDataGrab = GetComponent<SoulDataGrab>();
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
         Debug.Log("OnPointerDown");
+        _soulDataGrab.DieOutScreen = false;
     }
 
     public void OnBeginDrag(PointerEventData eventData)
