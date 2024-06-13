@@ -1307,6 +1307,7 @@ MonoBehaviour:
   - {fileID: 7087052098162564946}
   - {fileID: 6250628388340054331}
   - {fileID: 7837916785224712226}
+  _PlayerTrust: {fileID: 5457104172544613871, guid: cbdf1c777321d4441b9ee37dd0e01807, type: 3}
   InErebe: 0
   DieOutScreen: 1
   DieWhileWait: 0

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Serialization;
 
 public class FileManager : MonoBehaviour, IDropHandler
 {
@@ -9,7 +10,8 @@ public class FileManager : MonoBehaviour, IDropHandler
     public RectTransform[] slots; 
     public RectTransform door; 
     public float doorCooldown = 2f;
-
+    public enum ColorOfAtk{Blue,Red,Orange,Yellow}
+    public ColorOfAtk colorOfAtk;
     private bool doorOpen = true;
 
     public GameObject Player;
@@ -31,6 +33,15 @@ public class FileManager : MonoBehaviour, IDropHandler
                 itemQueue.Enqueue(droppedItem);
                 UpdateQueuePositions();
                 droppedItem.GetComponent<CanvasGroup>().blocksRaycasts = false;
+                SoulDataGrab Soul = droppedItem.GetComponent<SoulDataGrab>();
+                if ((int)Soul.AmeData.colorOfSoul == (int)colorOfAtk)
+                {
+                    Soul.DieOnCorrectDoor = true;
+                }
+                else
+                {
+                    Soul.DieOnWrongDoor = true;
+                }
             }
             else
             {
