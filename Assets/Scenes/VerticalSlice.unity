@@ -566,8 +566,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7864b8b7dddd5c245953ad8dfafd3554, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TotalTime: 10
-  BoatStartTime: 8
+  TotalTime: 20
+  BoatStartTime: 10
   OnBoatStartTime:
     m_PersistentCalls:
       m_Calls: []
@@ -782,8 +782,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentDay: 1
-  MaxDays: 5
-  MaxCycle: 5
+  MaxDays: 1
+  MaxCycle: 6
   CurrentCycle: 0
   TimeUntilEndDay: 0
   SliderScript: {fileID: 1122343927}
@@ -2034,6 +2034,10 @@ PrefabInstance:
       propertyPath: MainCan
       value: 
       objectReference: {fileID: 1939629337}
+    - target: {fileID: 5493231666225451687, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: MaxTravelTime
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5493231666225451687, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: CycleManagerHolder
       value: 

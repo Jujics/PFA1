@@ -74,6 +74,10 @@ public class BoatMovement : MonoBehaviour
                         DayOneList[3].SetActive(false);
                         DayOneList[4].SetActive(true);
                         break;
+                    case 5:
+                        DayOneList[4].SetActive(false);
+                        DayOneList[5].SetActive(true);
+                        break;
                 }
                 break;
             case 2 :
@@ -97,6 +101,10 @@ public class BoatMovement : MonoBehaviour
                     case 4:
                         DayTwoList[3].SetActive(false);
                         DayTwoList[4].SetActive(true);
+                        break;
+                    case 5:
+                        DayTwoList[4].SetActive(false);
+                        DayTwoList[5].SetActive(true);
                         break;
                 }
                 break;
@@ -122,6 +130,10 @@ public class BoatMovement : MonoBehaviour
                         DayThreeList[3].SetActive(false);
                         DayThreeList[4].SetActive(true);
                         break;
+                    case 5:
+                        DayThreeList[4].SetActive(false);
+                        DayThreeList[5].SetActive(true);
+                        break;
                 }
                 break;
             case 4 :
@@ -146,6 +158,10 @@ public class BoatMovement : MonoBehaviour
                         DayFourList[3].SetActive(false);
                         DayFourList[4].SetActive(true);
                         break;
+                    case 5:
+                        DayFourList[4].SetActive(false);
+                        DayFourList[5].SetActive(true);
+                        break;
                 }
                 break;
             case 5 :
@@ -169,6 +185,10 @@ public class BoatMovement : MonoBehaviour
                     case 4:
                         DayFiveList[3].SetActive(false);
                         DayFiveList[4].SetActive(true);
+                        break;
+                    case 5:
+                        DayFiveList[4].SetActive(false);
+                        DayFiveList[5].SetActive(true);
                         break;
                 }
                 break;
