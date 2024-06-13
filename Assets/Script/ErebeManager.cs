@@ -1,66 +1,43 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 public class ErebeManager : MonoBehaviour, IDropHandler
 {
-    private Queue<GameObject> itemQueue = new Queue<GameObject>();
-    public RectTransform[] slots; 
-    
-    public RectTransform door; 
-    public float doorCooldown = 2f;
-
+    List<GameObject> ErebeList = new List<GameObject>();
+    public RectTransform ErebePlace;
+    public int i;
     private bool doorOpen = true;
+    
 
     public void OnDrop(PointerEventData eventData)
     {
-        Debug.Log("Dropped");
+        eventData.pointerDrag.GetComponent<CanvasGroup>().blocksRaycasts = false;
+        GameObject Dropped = eventData.pointerDrag;
+        Dropped.GetComponent<SoulDataGrab>().InErebe = true;
+        ErebeList.Add(Dropped);
+        Dropped.GetComponent<RectTransform>().anchoredPosition = ErebePlace.anchoredPosition;
+        i++;
+    }
 
-        if (eventData.pointerDrag != null)
+    public void Remove()
+    {
+        int x = -900;
+        int y = 59;
+        foreach (GameObject Obj in ErebeList)
         {
-            GameObject droppedItem = eventData.pointerDrag;
-            if (itemQueue.Count < slots.Length)
+            Obj.GetComponent<SoulDataGrab>().InErebe = false;
+            Obj.GetComponent<RectTransform>().anchoredPosition = new Vector2(x, y);
+            if(x > 450)
             {
-                itemQueue.Enqueue(droppedItem);
-                UpdateQueuePositions();
-                droppedItem.GetComponent<CanvasGroup>().blocksRaycasts = false;
+                x = -900;
+                y -= 50;
             }
             else
             {
-                Debug.Log("Queue is full");
+                x += 50;
             }
         }
-    }
-
-    private void UpdateQueuePositions()
-    {
-        int index = 0;
-        foreach (var item in itemQueue)
-        {
-            item.transform.SetParent(slots[index]);
-            item.GetComponent<RectTransform>().anchoredPosition = slots[index].anchoredPosition;
-            index++;
-        }
-
-        if (doorOpen && itemQueue.Count > 0)
-        {
-            StartCoroutine(ProcessNextItem());
-        }
-    }
-
-    private IEnumerator ProcessNextItem()
-    {
-        doorOpen = false;
-        GameObject currentItem = itemQueue.Dequeue();
-        currentItem.GetComponent<RectTransform>().anchoredPosition = door.anchoredPosition;
-        currentItem.SetActive(false);
-        Debug.Log("Door is closed for " + doorCooldown + " seconds.");
-        yield return new WaitForSeconds(doorCooldown);
-        Debug.Log("Door is open.");
-
-        doorOpen = true;
-        
-        UpdateQueuePositions();
-        
     }
 }

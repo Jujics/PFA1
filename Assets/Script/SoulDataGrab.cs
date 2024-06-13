@@ -10,6 +10,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public SoulManager AmeData;
     public TMP_Text Name;
     public TMP_Text[] Deed;
+    public bool InErebe;
     private GameObject PanelInfo;
     private float TimeLeft;
 
