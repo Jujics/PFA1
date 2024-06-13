@@ -45,7 +45,7 @@ public class ErebeScript : MonoBehaviour, IDropHandler
             if (droppedObject != null)
             {
                 Debug.Log("dans le if");
-                SoulList.Add(droppedObject.gameObject.GetComponent<GameObject>());
+                SoulList.Add(droppedObject);
                 SoulList[CurrentNumberOfList].gameObject.SetActive(false);
                 CurrentNumberOfList++;
             }
@@ -75,6 +75,7 @@ public class ErebeScript : MonoBehaviour, IDropHandler
         for (int i = 0; i < CurrentNumberOfList; i++)
         {
             GameObject currentSoul = SoulList[i];
+            currentSoul.GetComponent<CanvasGroup>().blocksRaycasts = true;
 
             currentSoul.gameObject.SetActive(true);
 
