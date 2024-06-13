@@ -1241,6 +1241,10 @@ PrefabInstance:
       propertyPath: PanelInfo
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2850038925008243186, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2892516823555395773, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: PanelInfo
       value: 
