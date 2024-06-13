@@ -1295,6 +1295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AmeData: {fileID: 0}
+  ScoreData: {fileID: 11400000, guid: 685fa3168838e4c4ebce7fe801a7bb5c, type: 2}
   Name: {fileID: 7115644263580660594}
   Deed:
   - {fileID: 5510773910312989187}

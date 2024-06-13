@@ -9,11 +9,22 @@ using System.IO;
 public class SoulManager : ScriptableObject
 {
     public String name;
-    public int[] ActGravity;
-    public String[] Acts;
-    public enum ColorOfSoul{Blue,Red,Orange,Yellow}
-    public ColorOfSoul colorOfSoul;
+    public SoulAct[] Acts;
+    public ColorOfSoul colorOfDoor;
     public bool IsWhite;
+
+    public enum ColorOfSoul
+    {
+        Blue,
+        Red,
+        Orange,
+        Yellow
+    }
 }
 
-
+[System.Serializable]
+public class SoulAct
+{
+    public string Desc;
+    public int Gravity;
+}

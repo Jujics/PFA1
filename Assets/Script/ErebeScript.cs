@@ -14,7 +14,8 @@ public class ErebeScript : MonoBehaviour, IDropHandler
 
     public GameObject TranslateTarget;
 
-    public float ErebeCooldown;
+
+    public FloatScriptable ErebeCooldown;
 
     private Vector3 initialTranslateTargetPos; // Nouvelle variable pour stocker la position initiale
 
@@ -56,7 +57,7 @@ public class ErebeScript : MonoBehaviour, IDropHandler
     public IEnumerator TimerErebe()
     {
         float timer = 0;
-        while(timer <= ErebeCooldown)
+        while(timer <= ErebeCooldown.Value)
         {
             timer += Time.deltaTime;
             yield return new WaitForFixedUpdate();

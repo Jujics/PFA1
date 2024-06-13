@@ -13,7 +13,17 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: 
   name: 
-  ActGravity: 
-  Acts: []
-  _colorOfSoul: 0
+  ActGravity: 00000000000000000000000000000000010000000000000000000000000000000100000000000000
+  Acts:
+  - aaaaaaa
+  - bbbbbb
+  - cccccc
+  - dddddd
+  - eeeeeee
+  - fffffffff
+  - ggggg
+  - hhhhh
+  - iiiiiiii
+  - jjjjjjjj
+  colorOfSoul: 2
   IsWhite: 0

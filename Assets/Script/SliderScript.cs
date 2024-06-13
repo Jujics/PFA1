@@ -7,8 +7,8 @@ using UnityEngine.UI;
 
 public class SliderScript : MonoBehaviour
 {
-    public float TotalTime;
-    public float BoatStartTime;
+    public FloatScriptable TotalTime;
+    public FloatScriptable BoatStartTime;
     public UnityEvent OnBoatStartTime;
     public UnityEvent OnTimerEnd;
     public Slider Slider;
@@ -25,24 +25,24 @@ public class SliderScript : MonoBehaviour
 
     void Update()
     {
-        if (!Pause && _currentTime < TotalTime)
+        if (!Pause && _currentTime < TotalTime.Value)
         {
             _currentTime += Time.deltaTime;
-            if (!EventTriggered && _currentTime > BoatStartTime)
+            if (!EventTriggered && _currentTime > BoatStartTime.Value)
             {
                 OnBoatStartTime.Invoke();
                 EventTriggered = true;
             }
 
-            if (_currentTime >= TotalTime)
+            if (_currentTime >= TotalTime.Value)
             {
-                _currentTime = TotalTime;
+                _currentTime = TotalTime.Value;
                 Pause = true;
                 OnTimerEnd.Invoke();
             }
         }
 
-        Slider.value = 100 * _currentTime / TotalTime;
+        Slider.value = 100 * _currentTime / TotalTime.Value;
     }
 
     [ContextMenu("Reset")]

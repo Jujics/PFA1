@@ -11,7 +11,7 @@ public class PlayerTrust : MonoBehaviour
 
     void Start()
     {
-        Slider = GetComponentInChildren<Slider>();
+        //Slider = GetComponentInChildren<Slider>();
         Slider.maxValue = MaxValue;
 
         Score = 0;
@@ -19,13 +19,13 @@ public class PlayerTrust : MonoBehaviour
 
     public void GainScore(int Gain)
     {
-        Score = Score + Gain;
+        Score += Gain;
         UpdateScore();
     }
 
     public void LooseScore(int Loss)
     {
-        Score = Score - Loss;
+        Score -= Loss;
         UpdateScore();
     }
 

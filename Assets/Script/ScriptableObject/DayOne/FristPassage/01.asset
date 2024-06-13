@@ -13,17 +13,26 @@ MonoBehaviour:
   m_Name: 01
   m_EditorClassIdentifier: 
   name: connard
-  ActGravity: 00000000000000000000000000000000010000000000000000000000010000000000000001000000
   Acts:
-  - ertg
-  - iju
-  - oiph
-  - oiph
-  - oiugb
-  - op
-  - jpoi
-  - giu
-  - iugv
-  - oih
-  colorOfSoul: 2
-  IsWhite: 1
+  - Desc: "Sauv\xE9 un enfant"
+    Gravity: 0
+  - Desc: fghfg
+    Gravity: 1
+  - Desc: vbhjghj
+    Gravity: 1
+  - Desc: ghjghj
+    Gravity: 0
+  - Desc: fhgjgyhj
+    Gravity: 0
+  - Desc: gfhfghfg
+    Gravity: 0
+  - Desc: fghfgh
+    Gravity: 0
+  - Desc: fghfgh
+    Gravity: 0
+  - Desc: fghfgh
+    Gravity: 0
+  - Desc: ijhjhgj
+    Gravity: 0
+  colorOfDoor: 3
+  IsWhite: 0

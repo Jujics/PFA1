@@ -6,8 +6,8 @@ using UnityEngine.Events;
 public class CycleManager : MonoBehaviour
 {
     public int CurrentDay;
-    public int MaxDays;
-    public int MaxCycle;
+    public IntScriptable MaxDays;
+    public IntScriptable MaxCycle;
     public int CurrentCycle;
     public float TimeUntilEndDay;
     public SliderScript SliderScript;
@@ -25,9 +25,9 @@ public class CycleManager : MonoBehaviour
     public void OnTimerEnd()
     {
         CurrentCycle++;
-        if (CurrentCycle < MaxCycle)
+        if (CurrentCycle < MaxCycle.Value)
         {
-            if (CurrentCycle == MaxCycle - 1) 
+            if (CurrentCycle == MaxCycle.Value - 1) 
             {
                 LastCycle();
             }
@@ -55,7 +55,7 @@ public class CycleManager : MonoBehaviour
     {
         yield return new WaitForSeconds(TimeUntilEndDay);
         //add ui logic
-        if (CurrentDay < MaxDays)
+        if (CurrentDay < MaxDays.Value)
         {
             //compare score
             CurrentDay++;

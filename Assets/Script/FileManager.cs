@@ -11,7 +11,7 @@ public class FileManager : MonoBehaviour, IDropHandler
     public RectTransform door; 
     public float doorCooldown = 2f;
     public enum ColorOfAtk{Blue,Red,Orange,Yellow}
-    public ColorOfAtk colorOfAtk;
+    public ColorOfAtk colorOfDoor;
     private bool doorOpen = true;
 
     public GameObject Player;
@@ -23,7 +23,7 @@ public class FileManager : MonoBehaviour, IDropHandler
     }
     public void OnDrop(PointerEventData eventData)
     {
-        Debug.Log("Dropped");
+        // Debug.Log("Dropped");
 
         if (eventData.pointerDrag != null)
         {
@@ -31,10 +31,9 @@ public class FileManager : MonoBehaviour, IDropHandler
             if (itemQueue.Count < slots.Length)
             {
                 itemQueue.Enqueue(droppedItem);
-                UpdateQueuePositions();
                 droppedItem.GetComponent<CanvasGroup>().blocksRaycasts = false;
                 SoulDataGrab Soul = droppedItem.GetComponent<SoulDataGrab>();
-                if ((int)Soul.AmeData.colorOfSoul == (int)colorOfAtk)
+                if ((int)Soul.AmeData.colorOfDoor == (int)colorOfDoor)
                 {
                     Soul.DieOnCorrectDoor = true;
                 }
@@ -42,6 +41,7 @@ public class FileManager : MonoBehaviour, IDropHandler
                 {
                     Soul.DieOnWrongDoor = true;
                 }
+                UpdateQueuePositions();
             }
             else
             {

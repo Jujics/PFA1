@@ -2,12 +2,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public SoulManager AmeData;
+    public SoulScoreData ScoreData;
     public TMP_Text Name;
     public TMP_Text[] Deed;
     public PlayerTrust _PlayerTrust;
@@ -18,25 +20,24 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     void OnEnable()
     {
-        string soulName = AmeData.name; 
-        string[] ActsDesc = AmeData.Acts;
-        int[] ActGrav = AmeData.ActGravity;
-        SoulManager.ColorOfSoul color = AmeData.colorOfSoul;
+        string soulName = AmeData.name;
+        SoulAct[] acts = AmeData.Acts;
+        SoulManager.ColorOfSoul color = AmeData.colorOfDoor;
         bool IsWhite = AmeData.IsWhite;
         PanelInfo = this.gameObject.transform.GetChild(0).gameObject;
 
-        
-        Name.text = soulName;
-        int i = 0;
-        while(i < 10)
-        {
-            Deed[i].text = ActsDesc[i];
-            if (ActGrav[i] == 1)
-            {
-                Deed[i].color = new Color(255, 0, 0, 255); 
-            }
 
-            i++;
+        Name.text = soulName;
+        for (int i = 0; i < acts.Length; i++)
+        {
+            if(i >= Deed.Length)
+                break;
+
+            Deed[i].text = acts[i].Desc;
+            if (acts[i].Gravity == 1)
+            {
+                Deed[i].color = new Color(255, 0, 0, 255);
+            }
         }
     }
 
@@ -46,26 +47,26 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         {
             if (DieOutScreen)
             {
-                _PlayerTrust.LooseScore(10);
+                _PlayerTrust.LooseScore(ScoreData.DieOutScreen);
             }
-            else if(DieWhileWait)
+            else if (DieWhileWait)
             {
-                _PlayerTrust.LooseScore(20);
+                _PlayerTrust.LooseScore(ScoreData.DieWhileWait);
             }
-            else if(DieOnCorrectDoor)
+            else if (DieOnCorrectDoor)
             {
-                _PlayerTrust.GainScore(25);
+                _PlayerTrust.GainScore(ScoreData.DieOnCorrectDoor);
             }
-            else if(DieOnWrongDoor)
+            else if (DieOnWrongDoor)
             {
-                _PlayerTrust.LooseScore(5);
+                _PlayerTrust.LooseScore(ScoreData.DieOnWrongDoor);
             }
         }
     }
 
     void Update()
     {
-        
+
     }
 
     public void OnPointerEnter(PointerEventData eventData)

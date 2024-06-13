@@ -8,7 +8,7 @@ public class BoatMovement : MonoBehaviour
 {
     public RectTransform rectTransform;
     public GameObject CycleManagerHolder;
-    public float MaxTravelTime;
+    public FloatScriptable MaxTravelTime;
     public float CurrentTravelTime;
     public GameObject[] DayOneList;
     public GameObject[] DayTwoList;
@@ -31,16 +31,16 @@ public class BoatMovement : MonoBehaviour
 
     void Update()
     {
-        if (!Pause && CurrentTravelTime < MaxTravelTime)
+        if (!Pause && CurrentTravelTime < MaxTravelTime.Value)
         {
             CurrentTravelTime += Time.deltaTime;
-            if (CurrentTravelTime >= MaxTravelTime)
+            if (CurrentTravelTime >= MaxTravelTime.Value)
             {
-                CurrentTravelTime = MaxTravelTime;
+                CurrentTravelTime = MaxTravelTime.Value;
                 Pause = true;
             }
 
-            float t = CurrentTravelTime / MaxTravelTime;
+            float t = CurrentTravelTime / MaxTravelTime.Value;
             rectTransform.anchoredPosition = Vector2.Lerp(StartPosition, EndPosition, t);
         }
     }

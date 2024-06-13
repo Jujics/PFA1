@@ -23,13 +23,13 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("OnPointerDown");
+        // Debug.Log("OnPointerDown");
         _soulDataGrab.DieOutScreen = false;
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("OnBeginDrag");
+        // Debug.Log("OnBeginDrag");
         canvasGroup.blocksRaycasts = false;
         PreviousSlot = transform.parent.gameObject;
         BoatPlacementSoul boatPlacementSoul = FindObjectOfType<BoatPlacementSoul>();
@@ -48,13 +48,13 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("OnEndDrag");
+        // Debug.Log("OnEndDrag");
         canvasGroup.blocksRaycasts = true;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("Dragging");
+        // Debug.Log("Dragging");
         rectTransform.anchoredPosition += eventData.delta;
     }
 }
