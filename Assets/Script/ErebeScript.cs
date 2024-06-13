@@ -41,6 +41,7 @@ public class ErebeScript : MonoBehaviour, IDropHandler
         {
             Debug.Log("Je suis drop");
             GameObject droppedObject = eventData.pointerDrag;
+            droppedObject.GetComponent<SoulDataGrab>().InErebe = true;
             Debug.Log("Je suis récupéré");
             if (droppedObject != null)
             {

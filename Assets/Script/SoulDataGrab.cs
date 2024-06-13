@@ -10,6 +10,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public SoulManager AmeData;
     public TMP_Text Name;
     public TMP_Text[] Deed;
+    public PlayerTrust _PlayerTrust;
     public bool InErebe;
     public bool DieOutScreen, DieWhileWait, DieOnWrongDoor, DieOnCorrectDoor;
     private GameObject PanelInfo;
@@ -36,6 +37,29 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             }
 
             i++;
+        }
+    }
+
+    void OnDisable()
+    {
+        if (!InErebe)
+        {
+            if (DieOutScreen)
+            {
+                _PlayerTrust.LooseScore(10);
+            }
+            else if(DieWhileWait)
+            {
+                _PlayerTrust.LooseScore(20);
+            }
+            else if(DieOnCorrectDoor)
+            {
+                _PlayerTrust.GainScore(25);
+            }
+            else if(DieOnWrongDoor)
+            {
+                _PlayerTrust.LooseScore(5);
+            }
         }
     }
 
