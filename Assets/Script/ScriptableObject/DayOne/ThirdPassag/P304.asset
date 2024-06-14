@@ -19,7 +19,7 @@ MonoBehaviour:
   - Desc: aaaaaaaa
     Gravity: 1
   - Desc: zzzzzzzzz
-    Gravity: 1
+    Gravity: 0
   - Desc: sssssssss
     Gravity: 0
   - Desc: nnnnnnn
@@ -36,3 +36,4 @@ MonoBehaviour:
     Gravity: 1
   colorOfDoor: 2
   IsWhite: 0
+  IsBig: 0

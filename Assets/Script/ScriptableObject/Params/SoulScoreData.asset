@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DieOutScreen: 10
   DieOnCorrectDoor: 25
-  DieOnWrongDoor: 5
+  DieOnWrongDoor: 20
   DieWhileWait: 20
