@@ -11,9 +11,7 @@ public class PlayerTrust : MonoBehaviour
 
     void Start()
     {
-        //Slider = GetComponentInChildren<Slider>();
         Slider.maxValue = MaxValue;
-
         Score = 0;
     }
 
@@ -32,5 +30,10 @@ public class PlayerTrust : MonoBehaviour
     public void UpdateScore()
     {
         Slider.value = Score;
+    }
+
+    public void EndOfDayCheck()
+    {
+        
     }
 }
