@@ -47,6 +47,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         {
             if (DieOutScreen)
             {
+                
                 _PlayerTrust.LooseScore(ScoreData.DieOutScreen);
             }
             else if (DieWhileWait)
@@ -63,6 +64,21 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             }
         }
     }
+
+    //private IEnumerator CountTime()
+    //{
+    //    
+    //        int TimeLeft = 1;
+    //    while (TimeLeft > 0)
+    //    {
+    //        while (InErebe! && DieOutScreen)
+    //        {
+    //        
+    //        }
+    //    }
+    //    
+    //        
+    //}
 
     void Update()
     {
