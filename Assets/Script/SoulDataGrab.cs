@@ -5,6 +5,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
@@ -16,6 +17,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public bool InErebe;
     public bool DieOutScreen, DieWhileWait, DieOnWrongDoor, DieOnCorrectDoor;
     private GameObject PanelInfo;
+    public Slider TimeTimer;
     private float TimeLeft;
 
     void OnEnable()
@@ -25,6 +27,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         SoulManager.ColorOfSoul color = AmeData.colorOfDoor;
         bool IsWhite = AmeData.IsWhite;
         PanelInfo = this.gameObject.transform.GetChild(0).gameObject;
+        bool IsBig = AmeData.IsBig;
 
 
         Name.text = soulName;
@@ -39,6 +42,8 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
                 Deed[i].color = new Color(255, 0, 0, 255);
             }
         }
+
+        StartCoroutine(CountTime());
     }
 
     void OnDisable()
@@ -47,7 +52,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         {
             if (DieOutScreen)
             {
-                
+
                 _PlayerTrust.LooseScore(ScoreData.DieOutScreen);
             }
             else if (DieWhileWait)
@@ -65,20 +70,44 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         }
     }
 
-    //private IEnumerator CountTime()
-    //{
-    //    
-    //        int TimeLeft = 1;
-    //    while (TimeLeft > 0)
-    //    {
-    //        while (InErebe! && DieOutScreen)
-    //        {
-    //        
-    //        }
-    //    }
-    //    
-    //        
-    //}
+    public IEnumerator CountTime()
+    {
+        float TimeLeft;
+        
+        if (AmeData.IsBig && AmeData.IsWhite)
+        {
+            TimeLeft = 23;
+        }
+        else if (AmeData.IsBig && !AmeData.IsWhite)
+        {
+            TimeLeft = 23;
+        }
+        else if (!AmeData.IsBig && AmeData.IsWhite)
+        {
+            TimeLeft = 32;
+        }
+        else if ((int)AmeData.colorOfDoor == 0)
+        {
+            TimeLeft = 1;
+        }
+        else
+        {
+            TimeLeft = 32;
+        }
+
+        TimeTimer.maxValue = TimeLeft;
+        while (TimeLeft > 0)
+        {
+            while (InErebe! && DieOutScreen)
+            {
+                TimeLeft -= Time.deltaTime;
+                TimeTimer.value = TimeLeft;
+            }
+        }
+        DieWhileWait = true;
+        gameObject.SetActive(false);
+        return(null);
+    }
 
     void Update()
     {

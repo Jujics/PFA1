@@ -75,8 +75,6 @@ public class FileManager : MonoBehaviour, IDropHandler
         currentItem.SetActive(false);
         Debug.Log("Door is closed for " + doorCooldown + " seconds.");
         yield return new WaitForSeconds(doorCooldown);
-        //score
-        //Player.GetComponent<PlayerTrust>().GainScore(ScoreParAme);
         Debug.Log("Door is open.");
 
         doorOpen = true;
