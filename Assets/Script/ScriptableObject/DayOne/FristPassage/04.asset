@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   Acts:
-  - Desc: zzzzzzzzzzzzz
+  - Desc: wwwwwwwwwwww
     Gravity: 0
   - Desc: rrrrrrrrrrrrrrrr
     Gravity: 0
@@ -36,3 +36,4 @@ MonoBehaviour:
     Gravity: 0
   colorOfDoor: 0
   IsWhite: 0
+  IsBig: 0

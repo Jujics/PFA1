@@ -17,15 +17,15 @@ MonoBehaviour:
   - Desc: aaaaaaa
     Gravity: 1
   - Desc: eeeeeeeee
-    Gravity: 2
+    Gravity: 1
   - Desc: iiiiiiiiiiiiii
-    Gravity: 3
+    Gravity: 1
   - Desc: oooooooooooo
-    Gravity: 4
+    Gravity: 1
   - Desc: uuuuuuuuuuuuuu
-    Gravity: 5
+    Gravity: 1
   - Desc: yyyyyyyyyyyyyy
-    Gravity: 6
+    Gravity: 1
   - Desc: ddddddddddd
     Gravity: 0
   - Desc: bbbbbbbbbbbbbb
@@ -36,3 +36,4 @@ MonoBehaviour:
     Gravity: 0
   colorOfDoor: 1
   IsWhite: 0
+  IsBig: 0
