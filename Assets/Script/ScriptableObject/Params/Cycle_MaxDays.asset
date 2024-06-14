@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d5f98a24fa40d4587262d55a0dbcaa, type: 3}
   m_Name: Cycle_MaxDays
   m_EditorClassIdentifier: 
-  Value: 1
+  Value: 5

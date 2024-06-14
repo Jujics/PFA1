@@ -13,7 +13,26 @@ MonoBehaviour:
   m_Name: 05
   m_EditorClassIdentifier: 
   name: 
-  ActGravity: 
-  Acts: []
-  _colorOfSoul: 0
+  Acts:
+  - Desc: zzzzzzzzzzzz
+    Gravity: 0
+  - Desc: rrrrrrrrrrrr
+    Gravity: 0
+  - Desc: ttttttttttttttttt
+    Gravity: 0
+  - Desc: pppppppppppp
+    Gravity: 0
+  - Desc: qqqqqqqqqqq
+    Gravity: 0
+  - Desc: sssssssss
+    Gravity: 0
+  - Desc: ddddddddddd
+    Gravity: 0
+  - Desc: ffffffffffffff
+    Gravity: 0
+  - Desc: gggggggggggggg
+    Gravity: 0
+  - Desc: hhhhhhhhhhhhh
+    Gravity: 0
+  colorOfDoor: 0
   IsWhite: 0

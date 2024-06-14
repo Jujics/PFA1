@@ -12,6 +12,7 @@ public class SoulManager : ScriptableObject
     public SoulAct[] Acts;
     public ColorOfSoul colorOfDoor;
     public bool IsWhite;
+    public bool IsBig;
 
     public enum ColorOfSoul
     {
