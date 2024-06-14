@@ -14,25 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: connard
   Acts:
-  - Desc: "Sauv\xE9 un enfant"
-    Gravity: 0
-  - Desc: fghfg
+  - Desc: aaaaaaaa
     Gravity: 1
-  - Desc: vbhjghj
+  - Desc: bbbbbbb
+    Gravity: 0
+  - Desc: ccccccc
+    Gravity: 0
+  - Desc: eeeeeeee
     Gravity: 1
-  - Desc: ghjghj
+  - Desc: hhhhhhh
     Gravity: 0
-  - Desc: fhgjgyhj
+  - Desc: ooooooo
+    Gravity: 1
+  - Desc: zzzzzzzz
     Gravity: 0
-  - Desc: gfhfghfg
+  - Desc: qqqqqqqq
     Gravity: 0
-  - Desc: fghfgh
+  - Desc: iiiiiiiiiii
+    Gravity: 1
+  - Desc: tttttttt
     Gravity: 0
-  - Desc: fghfgh
-    Gravity: 0
-  - Desc: fghfgh
-    Gravity: 0
-  - Desc: ijhjhgj
-    Gravity: 0
-  colorOfDoor: 3
+  colorOfDoor: 2
   IsWhite: 0

@@ -71,6 +71,7 @@ public class FileManager : MonoBehaviour, IDropHandler
         doorOpen = false;
         GameObject currentItem = itemQueue.Dequeue();
         currentItem.GetComponent<RectTransform>().anchoredPosition = door.anchoredPosition;
+        //inclure ici le hadès pas content
         currentItem.SetActive(false);
         Debug.Log("Door is closed for " + doorCooldown + " seconds.");
         yield return new WaitForSeconds(doorCooldown);
