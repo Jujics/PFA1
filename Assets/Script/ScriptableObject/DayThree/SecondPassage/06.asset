@@ -12,8 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: 06
   m_EditorClassIdentifier: 
-  name: 
-  ActGravity: 
-  Acts: []
-  _colorOfSoul: 0
+  name: 44444444441111111
+  Acts:
+  - Desc: aaaaaaaaaaaaaaaaa
+    Gravity: 1
+  - Desc: eeeeeeeeeeeeeeeee
+    Gravity: 1
+  - Desc: uuuuuuuuuuuuuuu
+    Gravity: 1
+  - Desc: eeeeeeeeeeeeeee
+    Gravity: 1
+  - Desc: oooooooooooooo
+    Gravity: 1
+  - Desc: iiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+    Gravity: 1
+  - Desc: aaaaaaaaaaaaa
+    Gravity: 1
+  - Desc: uuuuuuuuuuuuu
+    Gravity: 1
+  - Desc: "\xF9\xF9\xF9\xF9\xF9\xF9\xF9\xF9\xF9\xF9\xF9\xF9\xF9\xF9"
+    Gravity: 1
+  - Desc: "\xE9\xE9\xE9\xE9\xE9\xE9\xE9\xE9\xE9\xE9\xE9"
+    Gravity: 1
+  colorOfDoor: 2
   IsWhite: 0
+  IsBig: 0
