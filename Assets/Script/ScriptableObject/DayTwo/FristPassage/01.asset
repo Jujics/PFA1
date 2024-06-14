@@ -16,21 +16,21 @@ MonoBehaviour:
   Acts:
   - Desc: aaaaaaaaaaa
     Gravity: 1
-  - Desc: kkkkkkkkkkkk
+  - Desc: zzzzzzzzz
     Gravity: 0
-  - Desc: vvvvvvvvvvv
+  - Desc: rrrrrrrrrr
     Gravity: 0
-  - Desc: qqqqqqqqqqqq
+  - Desc: tttttttttttt
     Gravity: 0
-  - Desc: ffffffffffffff
+  - Desc: pppppppppppp
     Gravity: 0
   - Desc: eeeeeeeeee
     Gravity: 1
-  - Desc: gggggggggggg
+  - Desc: uuuuuuuuuu
     Gravity: 1
-  - Desc: ttttttttttttt
+  - Desc: qqqqqqqqqqqq
     Gravity: 0
-  - Desc: zzzzzzzzzzzzzzz
+  - Desc: sssssssssss
     Gravity: 0
   - Desc: iiiiiiiiiiiii
     Gravity: 1
