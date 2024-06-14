@@ -14,25 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   Acts:
-  - Desc: 
+  - Desc: zzzzzzzzzzzz
     Gravity: 0
-  - Desc: 
+  - Desc: rrrrrrrrrrrr
     Gravity: 0
-  - Desc: 
+  - Desc: ttttttttttttttttt
     Gravity: 0
-  - Desc: 
+  - Desc: pppppppppppp
     Gravity: 0
-  - Desc: 
+  - Desc: qqqqqqqqqqq
     Gravity: 0
-  - Desc: 
+  - Desc: sssssssss
     Gravity: 0
-  - Desc: 
+  - Desc: ddddddddddd
     Gravity: 0
-  - Desc: 
+  - Desc: ffffffffffffff
     Gravity: 0
-  - Desc: 
+  - Desc: gggggggggggggg
     Gravity: 0
-  - Desc: 
+  - Desc: hhhhhhhhhhhhh
     Gravity: 0
   colorOfDoor: 0
   IsWhite: 0

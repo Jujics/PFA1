@@ -10,29 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: 05
+  m_Name: 09
   m_EditorClassIdentifier: 
   name: 
   Acts:
-  - Desc: zzzzzzzzzzzzzz
+  - Desc: zzzzzzzzzzz
     Gravity: 0
-  - Desc: wwwwwwwwwwww
+  - Desc: rrrrrrrrrrrrrr
     Gravity: 0
-  - Desc: rrrrrrrrrrrrrrr
+  - Desc: ttttttttttttt
     Gravity: 0
-  - Desc: ttttttttttttttttt
+  - Desc: ppppppppppp
     Gravity: 0
-  - Desc: aaaaaaaaaaaaaaa
-    Gravity: 1
-  - Desc: iiiiiiiiiiiiiiiiiiii
-    Gravity: 1
-  - Desc: uuuuuuuuuuuuuuuuu
-    Gravity: 1
-  - Desc: mmmmmmmmmmmmmm
+  - Desc: qqqqqqqqqq
     Gravity: 0
-  - Desc: pppppppppppppp
+  - Desc: ssssssssssss
     Gravity: 0
-  - Desc: xxxxxxxxxxxxxxxx
+  - Desc: ddddddddddd
     Gravity: 0
-  colorOfDoor: 2
+  - Desc: ffffffffff
+    Gravity: 0
+  - Desc: gggggggggg
+    Gravity: 0
+  - Desc: hhhhhhhhhhhhh
+    Gravity: 0
+  colorOfDoor: 0
   IsWhite: 0

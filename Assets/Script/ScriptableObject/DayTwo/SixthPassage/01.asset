@@ -12,18 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: 01
   m_EditorClassIdentifier: 
-  name: connard
-  ActGravity: 00000000000000000000000000000000010000000000000000000000010000000000000001000000
+  name: 
   Acts:
-  - ertg
-  - iju
-  - oiph
-  - oiph
-  - oiugb
-  - op
-  - jpoi
-  - giu
-  - iugv
-  - oih
-  colorOfSoul: 0
+  - Desc: zzzzzzzzzz
+    Gravity: 0
+  - Desc: rrrrrrrrrrrrr
+    Gravity: 0
+  - Desc: ttttttttttttttt
+    Gravity: 0
+  - Desc: aaaaaaaa
+    Gravity: 1
+  - Desc: eeeeeeeeee
+    Gravity: 1
+  - Desc: iiiiiiiiiiii
+    Gravity: 1
+  - Desc: ppppppppppp
+    Gravity: 0
+  - Desc: uuuuuuuu
+    Gravity: 1
+  - Desc: oooooooooo
+    Gravity: 1
+  - Desc: qqqqqqqqqqq
+    Gravity: 0
+  colorOfDoor: 1
   IsWhite: 1
