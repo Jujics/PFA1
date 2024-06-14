@@ -69,11 +69,10 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             }
         }
     }
-
     public IEnumerator CountTime()
     {
         float TimeLeft;
-        
+
         if (AmeData.IsBig && AmeData.IsWhite)
         {
             TimeLeft = 23;
@@ -98,16 +97,20 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         TimeTimer.maxValue = TimeLeft;
         while (TimeLeft > 0)
         {
-            while (InErebe! && DieOutScreen)
+            if (InErebe || DieOutScreen)
             {
-                TimeLeft -= Time.deltaTime;
-                TimeTimer.value = TimeLeft;
+                yield return null;
+                continue;
             }
+
+            TimeLeft -= Time.deltaTime;
+            TimeTimer.value = TimeLeft;
+            yield return null; 
         }
         DieWhileWait = true;
         gameObject.SetActive(false);
-        return(null);
     }
+
 
     void Update()
     {
