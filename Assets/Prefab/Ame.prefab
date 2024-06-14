@@ -1294,7 +1294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d915038be252f154295e0dd36550991a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AmeData: {fileID: 0}
+  AmeData: {fileID: 11400000, guid: 082ebd6c95c361541aa83758542ff0d4, type: 2}
   ScoreData: {fileID: 11400000, guid: 685fa3168838e4c4ebce7fe801a7bb5c, type: 2}
   Name: {fileID: 7115644263580660594}
   Deed:
@@ -1308,7 +1308,7 @@ MonoBehaviour:
   - {fileID: 7087052098162564946}
   - {fileID: 6250628388340054331}
   - {fileID: 7837916785224712226}
-  _PlayerTrust: {fileID: 5457104172544613871, guid: cbdf1c777321d4441b9ee37dd0e01807, type: 3}
+  _PlayerTrust: {fileID: 0}
   InErebe: 0
   DieOutScreen: 1
   DieWhileWait: 0
