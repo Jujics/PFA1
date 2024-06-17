@@ -6675,11 +6675,11 @@ PrefabInstance:
       objectReference: {fileID: 302365845106910134}
     - target: {fileID: 197566506024438144, guid: 64d0fefba529b8a40bf76bd826adfa7d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 30
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 197566506024438144, guid: 64d0fefba529b8a40bf76bd826adfa7d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 85
+      value: -13
       objectReference: {fileID: 0}
     - target: {fileID: 272383951574065565, guid: 64d0fefba529b8a40bf76bd826adfa7d, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6707,11 +6707,11 @@ PrefabInstance:
       objectReference: {fileID: 302365845106910134}
     - target: {fileID: 794652668203697497, guid: 64d0fefba529b8a40bf76bd826adfa7d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 168
+      value: -91
       objectReference: {fileID: 0}
     - target: {fileID: 794652668203697497, guid: 64d0fefba529b8a40bf76bd826adfa7d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -59
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 826430237160115328, guid: 64d0fefba529b8a40bf76bd826adfa7d, type: 3}
       propertyPath: AmeData
@@ -6919,11 +6919,11 @@ PrefabInstance:
       objectReference: {fileID: 302365845106910134}
     - target: {fileID: 5052166081368290173, guid: 64d0fefba529b8a40bf76bd826adfa7d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -151
+      value: -51
       objectReference: {fileID: 0}
     - target: {fileID: 5052166081368290173, guid: 64d0fefba529b8a40bf76bd826adfa7d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -53
+      value: -51
       objectReference: {fileID: 0}
     - target: {fileID: 5189790621903265294, guid: 64d0fefba529b8a40bf76bd826adfa7d, type: 3}
       propertyPath: Boat
@@ -7079,11 +7079,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8313204312932953068, guid: 64d0fefba529b8a40bf76bd826adfa7d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -28
+      value: -172
       objectReference: {fileID: 0}
     - target: {fileID: 8313204312932953068, guid: 64d0fefba529b8a40bf76bd826adfa7d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 31
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8396861251176373509, guid: 64d0fefba529b8a40bf76bd826adfa7d, type: 3}
       propertyPath: Boat
@@ -7131,11 +7131,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8933746299245991866, guid: 64d0fefba529b8a40bf76bd826adfa7d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 148
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 8933746299245991866, guid: 64d0fefba529b8a40bf76bd826adfa7d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 45
+      value: 42
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
