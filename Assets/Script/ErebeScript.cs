@@ -24,7 +24,7 @@ public class ErebeScript : MonoBehaviour, IDropHandler
 
     private Vector3 initialTranslateTargetPos; // Nouvelle variable pour stocker la position initiale
 
-    private bool isErebActive = true;
+    public bool isErebActive = true;
     private bool canLaunchTimer = true;
 
 

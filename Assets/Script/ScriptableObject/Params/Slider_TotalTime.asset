@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4990bfe0b1b5b14419443e935bcbb7e0, type: 3}
   m_Name: Slider_TotalTime
   m_EditorClassIdentifier: 
-  Value: 100
+  Value: 25

@@ -12,6 +12,7 @@ public class EventManager : MonoBehaviour
     public GameObject DoorO2;
     public GameObject DoorR1;
     public GameObject DoorR2;
+    public ErebeScript ErebeManager;
     public int CurrentEvent;
     private int i = 0;
     private bool HasStarted = false;
@@ -67,6 +68,12 @@ public class EventManager : MonoBehaviour
             DoorR2.SetActive(false);
             yield return new WaitForSeconds(EventData[i].ForHowLong);
             DoorR2.SetActive(true);
+        }
+        else if (EventData[i].IsErebeClosed)
+        {
+            ErebeManager.isErebActive = false;
+            yield return new WaitForSeconds(EventData[i].ForHowLong);
+            ErebeManager.isErebActive = true;
         }
         bool OnNextPassage = false;
         while (OnNextPassage == false)
