@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,280 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Aiguillage_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1144
+        width: 264
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c9671f97d1a5045b3fc768e978895c
+      internalID: 1032234239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aiguillage_1
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1144
+        width: 264
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae63157061e7134b89b11ccb8acc7e7
+      internalID: 129608296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aiguillage_2
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1144
+        width: 264
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c34cb572550794eb2781a667e2422d
+      internalID: 1146339365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aiguillage_3
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1144
+        width: 264
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0261afad9e33a24e8883188a2270888
+      internalID: 1434073224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aiguillage_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 792
+        width: 264
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d66601dd28443043a762867e4380cce
+      internalID: 336061817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aiguillage_5
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 792
+        width: 264
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6394112e5ace872498305ad30d5c66f5
+      internalID: 516583054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aiguillage_6
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 792
+        width: 264
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfbc8dc143e3ad45bb1e20c9e4b01a9
+      internalID: -2097239537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aiguillage_7
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 792
+        width: 264
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca2baf26c899be4f83f904952638913
+      internalID: -237177752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aiguillage_8
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 440
+        width: 264
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1491974e4728f124e889a590a6281904
+      internalID: 62420101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aiguillage_9
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 440
+        width: 264
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7633e9f93607f654fa5628409653c82c
+      internalID: -64954750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aiguillage_10
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 440
+        width: 264
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b159978ef37425f4e9ab4e90b8303762
+      internalID: -1156203411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aiguillage_11
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 440
+        width: 264
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64bb1fc184abb74c99b6b3b01d6b513
+      internalID: -60393839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aiguillage_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 88
+        width: 264
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9dde7528fb78204299f7fa0f5f1a93f
+      internalID: -1006639685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +392,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Aiguillage_0: 1032234239
+      Aiguillage_1: 129608296
+      Aiguillage_10: -1156203411
+      Aiguillage_11: -60393839
+      Aiguillage_12: -1006639685
+      Aiguillage_2: 1146339365
+      Aiguillage_3: 1434073224
+      Aiguillage_4: 336061817
+      Aiguillage_5: 516583054
+      Aiguillage_6: -2097239537
+      Aiguillage_7: -237177752
+      Aiguillage_8: 62420101
+      Aiguillage_9: -64954750
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

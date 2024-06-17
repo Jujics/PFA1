@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "\xC9r\xE8be ferme_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 715
+        width: 351
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7861727501fdc42be25f1f6d6696e3
+      internalID: -222787406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xC9r\xE8be ferme_1"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 374
+        width: 308
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7065df22602ed4b42a4625be0398c28d
+      internalID: -1536836369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xC9r\xE8be ferme_2"
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 374
+        width: 286
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac161f5ab3b08245a99ae7b1cd1c7d1
+      internalID: 1251649999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xC9r\xE8be ferme_3"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 66
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb5009f9361c89448d0a361b18717d4
+      internalID: -1134831485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xC9r\xE8be ferme_4"
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 66
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40eecb00b91650c4997946894e9ba3da
+      internalID: 1356255062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xC9r\xE8be ferme_5"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 715
+        width: 342
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818eb4d6b19d3184f8ee9c606ba32004
+      internalID: -1729372002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +245,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "\xC9r\xE8be ferme_0": -222787406
+      "\xC9r\xE8be ferme_1": -1536836369
+      "\xC9r\xE8be ferme_2": 1251649999
+      "\xC9r\xE8be ferme_3": -1134831485
+      "\xC9r\xE8be ferme_4": 1356255062
+      "\xC9r\xE8be ferme_5": -1729372002
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -73,6 +73,7 @@ public class ErebeScript : MonoBehaviour, IDropHandler
         }
         canLaunchTimer = true;
         isErebActive = true;
+        
         gameObject.GetComponent<Image>().color = Color.blue;
     }
 
