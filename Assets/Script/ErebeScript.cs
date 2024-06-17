@@ -80,6 +80,7 @@ public class ErebeScript : MonoBehaviour, IDropHandler
             currentSoul.GetComponent<CanvasGroup>().blocksRaycasts = true;
 
             currentSoul.gameObject.SetActive(true);
+            currentSoul.GetComponent<SoulDataGrab>().InErebe = false;
 
             currentSoul.gameObject.transform.position = RespawnPos.transform.position;
 

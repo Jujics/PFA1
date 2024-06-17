@@ -1314,6 +1314,7 @@ MonoBehaviour:
   DieWhileWait: 0
   DieOnWrongDoor: 0
   DieOnCorrectDoor: 0
+  TimeTimer: {fileID: 8543943793608881712}
 --- !u!225 &3328336651438756989
 CanvasGroup:
   m_ObjectHideFlags: 0
