@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f53e2ea60970fb54e80d618d0015790e
+guid: 76d5253fecb5be04a9acc9e017236178
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,43 +110,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IdleAme_0
+      name: BlueOneDed 1_0
       rect:
         serializedVersion: 2
-        x: 482
-        y: 2418
-        width: 1093
-        height: 1335
+        x: 32
+        y: 396
+        width: 111
+        height: 121
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09532435aacf6a94b941a9b0ed675333
-      internalID: -1475389365
+      spriteID: cc99f2b60b42aa04d94db9670f862a15
+      internalID: 1789657245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleAme_1
+      name: BlueOneDed 1_1
       rect:
         serializedVersion: 2
-        x: 472
-        y: 242
-        width: 1093
-        height: 1332
+        x: 208
+        y: 396
+        width: 111
+        height: 121
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 216563f1d895c444a8ddf712876afe93
-      internalID: 974087045
+      spriteID: 8cf9f3d3b7a290443b77c7e0b8cea49f
+      internalID: -1193682241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueOneDed 1_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 220
+        width: 111
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3e920aaaa9d124a88951a4a56c4fe1
+      internalID: -2137051736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueOneDed 1_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 198
+        width: 111
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f056c3c0bf6f5fb4bab130efde28ebbd
+      internalID: -12361158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueOneDed 1_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 33
+        width: 111
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97bc2846612a4e418632a9094fb0b31
+      internalID: -4945415
       vertices: []
       indices: 
       edges: []
@@ -162,9 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      IdleAme_0: -1475389365
-      IdleAme_1: 974087045
-      IdleAme_2: -920515860
+      BlueOneDed 1_0: 1789657245
+      BlueOneDed 1_1: -1193682241
+      BlueOneDed 1_2: -2137051736
+      BlueOneDed 1_3: -12361158
+      BlueOneDed 1_4: -4945415
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
