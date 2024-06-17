@@ -12,8 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: 05
   m_EditorClassIdentifier: 
-  name: 
-  ActGravity: 
-  Acts: []
-  _colorOfSoul: 0
+  name: Eric Ciotti
+  Acts:
+  - Desc: xxxxxxxxxxxxx
+    Gravity: 0
+  - Desc: yyyyyyyyyyyy
+    Gravity: 0
+  - Desc: tttttttttttttt
+    Gravity: 0
+  - Desc: iiiiiiiiiiiiiiiiiii
+    Gravity: 1
+  - Desc: uuuuuuuuuuuuuu
+    Gravity: 1
+  - Desc: ggggggggggg
+    Gravity: 0
+  - Desc: wwwwwwwww
+    Gravity: 0
+  - Desc: jjjjjjjjjjjjjjjjjjjjj
+    Gravity: 0
+  - Desc: fffffffffffffff
+    Gravity: 0
+  - Desc: ssssssssssss
+    Gravity: 0
+  colorOfDoor: 2
   IsWhite: 0
+  IsBig: 1
