@@ -17,6 +17,7 @@ public class CycleManager : MonoBehaviour
     public EnemiesDataHold EnemiesDataHold;
     public PlayerTrust PlayerTrust;
     public float PlayerTrustFloat;
+    public GameObject[] OrderToDel;
     
     void Start()
     {
@@ -90,9 +91,29 @@ public class CycleManager : MonoBehaviour
         }
         else
         {
-            if (CurrentDay == 0)
+            if (CurrentDay == 1)
             {
-                
+                OrderToDel[0].SetActive(false);
+            }
+            else if (CurrentDay == 2)
+            {
+                OrderToDel[1].SetActive(false);
+            }
+            else if (CurrentDay == 3)
+            {
+                OrderToDel[2].SetActive(false);
+            }
+            else if (CurrentDay == 4)
+            {
+                OrderToDel[3].SetActive(false);
+            }
+            else if (CurrentDay == 5)
+            {
+                OrderToDel[4].SetActive(false);
+            }
+            else if (CurrentDay == 6)
+            {
+                OrderToDel[5].SetActive(false);
             }
         }
     }

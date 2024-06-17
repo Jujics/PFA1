@@ -50,9 +50,8 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     {
         if (!InErebe)
         {
-            if (DieOutScreen)
+            if (DieOutScreen && AmeData.IsWhite!)
             {
-
                 _PlayerTrust.LooseScore(ScoreData.DieOutScreen);
             }
             else if (DieWhileWait)
