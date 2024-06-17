@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4325c14675104354ebeb3b90d9e9830a
+guid: f53e2ea60970fb54e80d618d0015790e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,127 +110,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\xC9r\xE8be ferme_0"
+      name: IdleAme_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 715
-        width: 351
-        height: 319
+        x: 482
+        y: 2418
+        width: 1093
+        height: 1335
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de7861727501fdc42be25f1f6d6696e3
-      internalID: -222787406
+      spriteID: 09532435aacf6a94b941a9b0ed675333
+      internalID: -1475389365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\xC9r\xE8be ferme_1"
+      name: IdleAme_1
       rect:
         serializedVersion: 2
-        x: 22
-        y: 374
-        width: 308
-        height: 297
+        x: 472
+        y: 242
+        width: 1093
+        height: 1332
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7065df22602ed4b42a4625be0398c28d
-      internalID: -1536836369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\xC9r\xE8be ferme_2"
-      rect:
-        serializedVersion: 2
-        x: 396
-        y: 374
-        width: 286
-        height: 286
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ac161f5ab3b08245a99ae7b1cd1c7d1
-      internalID: 1251649999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\xC9r\xE8be ferme_3"
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 66
-        width: 242
-        height: 242
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9eb5009f9361c89448d0a361b18717d4
-      internalID: -1134831485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\xC9r\xE8be ferme_4"
-      rect:
-        serializedVersion: 2
-        x: 418
-        y: 66
-        width: 242
-        height: 242
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40eecb00b91650c4997946894e9ba3da
-      internalID: 1356255062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\xC9r\xE8be ferme_5"
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 715
-        width: 342
-        height: 319
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 818eb4d6b19d3184f8ee9c606ba32004
-      internalID: -1729372002
+      spriteID: 216563f1d895c444a8ddf712876afe93
+      internalID: 974087045
       vertices: []
       indices: 
       edges: []
@@ -246,12 +162,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "\xC9r\xE8be ferme_0": -222787406
-      "\xC9r\xE8be ferme_1": -1536836369
-      "\xC9r\xE8be ferme_2": 1251649999
-      "\xC9r\xE8be ferme_3": -1134831485
-      "\xC9r\xE8be ferme_4": 1356255062
-      "\xC9r\xE8be ferme_5": -1729372002
+      IdleAme_0: -1475389365
+      IdleAme_1: 974087045
+      IdleAme_2: -920515860
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
