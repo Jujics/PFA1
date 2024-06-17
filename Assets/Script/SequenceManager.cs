@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,7 +11,9 @@ public class SequenceManager : MonoBehaviour
 
     public GameObject MainMenuPanel;
 
-    public GameObject EndScreen;
+    public GameObject EndScreenWin;
+
+    public GameObject EndScreenLoose;
 
     public GameObject EndGame;
 
@@ -20,16 +23,14 @@ public class SequenceManager : MonoBehaviour
 
     public int DayNumber;
 
+    public TMP_Text ScoreText;
+
 
 
     void Start()
     {
+        if (SettingsPanel != null)
         SettingsPanel.SetActive(false);
-    }
-
-    void Update()
-    {
-        
     }
 
     public void GoToGame()
@@ -42,14 +43,25 @@ public class SequenceManager : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void GoToEndScreen()
+    public void GoToEndScreenWin()
     {
-        EndScreen.SetActive(true);
+        int ScoreAffiché = 0;
+        EndScreenWin.SetActive(true);
+        //ScoreAffiché = ScoreDuJour;         A prendre pour lier le score
+        ScoreText.text += "\n" +ScoreAffiché;
+    }
+
+        public void GoToEndScreenLoose()
+    {
+        int ScoreAffiché = 0;
+        EndScreenLoose.SetActive(true);
+        //ScoreAffiché = ScoreDuJour;         A prendre pour lier le score
+        ScoreText.text += "\n" +ScoreAffiché;
     }
 
     public void GoToEndGame()
     {
-        EndScreen.SetActive(false);
+        EndScreenWin.SetActive(false);
         EndGame.SetActive(true);
     }
 
