@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using TMPro;
 
 public class ErebeScript : MonoBehaviour, IDropHandler
 {
@@ -17,14 +18,21 @@ public class ErebeScript : MonoBehaviour, IDropHandler
 
     public FloatScriptable ErebeCooldown;
 
+    public int tailleMaxErebe = 10;
+
+    public TMP_Text tailleErebeText;
+
     private Vector3 initialTranslateTargetPos; // Nouvelle variable pour stocker la position initiale
 
     private bool isErebActive = true;
     private bool canLaunchTimer = true;
 
+
+
     void Start()
     {
         initialTranslateTargetPos = TranslateTarget.transform.position; // Initialisation de la position initiale
+        tailleErebeText.text = CurrentNumberOfList + " / " + tailleMaxErebe;
     }
 
     void Update()
@@ -44,12 +52,13 @@ public class ErebeScript : MonoBehaviour, IDropHandler
             GameObject droppedObject = eventData.pointerDrag;
             droppedObject.GetComponent<SoulDataGrab>().InErebe = true;
             Debug.Log("Je suis récupéré");
-            if (droppedObject != null)
+            if (droppedObject != null && CurrentNumberOfList < tailleMaxErebe)
             {
                 Debug.Log("dans le if");
                 SoulList.Add(droppedObject);
                 SoulList[CurrentNumberOfList].gameObject.SetActive(false);
                 CurrentNumberOfList++;
+                tailleErebeText.text = CurrentNumberOfList + " / " + tailleMaxErebe;
             }
         }
     }
@@ -96,6 +105,7 @@ public class ErebeScript : MonoBehaviour, IDropHandler
         CurrentNumberOfList = 0;
         isErebActive = false;
         gameObject.GetComponent<Image>().color = Color.red;
+        tailleErebeText.text = CurrentNumberOfList + " / " + tailleMaxErebe;
     }
 
     public IEnumerator TranslateSoul(GameObject currentSoul, Vector3 targetPosition)
