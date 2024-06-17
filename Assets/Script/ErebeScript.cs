@@ -57,7 +57,10 @@ public class ErebeScript : MonoBehaviour, IDropHandler
                 Debug.Log("dans le if");
                 SoulList.Add(droppedObject);
                 SoulList[CurrentNumberOfList].gameObject.SetActive(false);
+                if(!droppedObject.gameObject.GetComponent<SoulDataGrab>().AmeData.IsBig)
                 CurrentNumberOfList++;
+                else
+                CurrentNumberOfList += 2;
                 tailleErebeText.text = CurrentNumberOfList + " / " + tailleMaxErebe;
             }
         }

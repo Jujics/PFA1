@@ -162,6 +162,9 @@ MonoBehaviour:
   OnLastCycle:
     m_PersistentCalls:
       m_Calls: []
+  EnemiesDataHold: {fileID: 0}
+  PlayerTrust: {fileID: 0}
+  PlayerTrustFloat: 0
 --- !u!4 &63833158
 Transform:
   m_ObjectHideFlags: 0
@@ -2336,6 +2339,10 @@ PrefabInstance:
       propertyPath: MainCan
       value: 
       objectReference: {fileID: 426812658}
+    - target: {fileID: 677556274997587151, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: MainCan
+      value: 
+      objectReference: {fileID: 426812658}
     - target: {fileID: 710204987064814399, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
@@ -2669,6 +2676,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1803860099}
     - target: {fileID: 3282629400007641650, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: MainCan
+      value: 
+      objectReference: {fileID: 426812658}
+    - target: {fileID: 3287292330042322300, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: MainCan
       value: 
       objectReference: {fileID: 426812658}
