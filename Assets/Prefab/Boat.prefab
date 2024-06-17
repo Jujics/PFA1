@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 748853089459597650}
   - component: {fileID: 5493231666225451687}
   - component: {fileID: 3013521426882212121}
+  - component: {fileID: 4354630514532840748}
   m_Layer: 5
   m_Name: Boat
   m_TagString: Untagged
@@ -56,8 +57,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1267.5599, y: -420.51}
-  m_SizeDelta: {x: 460.9065, y: 238.9746}
+  m_AnchoredPosition: {x: -1391.9379, y: -420.51}
+  m_SizeDelta: {x: 698.666, y: 238.9746}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4515041210269245759
 CanvasRenderer:
@@ -189,6 +190,27 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   ParentOf: {fileID: 0}
+--- !u!95 &4354630514532840748
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302365845106910134}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c1195f3ea5fb5884c83df476594e2165, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &377180214596031853
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,7 +246,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -306, y: 50}
+  m_AnchoredPosition: {x: -295.3, y: 42.8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6432559297446202081
@@ -275,7 +297,8 @@ Animation:
   m_Enabled: 1
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 33b5708a3859eb843904d0e2515a9efe, type: 2}
-  m_Animations: []
+  m_Animations:
+  - {fileID: 7400000, guid: 33b5708a3859eb843904d0e2515a9efe, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0

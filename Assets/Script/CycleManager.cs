@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 public class CycleManager : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class CycleManager : MonoBehaviour
     public SliderScript SliderScript;
     public BoatMovement BoatMovement;
     public UnityEvent OnLastCycle;
+    public EnemiesDataHold EnemiesDataHold;
+    public PlayerTrust PlayerTrust;
+    public float PlayerTrustFloat;
     
     void Start()
     {
@@ -51,13 +55,56 @@ public class CycleManager : MonoBehaviour
         StartCoroutine(WaitUntilEndLevel());
     }
 
+    public void ScoreCompare()
+    {
+        float[] ListData1;
+        float[] ListData2;
+        float[] ListData3;
+        float[] ListData4;
+        float[] ListData5;
+        float[] ListData6;
+        ListData1 = EnemiesDataHold.EnemyOne;
+        ListData2 = EnemiesDataHold.EnemyTwo;
+        ListData3 = EnemiesDataHold.EnemyThree;
+        ListData4 = EnemiesDataHold.EnemyFour;
+        ListData5 = EnemiesDataHold.EnemyFive;
+        ListData6 = EnemiesDataHold.EnemySix;
+        SmallerOne(ListData1,ListData2,ListData3,ListData4,ListData5,ListData6);
+        
+            
+    }
+
+    public void SmallerOne(float[] L1, float[] L2, float[] L3, float[] L4, float[] L5, float[] L6)
+    {
+        bool isSmallerThanL1 = PlayerTrustFloat < L1[CurrentDay - 1];
+        bool isSmallerThanL2 = PlayerTrustFloat < L2[CurrentDay - 1];
+        bool isSmallerThanL3 = PlayerTrustFloat < L3[CurrentDay - 1];
+        bool isSmallerThanL4 = PlayerTrustFloat < L4[CurrentDay - 1];
+        bool isSmallerThanL5 = PlayerTrustFloat < L5[CurrentDay - 1];
+        bool isSmallerThanL6 = PlayerTrustFloat < L6[CurrentDay - 1];
+
+        if (isSmallerThanL1 && isSmallerThanL2 && isSmallerThanL3 && isSmallerThanL4 && isSmallerThanL5 &&
+            isSmallerThanL6)
+        {
+            //set end screen
+        }
+        else
+        {
+            if (CurrentDay == 0)
+            {
+                
+            }
+        }
+    }
+
     private IEnumerator WaitUntilEndLevel()
     {
         yield return new WaitForSeconds(TimeUntilEndDay);
         //add ui logic
         if (CurrentDay < MaxDays.Value)
         {
-            //compare score
+            PlayerTrustFloat = PlayerTrust.Score;
+            ScoreCompare();
             CurrentDay++;
             CurrentCycle = 0;
             StartNewCycle();
