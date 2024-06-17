@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "Had\xE8s Normal_0"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 713
+        width: 220
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa9e3461efd61d4199f23bafc076687
+      internalID: -115340729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Had\xE8s Normal_1"
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 361
+        width: 220
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb71adbe3fc02a4448371c6bc1c97b28
+      internalID: 244833687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Had\xE8s Normal_2"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 363
+        width: 220
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5de8a6756dd60458a52e6a1efd8c05
+      internalID: -1972934012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Had\xE8s Normal_3"
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 713
+        width: 220
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648e3f9bbfd72fe4eb8255132cc6bb7d
+      internalID: 1841985473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Had\xE8s Normal_4"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 11
+        width: 221
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0ae7e3bccc1494ab095874e9ff4678
+      internalID: 866195365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Had\xE8s Normal_0": 2083851844
+      "Had\xE8s Normal_1": 1224035584
+      "Had\xE8s Normal_2": 1652092333
+      "Had\xE8s Normal_3": -951059691
+      "Had\xE8s Normal_4": -1230382860
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1228,8 +1228,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -177.3, y: 7.7}
-  m_SizeDelta: {x: 46.6754, y: 46.6754}
+  m_AnchoredPosition: {x: -161.64587, y: 23.661}
+  m_SizeDelta: {x: 77.9836, y: 78.5975}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5747476589150154517
 CanvasRenderer:
@@ -1252,7 +1252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1338,9 +1338,8 @@ Animation:
   m_GameObject: {fileID: 5370991267343087892}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 582aa73dfe054004fa83ea25e7605618, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 582aa73dfe054004fa83ea25e7605618, type: 2}
+  m_Animation: {fileID: 0}
+  m_Animations: []
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
