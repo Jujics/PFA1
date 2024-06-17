@@ -36,3 +36,4 @@ MonoBehaviour:
     Gravity: 1
   colorOfDoor: 1
   IsWhite: 0
+  IsBig: 1
