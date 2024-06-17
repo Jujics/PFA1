@@ -26,7 +26,7 @@ public class BoatMovement : MonoBehaviour
             rectTransform = GetComponent<RectTransform>();
         }
         StartPosition = new Vector2(Screen.width, rectTransform.anchoredPosition.y);
-        EndPosition = new Vector2(-1225, rectTransform.anchoredPosition.y);
+        EndPosition = new Vector2(-1325, rectTransform.anchoredPosition.y);
     }
 
     void Update()
