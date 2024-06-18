@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0ee0a4ed837f2b248bc6636d0d5aa958
+guid: 22d789fba2a692a49b82ba255038580a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CMoiOuesh_0
+      name: MiniCharonUwU_0
       rect:
         serializedVersion: 2
-        x: 88
-        y: 353
-        width: 176
-        height: 253
+        x: 121
+        y: 22
+        width: 110
+        height: 231
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,29 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84ebc709f0fcbcc47a99f1e98cf61dbb
-      internalID: 1999525988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CMoiOuesh_1
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 0
-        width: 176
-        height: 253
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67ee16fd6b3b59a449237633cc7ba848
-      internalID: 609868480
+      spriteID: f16af9481a7f28140bfe81b9d18c7729
+      internalID: 1912120943
       vertices: []
       indices: 
       edges: []
@@ -162,8 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CMoiOuesh_0: 1999525988
-      CMoiOuesh_1: 609868480
+      MiniCharonUwU_0: 1912120943
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
