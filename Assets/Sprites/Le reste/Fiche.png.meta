@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d236157d62b33304ab0ff5afc46f5b81
+guid: 10064f08c015b5148ba47ab41186cd07
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DoorLoked_0
+      name: Fiche_0
       rect:
         serializedVersion: 2
-        x: 143
-        y: 77
-        width: 418
-        height: 528
+        x: 88
+        y: 88
+        width: 154
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a886256e2fab8954993bc2491eef1a25
-      internalID: -1388102668
+      spriteID: 73f094094de65d24ba24434016a0fba9
+      internalID: 1189093049
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DoorLoked_0: -1388102668
+      Fiche_0: 1189093049
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
