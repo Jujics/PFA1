@@ -11,6 +11,7 @@ public class FileManager : MonoBehaviour, IDropHandler
     public RectTransform door; 
     public float doorCooldown = 2f;
     public GameObject Door;
+    public GameObject Aiguille;
     public enum ColorOfAtk{Blue,Red,Orange,Yellow}
     public ColorOfAtk colorOfDoor;
     private bool doorOpen = true;
@@ -54,16 +55,16 @@ public class FileManager : MonoBehaviour, IDropHandler
     private void UpdateQueuePositions()
     {
         int index = 0;
+        if (doorOpen && itemQueue.Count > 0)
+        {
+            StartCoroutine(ProcessNextItem());
+        }
+        
         foreach (var item in itemQueue)
         {
             item.transform.SetParent(slots[index]);
             item.GetComponent<RectTransform>().anchoredPosition = slots[index].anchoredPosition;
             index++;
-        }
-
-        if (doorOpen && itemQueue.Count > 0)
-        {
-            StartCoroutine(ProcessNextItem());
         }
     }
 
@@ -77,8 +78,10 @@ public class FileManager : MonoBehaviour, IDropHandler
         
         Debug.Log("Door is closed for " + doorCooldown + " seconds.");
         Door.GetComponent<Animator>().SetBool("IsOpen",false);
+        Aiguille.GetComponent<Animator>().SetBool("IsClosed",true);
         yield return new WaitForSeconds(doorCooldown);
         Door.GetComponent<Animator>().SetBool("IsOpen",true);
+        Aiguille.GetComponent<Animator>().SetBool("IsClosed",false);
         Debug.Log("Door is open.");
 
         doorOpen = true;
