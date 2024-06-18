@@ -13,22 +13,26 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
     private SoulDataGrab _soulDataGrab;
+    private Animator animator;
 
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
         _soulDataGrab = GetComponent<SoulDataGrab>();
+        animator = GetComponent<Animator>(); 
     }
 
     public void OnPointerDown(PointerEventData eventData)
-    {
+    { 
+        animator.SetBool("Grab", true); 
         // Debug.Log("OnPointerDown");
         _soulDataGrab.DieOutScreen = false;
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        animator.SetBool("Grab", true);
         // Debug.Log("OnBeginDrag");
         canvasGroup.blocksRaycasts = false;
         PreviousSlot = transform.parent.gameObject;
@@ -50,6 +54,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
     {
         // Debug.Log("OnEndDrag");
         canvasGroup.blocksRaycasts = true;
+        eventData.pointerDrag.GetComponent<Animator>().SetBool("Grab", false);
     }
 
     public void OnDrag(PointerEventData eventData)

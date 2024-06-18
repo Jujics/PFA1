@@ -26,10 +26,11 @@ public class FileManager : MonoBehaviour, IDropHandler
     public void OnDrop(PointerEventData eventData)
     {
         // Debug.Log("Dropped");
-
+        
         if (eventData.pointerDrag != null)
         {
             GameObject droppedItem = eventData.pointerDrag;
+            droppedItem.GetComponent<SoulDataGrab>().InFile = true;
             if (itemQueue.Count < slots.Length)
             {
                 itemQueue.Enqueue(droppedItem);
