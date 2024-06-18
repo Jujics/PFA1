@@ -74,9 +74,11 @@ public class FileManager : MonoBehaviour, IDropHandler
         currentItem.GetComponent<RectTransform>().anchoredPosition = door.anchoredPosition;
         //inclure ici le hadès pas content
         currentItem.SetActive(false);
-        Debug.Log("Door is closed for " + doorCooldown + " seconds.");
         
+        Debug.Log("Door is closed for " + doorCooldown + " seconds.");
+        Door.GetComponent<Animator>().SetBool("IsOpen",false);
         yield return new WaitForSeconds(doorCooldown);
+        Door.GetComponent<Animator>().SetBool("IsOpen",true);
         Debug.Log("Door is open.");
 
         doorOpen = true;
