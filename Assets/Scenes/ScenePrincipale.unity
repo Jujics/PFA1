@@ -12433,9 +12433,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 426812658}
     m_Modifications:
     - target: {fileID: 5150185272724392502, guid: 4ee62bb2e2e2794498c96f593a331ea4, type: 3}
-      propertyPath: Player
+      propertyPath: Door
       value: 
       objectReference: {fileID: 529671738}
+    - target: {fileID: 5150185272724392502, guid: 4ee62bb2e2e2794498c96f593a331ea4, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5150185272724392502, guid: 4ee62bb2e2e2794498c96f593a331ea4, type: 3}
       propertyPath: colorOfAtk
       value: 2
