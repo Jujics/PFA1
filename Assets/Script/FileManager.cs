@@ -10,6 +10,7 @@ public class FileManager : MonoBehaviour, IDropHandler
     public RectTransform[] slots; 
     public RectTransform door; 
     public float doorCooldown = 2f;
+    public GameObject Door;
     public enum ColorOfAtk{Blue,Red,Orange,Yellow}
     public ColorOfAtk colorOfDoor;
     private bool doorOpen = true;
@@ -74,6 +75,7 @@ public class FileManager : MonoBehaviour, IDropHandler
         //inclure ici le hadès pas content
         currentItem.SetActive(false);
         Debug.Log("Door is closed for " + doorCooldown + " seconds.");
+        
         yield return new WaitForSeconds(doorCooldown);
         Debug.Log("Door is open.");
 
