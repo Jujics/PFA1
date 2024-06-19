@@ -10,5 +10,4 @@ public class EnemiesDataHold : ScriptableObject
     public float[] EnemyThree;
     public float[] EnemyFour;
     public float[] EnemyFive;
-    public float[] EnemySix;
 }

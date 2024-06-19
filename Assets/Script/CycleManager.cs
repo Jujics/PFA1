@@ -69,23 +69,20 @@ public class CycleManager : MonoBehaviour
         ListData3 = EnemiesDataHold.EnemyThree;
         ListData4 = EnemiesDataHold.EnemyFour;
         ListData5 = EnemiesDataHold.EnemyFive;
-        ListData6 = EnemiesDataHold.EnemySix;
-        SmallerOne(ListData1,ListData2,ListData3,ListData4,ListData5,ListData6);
+        SmallerOne(ListData1,ListData2,ListData3,ListData4,ListData5);
         
             
     }
 
-    public void SmallerOne(float[] L1, float[] L2, float[] L3, float[] L4, float[] L5, float[] L6)
+    public void SmallerOne(float[] L1, float[] L2, float[] L3, float[] L4, float[] L5)
     {
         bool isSmallerThanL1 = PlayerTrustFloat < L1[CurrentDay - 1];
         bool isSmallerThanL2 = PlayerTrustFloat < L2[CurrentDay - 1];
         bool isSmallerThanL3 = PlayerTrustFloat < L3[CurrentDay - 1];
         bool isSmallerThanL4 = PlayerTrustFloat < L4[CurrentDay - 1];
         bool isSmallerThanL5 = PlayerTrustFloat < L5[CurrentDay - 1];
-        bool isSmallerThanL6 = PlayerTrustFloat < L6[CurrentDay - 1];
 
-        if (isSmallerThanL1 && isSmallerThanL2 && isSmallerThanL3 && isSmallerThanL4 && isSmallerThanL5 &&
-            isSmallerThanL6)
+        if (isSmallerThanL1 && isSmallerThanL2 && isSmallerThanL3 && isSmallerThanL4 && isSmallerThanL5)
         {
             //set end screen
         }

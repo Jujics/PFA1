@@ -10,6 +10,8 @@ public class FileManager : MonoBehaviour, IDropHandler
     public RectTransform[] slots; 
     public RectTransform door; 
     public float doorCooldown = 2f;
+    public GameObject Door;
+    public GameObject Aiguille;
     public enum ColorOfAtk{Blue,Red,Orange,Yellow}
     public ColorOfAtk colorOfDoor;
     private bool doorOpen = true;
@@ -24,10 +26,11 @@ public class FileManager : MonoBehaviour, IDropHandler
     public void OnDrop(PointerEventData eventData)
     {
         // Debug.Log("Dropped");
-
+        
         if (eventData.pointerDrag != null)
         {
             GameObject droppedItem = eventData.pointerDrag;
+            droppedItem.GetComponent<SoulDataGrab>().InFile = true;
             if (itemQueue.Count < slots.Length)
             {
                 itemQueue.Enqueue(droppedItem);
@@ -53,16 +56,16 @@ public class FileManager : MonoBehaviour, IDropHandler
     private void UpdateQueuePositions()
     {
         int index = 0;
+        if (doorOpen && itemQueue.Count > 0)
+        {
+            StartCoroutine(ProcessNextItem());
+        }
+        
         foreach (var item in itemQueue)
         {
             item.transform.SetParent(slots[index]);
             item.GetComponent<RectTransform>().anchoredPosition = slots[index].anchoredPosition;
             index++;
-        }
-
-        if (doorOpen && itemQueue.Count > 0)
-        {
-            StartCoroutine(ProcessNextItem());
         }
     }
 
@@ -73,8 +76,13 @@ public class FileManager : MonoBehaviour, IDropHandler
         currentItem.GetComponent<RectTransform>().anchoredPosition = door.anchoredPosition;
         //inclure ici le hadès pas content
         currentItem.SetActive(false);
+        
         Debug.Log("Door is closed for " + doorCooldown + " seconds.");
+        Door.GetComponent<Animator>().SetBool("IsOpen",false);
+        Aiguille.GetComponent<Animator>().SetBool("IsClosed",true);
         yield return new WaitForSeconds(doorCooldown);
+        Door.GetComponent<Animator>().SetBool("IsOpen",true);
+        Aiguille.GetComponent<Animator>().SetBool("IsClosed",false);
         Debug.Log("Door is open.");
 
         doorOpen = true;
