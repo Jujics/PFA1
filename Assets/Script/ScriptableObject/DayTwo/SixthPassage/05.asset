@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: 05
   m_EditorClassIdentifier: 
-  name: 
+  name: Melusina Rousseau
   Acts:
   - Desc: zzzzzzzzzzzzzzzz
     Gravity: 0
@@ -36,3 +36,4 @@ MonoBehaviour:
     Gravity: 0
   colorOfDoor: 3
   IsWhite: 0
+  IsBig: 0

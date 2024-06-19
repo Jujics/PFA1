@@ -10,29 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: 09
+  m_Name: D2P6V1
   m_EditorClassIdentifier: 
-  name: 
+  name: Agrican Busque
   Acts:
-  - Desc: zzzzzzzzzzzzzz
+  - Desc: "A cr\xE9e un incendie volontairement"
+    Gravity: 1
+  - Desc: "A toujours ador\xE9 les maths"
     Gravity: 0
-  - Desc: rrrrrrrrrrrrrrrrr
+  - Desc: Loyal
     Gravity: 0
-  - Desc: ttttttttttttttt
+  - Desc: Recherchait le pouvoir
+    Gravity: 1
+  - Desc: "L\xE9g\xE8rement fanatique du Feu"
     Gravity: 0
-  - Desc: pppppppppppppp
+  - Desc: "A failli \xEAtre noy\xE9"
     Gravity: 0
-  - Desc: qqqqqqqqqqq
+  - Desc: Ne finissait jamais ses projets
     Gravity: 0
-  - Desc: sssssssssssss
+  - Desc: "G\xE2chait du vin pour montrer sa richesse"
+    Gravity: 1
+  - Desc: Savait lire
     Gravity: 0
-  - Desc: ddddddddddd
-    Gravity: 0
-  - Desc: fffffffffffffff
-    Gravity: 0
-  - Desc: wwwwwwwwwww
-    Gravity: 0
-  - Desc: gggggggggg
+  - Desc: "Aparaissait toujours de mani\xE8re innatendu"
     Gravity: 0
   colorOfDoor: 3
-  IsWhite: 1
+  IsWhite: 0
+  IsBig: 1

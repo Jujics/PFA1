@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: 04
   m_EditorClassIdentifier: 
-  name: 
+  name: "Andr\xE9 Berthelette"
   Acts:
   - Desc: zzzzzzzzzzzzzzzz
     Gravity: 0
@@ -34,5 +34,6 @@ MonoBehaviour:
     Gravity: 0
   - Desc: hhhhhhhhh
     Gravity: 0
-  colorOfDoor: 0
-  IsWhite: 1
+  colorOfDoor: 3
+  IsWhite: 0
+  IsBig: 0

@@ -10,29 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: 07
+  m_Name: D2P6V3
   m_EditorClassIdentifier: 
-  name: 
+  name: Marmion Vachon
   Acts:
-  - Desc: zzzzzzzzzzzzzzz
+  - Desc: N'aimait pas les enfants
     Gravity: 0
-  - Desc: rrrrrrrrrrrrrrrrrr
-    Gravity: 0
-  - Desc: ttttttttttttttttt
-    Gravity: 0
-  - Desc: ppppppppppppp
-    Gravity: 0
-  - Desc: aaaaaaaaaaaaaaa
+  - Desc: 'A toujours menti '
     Gravity: 1
-  - Desc: eeeeeeeeeeeee
+  - Desc: "Recherche de pouvoir th\xE9ologique "
     Gravity: 1
-  - Desc: qqqqqqqqqqqqqq
+  - Desc: "Avait un ami nomm\xE9 Dimitri Otek"
     Gravity: 0
-  - Desc: sssssssssssss
+  - Desc: "R\xE2lait souvent"
     Gravity: 0
-  - Desc: ddddddddddd
+  - Desc: N'a jamais cru en la philosophie
     Gravity: 0
-  - Desc: wwwwwwwwwww
+  - Desc: Peur des trous
     Gravity: 0
-  colorOfDoor: 2
+  - Desc: 'Cannibalisme  '
+    Gravity: 1
+  - Desc: "N'arrivait jamais au bout de ses id\xE9es"
+    Gravity: 0
+  - Desc: "A toujours d\xE9tourn\xE9 le regard  "
+    Gravity: 1
+  colorOfDoor: 1
   IsWhite: 0
+  IsBig: 1

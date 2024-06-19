@@ -10,29 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: 01
+  m_Name: D2P6V2
   m_EditorClassIdentifier: 
-  name: 
+  name: Alaine Blondlot
   Acts:
-  - Desc: zzzzzzzzzz
+  - Desc: zzzzzzzzzzzzzz
     Gravity: 0
-  - Desc: rrrrrrrrrrrrr
+  - Desc: rrrrrrrrrrrrrrrr
     Gravity: 0
-  - Desc: ttttttttttttttt
+  - Desc: ttttttttttttttttt
     Gravity: 0
   - Desc: aaaaaaaa
     Gravity: 1
-  - Desc: eeeeeeeeee
-    Gravity: 1
-  - Desc: iiiiiiiiiiii
-    Gravity: 1
-  - Desc: ppppppppppp
+  - Desc: ppppppppppppp
     Gravity: 0
-  - Desc: uuuuuuuu
-    Gravity: 1
-  - Desc: oooooooooo
-    Gravity: 1
-  - Desc: qqqqqqqqqqq
+  - Desc: qqqqqqqqqqqqq
     Gravity: 0
-  colorOfDoor: 1
-  IsWhite: 1
+  - Desc: ssssssssssss
+    Gravity: 0
+  - Desc: dddddddddddd
+    Gravity: 0
+  - Desc: ffffffffffffff
+    Gravity: 0
+  - Desc: gggggggggggggg
+    Gravity: 0
+  colorOfDoor: 2
+  IsWhite: 0
+  IsBig: 1
