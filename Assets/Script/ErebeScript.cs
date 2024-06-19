@@ -22,7 +22,7 @@ public class ErebeScript : MonoBehaviour, IDropHandler
 
     public TMP_Text tailleErebeText;
 
-    private Vector3 initialTranslateTargetPos; // Nouvelle variable pour stocker la position initiale
+    private Vector3 initialTranslateTargetPos; 
 
     public bool isErebActive = true;
     private bool canLaunchTimer = true;
@@ -31,7 +31,7 @@ public class ErebeScript : MonoBehaviour, IDropHandler
 
     void Start()
     {
-        initialTranslateTargetPos = TranslateTarget.transform.position; // Initialisation de la position initiale
+        initialTranslateTargetPos = TranslateTarget.transform.position; 
         tailleErebeText.text = CurrentNumberOfList + " / " + tailleMaxErebe;
     }
 

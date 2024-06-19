@@ -11,51 +11,57 @@ public class ExeptionText : MonoBehaviour
     public string[] ExceptionDayFour;
     public string[] ExceptionDayFive;
     public TMP_Text[] TextZone;
-    public CycleManager CycleManager;
     public GameObject CycleManagerHolder;
-    
-    void Start()
+    private CycleManager CycleManager;
+
+    void OnEnable()
     {
         CycleManager = CycleManagerHolder.GetComponent<CycleManager>();
+        SetExceptionText();
     }
 
-    void Update()
+    void SetExceptionText()
     {
         int i = 0;
-        if (CycleManager.CurrentDay == 1)
+        int CDay = CycleManager.CurrentDay;
+        Debug.Log(CDay);
+        switch (CDay)
         {
-            foreach (string Text in ExceptionDayOne)
-            {
-                TextZone[1].text = Text;
-            }
-        }
-        if (CycleManager.CurrentDay == 2)
-        {
-            foreach (string Text in ExceptionDayTwo)
-            {
-                TextZone[1].text = Text;
-            }
-        }
-        if (CycleManager.CurrentDay == 3)
-        {
-            foreach (string Text in ExceptionDayThree)
-            {
-                TextZone[1].text = Text;
-            }
-        }
-        if (CycleManager.CurrentDay == 4)
-        {
-            foreach (string Text in ExceptionDayFour)
-            {
-                TextZone[1].text = Text;
-            }
-        }
-        if (CycleManager.CurrentDay == 5)
-        {
-            foreach (string Text in ExceptionDayFive)
-            {
-                TextZone[1].text = Text;
-            }
+            case 1:
+                foreach (string Text in ExceptionDayOne)
+                {
+                    TextZone[i].text = Text;
+                    i++;
+                }
+                break;
+            case 2:
+                foreach (string Text in ExceptionDayTwo)
+                {
+                    TextZone[i].text = Text;
+                    i++;
+                }
+                break;
+            case 3:
+                foreach (string Text in ExceptionDayThree)
+                {
+                    TextZone[i].text = Text;
+                    i++;
+                }
+                break;
+            case 4:
+                foreach (string Text in ExceptionDayFour)
+                {
+                    TextZone[i].text = Text;
+                    i++;
+                }
+                break;
+            case 5:
+                foreach (string Text in ExceptionDayFive)
+                {
+                    TextZone[i].text = Text;
+                    i++;
+                }
+                break;
         }
     }
 
@@ -69,3 +75,4 @@ public class ExeptionText : MonoBehaviour
         this.gameObject.SetActive(false);
     }
 }
+
