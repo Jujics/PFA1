@@ -51,4 +51,12 @@ public class SliderScript : MonoBehaviour
         EventTriggered = false;
         _currentTime = 0;
     }
+
+    public void OnClicReset()
+    {
+        Reset();
+        OnTimerEnd.Invoke();
+    }
+
+
 }
