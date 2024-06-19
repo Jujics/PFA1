@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: P401
+  m_Name: D1P5V5-3
   m_EditorClassIdentifier: 
-  name: Clarice Tisserand
+  name: Claire Jalbert
   Acts:
-  - Desc: Pyromanie
+  - Desc: Violente
     Gravity: 1
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: "Cr\xE9ateur de l'anc\xEAtre de la pizza"
     Gravity: 0
-  - Desc: Assassinat
+  - Desc: "P\xEAchait souvent"
+    Gravity: 0
+  - Desc: Avide
     Gravity: 1
-  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
-    Gravity: 0
-  - Desc: Peur de mourir
-    Gravity: 0
-  - Desc: "G\xE2chait du vin pour montrer sa richesse"
+  - Desc: "A cr\xE9e un incendie en l'honneur des dieux"
     Gravity: 1
-  - Desc: "N'a jamais cauchemard\xE9"
+  - Desc: "S\xE9journait dans la for\xEAt\t"
     Gravity: 0
-  - Desc: Fan du Pilate
+  - Desc: "A toujours bu avec mod\xE9ration"
     Gravity: 0
-  - Desc: Peur des serpents
+  - Desc: Paresseuse
+    Gravity: 1
+  - Desc: N'a jamais compris les maths
     Gravity: 0
-  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
-    Gravity: 0
-  colorOfDoor: 2
+  - Desc: "Enl\xE8vement"
+    Gravity: 1
+  colorOfDoor: 1
   IsWhite: 0
-  IsBig: 1
+  IsBig: 0

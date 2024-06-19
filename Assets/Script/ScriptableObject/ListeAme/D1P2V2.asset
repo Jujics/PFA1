@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: P401
+  m_Name: D1P2V2
   m_EditorClassIdentifier: 
-  name: Clarice Tisserand
+  name: Audrey L'Hiver
   Acts:
+  - Desc: Authentique
+    Gravity: 0
+  - Desc: "A essay\xE9 d'imiter les dieux"
+    Gravity: 1
   - Desc: Pyromanie
     Gravity: 1
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: Patient
     Gravity: 0
-  - Desc: Assassinat
-    Gravity: 1
-  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
+  - Desc: "Sinc\xE8re"
     Gravity: 0
-  - Desc: Peur de mourir
+  - Desc: Modeste
     Gravity: 0
-  - Desc: "G\xE2chait du vin pour montrer sa richesse"
-    Gravity: 1
-  - Desc: "N'a jamais cauchemard\xE9"
+  - Desc: "A sauv\xE9 un chat dans un arbre"
     Gravity: 0
-  - Desc: Fan du Pilate
+  - Desc: Grande Admiratrice de Platon
     Gravity: 0
-  - Desc: Peur des serpents
+  - Desc: Peur des monstres
     Gravity: 0
-  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
+  - Desc: Frappait l'air sans raison
     Gravity: 0
-  colorOfDoor: 2
+  colorOfDoor: 3
   IsWhite: 0
-  IsBig: 1
+  IsBig: 0

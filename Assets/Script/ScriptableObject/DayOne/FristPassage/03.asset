@@ -12,27 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: 03
   m_EditorClassIdentifier: 
-  name: 
+  name: Oedipe Vaillancour
   Acts:
-  - Desc: aaaaaaa
+  - Desc: "S'appelait \u0152dipe"
     Gravity: 1
-  - Desc: eeeeeeeee
+  - Desc: Violent
     Gravity: 1
-  - Desc: iiiiiiiiiiiiii
+  - Desc: Insultait souvent les dieux dans sa barbe
     Gravity: 1
-  - Desc: oooooooooooo
+  - Desc: Acte de Guerre
     Gravity: 1
-  - Desc: uuuuuuuuuuuuuu
+  - Desc: Homicide
     Gravity: 1
-  - Desc: yyyyyyyyyyyyyy
+  - Desc: Meurtre
     Gravity: 1
-  - Desc: ddddddddddd
+  - Desc: Assassinat
+    Gravity: 1
+  - Desc: Original
     Gravity: 0
-  - Desc: bbbbbbbbbbbbbb
+  - Desc: "Ecoutait les probl\xE8mes des autres"
     Gravity: 0
-  - Desc: mmmmmmmmmm
-    Gravity: 0
-  - Desc: ccccccccccccccc
+  - Desc: Optimiste
     Gravity: 0
   colorOfDoor: 1
   IsWhite: 0

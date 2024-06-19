@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: P401
+  m_Name: D1P5V6
   m_EditorClassIdentifier: 
-  name: Clarice Tisserand
+  name: 'Antoine Vaillancourt '
   Acts:
-  - Desc: Pyromanie
+  - Desc: Braconage
     Gravity: 1
-  - Desc: "Gardait les secrets confi\xE9s"
-    Gravity: 0
-  - Desc: Assassinat
+  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
     Gravity: 1
-  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
-    Gravity: 0
-  - Desc: Peur de mourir
-    Gravity: 0
-  - Desc: "G\xE2chait du vin pour montrer sa richesse"
+  - Desc: Cannibalisme
     Gravity: 1
-  - Desc: "N'a jamais cauchemard\xE9"
+  - Desc: "Enl\xE8vement"
+    Gravity: 1
+  - Desc: Homicide
+    Gravity: 1
+  - Desc: Adorait semer le chaos
+    Gravity: 1
+  - Desc: "A aid\xE9 un fermier en difficult\xE9"
     Gravity: 0
-  - Desc: Fan du Pilate
+  - Desc: "Sinc\xE8re"
     Gravity: 0
-  - Desc: Peur des serpents
+  - Desc: Prenait en compte les critiques
     Gravity: 0
-  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
+  - Desc: "A toujours pri\xE9 les dieux"
     Gravity: 0
-  colorOfDoor: 2
+  colorOfDoor: 1
   IsWhite: 0
-  IsBig: 1
+  IsBig: 0
