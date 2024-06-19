@@ -14,6 +14,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public TMP_Text Name;
     public TMP_Text[] Deed;
     public PlayerTrust _PlayerTrust;
+    public bool InFile;
     public bool InErebe;
     public bool DieOutScreen, DieWhileWait, DieOnWrongDoor, DieOnCorrectDoor;
     private GameObject PanelInfo;
@@ -96,7 +97,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         TimeTimer.maxValue = TimeLeft;
         while (TimeLeft > 0)
         {
-            if (InErebe || DieOutScreen)
+            if (InErebe || InFile || DieOutScreen)
             {
                 yield return null;
                 continue;
@@ -106,6 +107,8 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             TimeTimer.value = TimeLeft;
             yield return null; 
         }
+        GetComponent<Animator>().SetBool("Dying",true);
+        yield return new WaitForSeconds(5);
         DieWhileWait = true;
         gameObject.SetActive(false);
     }
