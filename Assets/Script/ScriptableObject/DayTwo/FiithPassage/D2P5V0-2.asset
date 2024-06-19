@@ -10,29 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: 07
+  m_Name: D2P5V0-2
   m_EditorClassIdentifier: 
-  name: 
+  name: Jeannine Ricard
   Acts:
-  - Desc: zzzzzzzzzz
+  - Desc: "A d\xE9j\xE0 officiellement \xE9t\xE9 emprisonn\xE9 \xE0 tord"
     Gravity: 0
-  - Desc: rrrrrrrrrrr
+  - Desc: Manchot
     Gravity: 0
-  - Desc: ttttttttttt
+  - Desc: Unijambiste
     Gravity: 0
-  - Desc: ppppppppppppp
+  - Desc: Un spartiate pacifiste
     Gravity: 0
-  - Desc: qqqqqqqqqqqq
+  - Desc: "A d\xE9j\xE0 officiellement \xE9t\xE9 emprisonn\xE9 \xE0 tord"
     Gravity: 0
-  - Desc: ssssssssssssss
+  - Desc: "S\xE9journait incognito"
     Gravity: 0
-  - Desc: dddddddddddd
+  - Desc: Fan de requins
     Gravity: 0
-  - Desc: ffffffffffffff
+  - Desc: N'a jamais vu de requin
     Gravity: 0
-  - Desc: gggggggggggggg
+  - Desc: N'aimait pas l'eau
     Gravity: 0
-  - Desc: hhhhhhhhhhhhhhh
+  - Desc: "A accidentellement cass\xE9 un chariot"
     Gravity: 0
   colorOfDoor: 0
-  IsWhite: 1
+  IsWhite: 0
+  IsBig: 0

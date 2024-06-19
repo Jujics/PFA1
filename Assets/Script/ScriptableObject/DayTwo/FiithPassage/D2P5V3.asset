@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: 06
+  m_Name: D2P5V3
   m_EditorClassIdentifier: 
-  name: 
+  name: Titouant Lebon
   Acts:
-  - Desc: aaaaaaaaaaaaaa
+  - Desc: "Est mort \xE0 2 ans"
+    Gravity: 0
+  - Desc: 'Adorait semer le chaos '
     Gravity: 1
-  - Desc: eeeeeeeeeeeeee
+  - Desc: 'Acte de Guerre '
     Gravity: 1
-  - Desc: zzzzzzzzzzzz
-    Gravity: 0
-  - Desc: iiiiiiiiiiiiiiiiiiii
+  - Desc: 'Meurtre '
     Gravity: 1
-  - Desc: rrrrrrrrrrrrrrrrr
-    Gravity: 0
-  - Desc: ttttttttttttttttttt
-    Gravity: 0
-  - Desc: ppppppppppppppp
-    Gravity: 0
-  - Desc: qqqqqqqqqqqqq
-    Gravity: 0
-  - Desc: uuuuuuuuuuuuuuuuu
+  - Desc: 'Cannibalisme  '
     Gravity: 1
-  - Desc: oooooooooooooo
+  - Desc: 'N''agissait selon aucun code moral '
+    Gravity: 1
+  - Desc: 'Insultait souvent les dieux dans sa barbe '
+    Gravity: 1
+  - Desc: 'Esclavagisme '
+    Gravity: 1
+  - Desc: 'Est parti acheter du lait '
+    Gravity: 1
+  - Desc: "Intol\xE9rance "
     Gravity: 1
   colorOfDoor: 1
   IsWhite: 0
-  IsBig: 1
+  IsBig: 0

@@ -10,29 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: 03
+  m_Name: D2P6V1-3
   m_EditorClassIdentifier: 
-  name: 
+  name: "Andr\xE9 Berthelette"
   Acts:
-  - Desc: zzzzzzzzzzzzzzzzzz
+  - Desc: Peur des espaces clos
     Gravity: 0
-  - Desc: rrrrrrrrrrrrrrr
+  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
     Gravity: 0
-  - Desc: tttttttttttttttt
+  - Desc: "M\xE9nageais ses confr\xE8res"
     Gravity: 0
-  - Desc: aaaaaaaaaaaaaa
+  - Desc: Prenait plus que ce dont il avait besoin
     Gravity: 1
-  - Desc: pppppppppppp
+  - Desc: "Affirmait que la Terre \xE9tait plate"
     Gravity: 0
-  - Desc: qqqqqqqqqqqqqq
+  - Desc: Grand fan de Platon
     Gravity: 0
-  - Desc: ssssssssssssss
+  - Desc: "Facilement influenc\xE9"
     Gravity: 0
-  - Desc: dddddddddd
+  - Desc: "Affirmait que la Terre \xE9tait ronde"
     Gravity: 0
-  - Desc: ffffffffffff
-    Gravity: 0
-  - Desc: gggggggggggggggg
+  - Desc: Se pensait libre de penser
+    Gravity: 1
+  - Desc: Optimiste
     Gravity: 0
   colorOfDoor: 3
   IsWhite: 0
+  IsBig: 0

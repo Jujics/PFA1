@@ -10,29 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: 04
+  m_Name: D2P5V0-1
   m_EditorClassIdentifier: 
-  name: 
+  name: Kerman Course
   Acts:
-  - Desc: aaaaaaaaaaaaaaaa
-    Gravity: 1
-  - Desc: zzzzzzzzzzzzzz
+  - Desc: Serviable
     Gravity: 0
-  - Desc: rrrrrrrrrrrrrrr
+  - Desc: "Se battait pour l'\xE9galit\xE9\t"
     Gravity: 0
-  - Desc: tttttttttttttttt
+  - Desc: "Passion\xE9"
     Gravity: 0
-  - Desc: pppppppppppppp
+  - Desc: "Avait un ami nomm\xE9 Dimitri Otek"
     Gravity: 0
-  - Desc: qqqqqqqqqqqqq
+  - Desc: Ne savait pas lire
     Gravity: 0
-  - Desc: ssssssssssss
+  - Desc: "A d\xE9j\xE0 tent\xE9 de brasser son propre alcool\t"
     Gravity: 0
-  - Desc: dddddddddddd
+  - Desc: "S'est d\xE9j\xE0 pris pour un envoy\xE9 des Dieux\t"
     Gravity: 0
-  - Desc: fffffffffffff
+  - Desc: "A d\xE9j\xE0 vu la mort dans les yeux"
     Gravity: 0
-  - Desc: ggggggggggggggg
+  - Desc: N'allais jamais voir ses parents
     Gravity: 0
-  colorOfDoor: 3
+  - Desc: "Son humour laisse \xE0 d\xE9sirer"
+    Gravity: 0
+  colorOfDoor: 0
   IsWhite: 0
+  IsBig: 0

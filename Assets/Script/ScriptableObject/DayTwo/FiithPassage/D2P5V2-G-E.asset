@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: 05
+  m_Name: D2P5V2-G-E
   m_EditorClassIdentifier: 
-  name: Melusina Rousseau
+  name: "Michel Lesp\xE9rance"
   Acts:
-  - Desc: zzzzzzzzzzzzzzzz
+  - Desc: Philosophe
     Gravity: 0
-  - Desc: rrrrrrrrrrrrrr
+  - Desc: Intelligent
     Gravity: 0
-  - Desc: ttttttttttttttttt
+  - Desc: "Ecoutait les probl\xE8mes des autres"
     Gravity: 0
-  - Desc: pppppppppppppppp
+  - Desc: 'N''aimait pas les enfants  '
     Gravity: 0
-  - Desc: aaaaaaaaaaaaaaa
+  - Desc: 'N''honorait pas les dieux '
     Gravity: 1
-  - Desc: qqqqqqqqqqqqqq
+  - Desc: 'Recherchait le pouvoir '
+    Gravity: 1
+  - Desc: "Intol\xE9rance "
+    Gravity: 1
+  - Desc: Charismatique
     Gravity: 0
-  - Desc: ssssssssssssss
-    Gravity: 0
-  - Desc: dddddddddddd
-    Gravity: 0
-  - Desc: fffffffffffffff
-    Gravity: 0
-  - Desc: gggggggggggggggg
-    Gravity: 0
-  colorOfDoor: 3
+  - Desc: 'N''agissait selon aucun code moral '
+    Gravity: 1
+  - Desc: 'Violent '
+    Gravity: 1
+  colorOfDoor: 2
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

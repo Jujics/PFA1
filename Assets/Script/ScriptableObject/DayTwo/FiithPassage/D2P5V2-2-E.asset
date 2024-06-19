@@ -10,29 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: 01
+  m_Name: D2P5V2-2-E
   m_EditorClassIdentifier: 
-  name: 
+  name: Bonne-Aventure Nestor
   Acts:
-  - Desc: zzzzzzzzzz
+  - Desc: Solitaire
     Gravity: 0
-  - Desc: rrrrrrrrrrrr
-    Gravity: 0
-  - Desc: ttttttttttttttt
-    Gravity: 0
-  - Desc: ppppppppp
-    Gravity: 0
-  - Desc: aaaaaaaaaa
+  - Desc: "A fait un march\xE9 et ne l'a jamais respect\xE9 "
     Gravity: 1
-  - Desc: eeeeeeeeee
+  - Desc: 'Recherchait le pouvoir '
     Gravity: 1
-  - Desc: iiiiiiiiiiiiii
+  - Desc: 'Consommation d''Ambroisie '
     Gravity: 1
-  - Desc: uuuuuuuuuuuuu
+  - Desc: "G\xE2chait du vin pour montrer sa richesse "
     Gravity: 1
-  - Desc: qqqqqqqqqq
+  - Desc: Courtois
     Gravity: 0
-  - Desc: sssssssssss
+  - Desc: "Appliquait de la cr\xE8me sur sa peau"
+    Gravity: 0
+  - Desc: 'Violent '
+    Gravity: 1
+  - Desc: "A d\xE9j\xE0 mang\xE9 de la terre"
+    Gravity: 0
+  - Desc: Frappait l'air sans raison
     Gravity: 0
   colorOfDoor: 2
   IsWhite: 0
+  IsBig: 0

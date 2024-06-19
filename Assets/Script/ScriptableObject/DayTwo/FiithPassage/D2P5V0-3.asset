@@ -10,29 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: 02
+  m_Name: D2P5V0-3
   m_EditorClassIdentifier: 
-  name: 
+  name: Prunella Lafontaine
   Acts:
-  - Desc: zzzzzzzzzzzzzzzzz
+  - Desc: "A d\xE9j\xE0 mang\xE9 de la terre"
     Gravity: 0
-  - Desc: aaaaaaaaaaaaaaaaaaa
-    Gravity: 1
-  - Desc: rrrrrrrrrrrrrrrrrr
+  - Desc: "P\xEAchait souvent"
     Gravity: 0
-  - Desc: tttttttttttttttt
+  - Desc: Frappait l'air sans raison
     Gravity: 0
-  - Desc: eeeeeeeeeeeeeeee
-    Gravity: 1
-  - Desc: ppppppppppppp
+  - Desc: Ratait toujours ses repas
     Gravity: 0
-  - Desc: qqqqqqqqqqq
+  - Desc: "Est port\xE9 disparu"
     Gravity: 0
-  - Desc: iiiiiiiiiiiiiiiiii
-    Gravity: 1
-  - Desc: ssssssssssssss
+  - Desc: Ne savait pas lire
     Gravity: 0
-  - Desc: dddddddddddd
+  - Desc: "Peur des Araign\xE9es"
     Gravity: 0
-  colorOfDoor: 2
+  - Desc: "Poss\xE9dait une tonne d'amphores"
+    Gravity: 0
+  - Desc: "Cultiv\xE9"
+    Gravity: 0
+  - Desc: "L\xE9g\xE8rement fanatique du Feu"
+    Gravity: 0
+  colorOfDoor: 0
   IsWhite: 0
+  IsBig: 0

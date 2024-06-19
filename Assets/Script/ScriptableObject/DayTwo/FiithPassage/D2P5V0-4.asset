@@ -10,29 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: 09
+  m_Name: D2P5V0-4
   m_EditorClassIdentifier: 
-  name: 
+  name: Turner Guibord
   Acts:
-  - Desc: zzzzzzzzzzz
+  - Desc: Simple
     Gravity: 0
-  - Desc: rrrrrrrrrrrrrr
+  - Desc: "Coop\xE9ratif"
     Gravity: 0
-  - Desc: ttttttttttttt
+  - Desc: Inspirant
     Gravity: 0
-  - Desc: ppppppppppp
+  - Desc: Humble
     Gravity: 0
-  - Desc: qqqqqqqqqq
+  - Desc: Confiant
     Gravity: 0
-  - Desc: ssssssssssss
+  - Desc: "Exceptionnellement fort\t"
     Gravity: 0
-  - Desc: ddddddddddd
+  - Desc: "Assistait souvent \xE0 des d\xE9bats"
     Gravity: 0
-  - Desc: ffffffffff
+  - Desc: Peur de mourir
     Gravity: 0
-  - Desc: gggggggggg
+  - Desc: "N'avait aucune r\xE9parti"
     Gravity: 0
-  - Desc: hhhhhhhhhhhhh
+  - Desc: "A saut\xE9 d'une grande hauteur en esp\xE9rant voler"
     Gravity: 0
   colorOfDoor: 0
   IsWhite: 0
+  IsBig: 0

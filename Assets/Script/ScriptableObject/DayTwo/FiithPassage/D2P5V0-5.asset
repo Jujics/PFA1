@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: 04
+  m_Name: D2P5V0-5
   m_EditorClassIdentifier: 
-  name: "Andr\xE9 Berthelette"
+  name: Paien Landry
   Acts:
-  - Desc: zzzzzzzzzzzzzzzz
+  - Desc: "Peur des chiens\t"
     Gravity: 0
-  - Desc: rrrrrrrrrrrrrrr
+  - Desc: Peur des monstres
     Gravity: 0
-  - Desc: tttttttttttttttt
+  - Desc: "A failli \xEAtre noy\xE9"
     Gravity: 0
-  - Desc: pppppppppppppp
+  - Desc: "L\xE9g\xE8rement fanatique du Feu"
     Gravity: 0
-  - Desc: qqqqqqqqqq
+  - Desc: Grand Admirateur de Platon
     Gravity: 0
-  - Desc: ssssssssssss
+  - Desc: "A toujours ador\xE9 les maths"
     Gravity: 0
-  - Desc: dddddddddd
+  - Desc: "Coop\xE9ratif"
     Gravity: 0
-  - Desc: fffffffffffffffff
+  - Desc: Charismatique
     Gravity: 0
-  - Desc: gggggggggggggggggg
+  - Desc: "A port\xE9 des chaussettes d\xE9paraill\xE9es"
     Gravity: 0
-  - Desc: hhhhhhhhh
+  - Desc: "Sinc\xE8re"
     Gravity: 0
-  colorOfDoor: 3
+  colorOfDoor: 0
   IsWhite: 0
   IsBig: 0
