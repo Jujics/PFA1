@@ -8,23 +8,14 @@ using TMPro;
 public class ErebeScript : MonoBehaviour, IDropHandler
 {
     public List<GameObject> SoulList;
-
     public GameObject RespawnPos;
-
-    private int CurrentNumberOfList = 0;
-
     public GameObject TranslateTarget;
-
-
     public FloatScriptable ErebeCooldown;
-
     public int tailleMaxErebe = 10;
-
     public TMP_Text tailleErebeText;
-
-    private Vector3 initialTranslateTargetPos; 
-
     public bool isErebActive = true;
+    private Vector3 initialTranslateTargetPos; 
+    private int CurrentNumberOfList = 0;
     private bool canLaunchTimer = true;
 
 
@@ -51,6 +42,7 @@ public class ErebeScript : MonoBehaviour, IDropHandler
             Debug.Log("Je suis drop");
             GameObject droppedObject = eventData.pointerDrag;
             droppedObject.GetComponent<SoulDataGrab>().InErebe = true;
+            StartCoroutine(AnimErebe());
             Debug.Log("Je suis récupéré");
             if (droppedObject != null && CurrentNumberOfList < tailleMaxErebe)
             {
@@ -121,5 +113,12 @@ public class ErebeScript : MonoBehaviour, IDropHandler
         }
         currentSoul.gameObject.transform.position = targetPosition;
         Debug.Log(currentSoul + "translate en" + targetPosition);
+    }
+
+    public IEnumerator AnimErebe()
+    {
+        GetComponent<Animator>().SetBool("PutInErebe", true);
+        yield return new WaitForSeconds(2);
+        GetComponent<Animator>().SetBool("PutInErebe", false);
     }
 }
