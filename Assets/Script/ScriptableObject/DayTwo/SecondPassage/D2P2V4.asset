@@ -10,30 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D1P3V3
+  m_Name: D2P2V4
   m_EditorClassIdentifier: 
-  name: "Angelette Rivi\xE8re"
+  name: 
   Acts:
-  - Desc: "M\xE9nageais ses confr\xE8res"
-    Gravity: 0
-  - Desc: Homicide
+  - Desc: aaaaaaaaaaaaaa
     Gravity: 1
-  - Desc: Authentique
+  - Desc: zzzzzzzzzzzzzzz
     Gravity: 0
-  - Desc: Attentif
-    Gravity: 0
-  - Desc: N'a jamais cru en la philosophie
-    Gravity: 0
-  - Desc: "N'\xE9tait pas sage \xE9tant petit"
-    Gravity: 0
-  - Desc: "P\xEAchait souvent"
-    Gravity: 0
-  - Desc: Recherchait le pouvoir
+  - Desc: eeeeeeeeeeeeee
     Gravity: 1
-  - Desc: "Ecoutait les probl\xE8mes des autres"
+  - Desc: rrrrrrrrrrrrrrrrrrr
     Gravity: 0
-  - Desc: Pyromanie
+  - Desc: tttttttttttttt
+    Gravity: 0
+  - Desc: iiiiiiiiiiiiiiiiiii
     Gravity: 1
-  colorOfDoor: 2
+  - Desc: uuuuuuuuuuuuuuuu
+    Gravity: 1
+  - Desc: oooooooooooooooooooo
+    Gravity: 1
+  - Desc: pppppppppp
+    Gravity: 0
+  - Desc: aaaaaaaaaaaa
+    Gravity: 1
+  colorOfDoor: 1
   IsWhite: 0
-  IsBig: 0

@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D1P3V3
+  m_Name: D2P3V7
   m_EditorClassIdentifier: 
-  name: "Angelette Rivi\xE8re"
+  name: Oedipe
   Acts:
-  - Desc: "M\xE9nageais ses confr\xE8res"
-    Gravity: 0
+  - Desc: "S'appelait \u0152dipe"
+    Gravity: 1
+  - Desc: Violent
+    Gravity: 1
+  - Desc: Insultait souvent les dieux dans sa barbe
+    Gravity: 1
+  - Desc: Acte de Guerre
+    Gravity: 1
   - Desc: Homicide
     Gravity: 1
-  - Desc: Authentique
-    Gravity: 0
-  - Desc: Attentif
-    Gravity: 0
-  - Desc: N'a jamais cru en la philosophie
-    Gravity: 0
-  - Desc: "N'\xE9tait pas sage \xE9tant petit"
-    Gravity: 0
-  - Desc: "P\xEAchait souvent"
-    Gravity: 0
-  - Desc: Recherchait le pouvoir
+  - Desc: Meurtre
     Gravity: 1
+  - Desc: Assassinat
+    Gravity: 1
+  - Desc: Original
+    Gravity: 0
   - Desc: "Ecoutait les probl\xE8mes des autres"
     Gravity: 0
-  - Desc: Pyromanie
-    Gravity: 1
-  colorOfDoor: 2
+  - Desc: Optimiste
+    Gravity: 0
+  colorOfDoor: 1
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

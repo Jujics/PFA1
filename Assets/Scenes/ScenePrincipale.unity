@@ -7885,6 +7885,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 426812658}
     - target: {fileID: 67925549662570864, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: 43ee93c29ad1d12458b3cdee001a824e, type: 2}
+    - target: {fileID: 67925549662570864, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
@@ -7892,6 +7896,10 @@ PrefabInstance:
       propertyPath: MainCan
       value: 
       objectReference: {fileID: 426812658}
+    - target: {fileID: 115955337639925364, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: 6e3d33fd75892d34d9599472732a3d05, type: 2}
     - target: {fileID: 115955337639925364, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
@@ -7916,6 +7924,10 @@ PrefabInstance:
       propertyPath: MainCan
       value: 
       objectReference: {fileID: 426812658}
+    - target: {fileID: 143565029494841115, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 180980796594689668, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: m_Color.b
       value: 0
@@ -7964,6 +7976,22 @@ PrefabInstance:
       propertyPath: MainCan
       value: 
       objectReference: {fileID: 426812658}
+    - target: {fileID: 340349772599562586, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 340349772599562586, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 340349772599562586, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 340349772599562586, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 344778585250880327, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
@@ -8077,6 +8105,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 426812658}
     - target: {fileID: 733221353600358495, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: a8e07f0c370e1ca489a0326aea49ed07, type: 2}
+    - target: {fileID: 733221353600358495, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
@@ -8125,6 +8157,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1803860099}
     - target: {fileID: 986493061606589541, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: 8913bc1602ccf5b45b33c9fa220d61c8, type: 2}
+    - target: {fileID: 986493061606589541, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
@@ -8165,6 +8201,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1076252884902794176, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: 7dd0eaca9b342294db416e643fc67404, type: 2}
+    - target: {fileID: 1076252884902794176, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
@@ -8172,6 +8212,10 @@ PrefabInstance:
       propertyPath: MainCan
       value: 
       objectReference: {fileID: 426812658}
+    - target: {fileID: 1101472403346195901, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: caff44faa967106468ebfada172cad3c, type: 2}
     - target: {fileID: 1101472403346195901, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
@@ -8257,6 +8301,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1803860099}
     - target: {fileID: 1403232681755563612, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: 987f8a365102d334e93e36764c59600b, type: 2}
+    - target: {fileID: 1403232681755563612, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
@@ -8268,6 +8316,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1421976644752765691, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: 77eaf9c04b8a1d74e9dcfb6c69a38cd3, type: 2}
     - target: {fileID: 1421976644752765691, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
@@ -8297,6 +8349,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1605125261873497955, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: 30983743415b5b84492d5ebffd815348, type: 2}
+    - target: {fileID: 1605125261873497955, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
@@ -8320,6 +8376,10 @@ PrefabInstance:
       propertyPath: MainCan
       value: 
       objectReference: {fileID: 426812658}
+    - target: {fileID: 1656607109235547951, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: af16fcdcbb4741846b5e1a85423963e4, type: 2}
     - target: {fileID: 1656607109235547951, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
@@ -8389,6 +8449,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 426812658}
     - target: {fileID: 1864233839872417135, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: 42e39082f19940f48983ef7c84368226, type: 2}
+    - target: {fileID: 1864233839872417135, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
@@ -8408,6 +8472,10 @@ PrefabInstance:
       propertyPath: MainCan
       value: 
       objectReference: {fileID: 426812658}
+    - target: {fileID: 1981944431104774724, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2006316212432798562, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
@@ -8508,6 +8576,22 @@ PrefabInstance:
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
+    - target: {fileID: 2493042130869859851, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2493042130869859851, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2493042130869859851, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2493042130869859851, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2532274836316106506, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
@@ -8664,10 +8748,30 @@ PrefabInstance:
       propertyPath: MainCan
       value: 
       objectReference: {fileID: 426812658}
+    - target: {fileID: 3309435527309882303, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309435527309882303, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309435527309882303, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3309435527309882303, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3310562632784884949, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: MainCan
       value: 
       objectReference: {fileID: 426812658}
+    - target: {fileID: 3341315060727632558, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: 6906bd5248b9f30418fd270166850f6a, type: 2}
     - target: {fileID: 3341315060727632558, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
@@ -8768,6 +8872,10 @@ PrefabInstance:
       propertyPath: MainCan
       value: 
       objectReference: {fileID: 426812658}
+    - target: {fileID: 3724937373476523571, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: d03142d0e50c426429eb8e160de8c8d9, type: 2}
     - target: {fileID: 3724937373476523571, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
@@ -8877,6 +8985,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 426812658}
     - target: {fileID: 4146308800052346682, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: 940b066d6c75ea34c995b6d24091ede9, type: 2}
+    - target: {fileID: 4146308800052346682, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
@@ -8981,6 +9093,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 426812658}
     - target: {fileID: 4631431320414084005, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: 18e108bd2e134f84fa89c77ae90f2af5, type: 2}
+    - target: {fileID: 4631431320414084005, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
@@ -9020,6 +9136,22 @@ PrefabInstance:
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
+    - target: {fileID: 4894198644290743523, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894198644290743523, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894198644290743523, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4894198644290743523, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4937800340005766323, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: MainCan
       value: 
@@ -9152,6 +9284,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5100732503943932877, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: e22969ac56505b141a85757c2c8d74ad, type: 2}
     - target: {fileID: 5100732503943932877, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
@@ -9292,6 +9428,22 @@ PrefabInstance:
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
+    - target: {fileID: 5521348497689651543, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5521348497689651543, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5521348497689651543, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5521348497689651543, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5532723124646239319, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: MainCan
       value: 
@@ -9300,6 +9452,22 @@ PrefabInstance:
       propertyPath: MainCan
       value: 
       objectReference: {fileID: 426812658}
+    - target: {fileID: 5564597766995050282, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5564597766995050282, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5564597766995050282, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5564597766995050282, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5588410381129996240, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: m_Color.b
       value: 0
@@ -9453,6 +9621,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1803860099}
     - target: {fileID: 6329080298113200680, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: f13666ca9af0f354ab23408a34984360, type: 2}
+    - target: {fileID: 6329080298113200680, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
@@ -9540,6 +9712,10 @@ PrefabInstance:
       propertyPath: MainCan
       value: 
       objectReference: {fileID: 426812658}
+    - target: {fileID: 6754973823113598650, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: 3398fbf9e807a5d4f86cf7ba5dc1136f, type: 2}
     - target: {fileID: 6754973823113598650, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
@@ -9772,6 +9948,22 @@ PrefabInstance:
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
+    - target: {fileID: 7692148163252555270, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692148163252555270, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692148163252555270, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7692148163252555270, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7693429968467628290, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: MainCan
       value: 
@@ -9852,6 +10044,10 @@ PrefabInstance:
       propertyPath: MainCan
       value: 
       objectReference: {fileID: 426812658}
+    - target: {fileID: 8039043492788883673, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8042190717296610253, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: MainCan
       value: 
@@ -9876,6 +10072,10 @@ PrefabInstance:
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
+    - target: {fileID: 8140183820852720318, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: AmeData
+      value: 
+      objectReference: {fileID: 11400000, guid: 3ade29b56270ff54581ed0786a954134, type: 2}
     - target: {fileID: 8140183820852720318, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
@@ -10679,8 +10879,8 @@ MonoBehaviour:
   - "zzzzzzzzzzzzzzz --> m\xE9chant"
   - eeeeeeeeeeeeee --> gentil
   ExceptionDayTwo:
-  - 
-  - 
+  - Recherchait le pouvoir
+  - "N'aimait pas les enfants\t\t"
   - 
   - 
   - 

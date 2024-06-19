@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D1P3V3
+  m_Name: D2P4V0
   m_EditorClassIdentifier: 
-  name: "Angelette Rivi\xE8re"
+  name: Amorette Dagenais
   Acts:
-  - Desc: "M\xE9nageais ses confr\xE8res"
+  - Desc: "A failli \xEAtre noy\xE9"
     Gravity: 0
-  - Desc: Homicide
-    Gravity: 1
-  - Desc: Authentique
+  - Desc: Peur des chiens
     Gravity: 0
-  - Desc: Attentif
+  - Desc: "N'arrivait jamais au bout de ses id\xE9es"
     Gravity: 0
-  - Desc: N'a jamais cru en la philosophie
+  - Desc: "Adorait les animaux\t "
     Gravity: 0
-  - Desc: "N'\xE9tait pas sage \xE9tant petit"
+  - Desc: "A imagin\xE9 un concept de \"Retraite\""
     Gravity: 0
-  - Desc: "P\xEAchait souvent"
+  - Desc: Fan de requins
     Gravity: 0
-  - Desc: Recherchait le pouvoir
-    Gravity: 1
-  - Desc: "Ecoutait les probl\xE8mes des autres"
+  - Desc: Inspirant
     Gravity: 0
-  - Desc: Pyromanie
-    Gravity: 1
-  colorOfDoor: 2
+  - Desc: "Fr\xE8re d'un ours"
+    Gravity: 0
+  - Desc: "Coop\xE9ratif"
+    Gravity: 0
+  - Desc: "A aid\xE9 un fermier en difficult\xE9"
+    Gravity: 0
+  colorOfDoor: 1
   IsWhite: 0
   IsBig: 0
