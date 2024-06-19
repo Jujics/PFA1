@@ -8427,7 +8427,7 @@ PrefabInstance:
     - target: {fileID: 1076252884902794176, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: AmeData
       value: 
-      objectReference: {fileID: 11400000, guid: 7dd0eaca9b342294db416e643fc67404, type: 2}
+      objectReference: {fileID: 11400000, guid: 03c4f559c48a2ce4eae66c859d68ea70, type: 2}
     - target: {fileID: 1076252884902794176, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
@@ -8936,6 +8936,10 @@ PrefabInstance:
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
+    - target: {fileID: 2472214546623852865, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: MainCan
+      value: 
+      objectReference: {fileID: 426812658}
     - target: {fileID: 2493042130869859851, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -8952,10 +8956,6 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2472214546623852865, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
-      propertyPath: MainCan
-      value: 
-      objectReference: {fileID: 426812658}
     - target: {fileID: 2532274836316106506, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: _PlayerTrust
       value: 
@@ -9700,6 +9700,10 @@ PrefabInstance:
       propertyPath: _PlayerTrust
       value: 
       objectReference: {fileID: 1803860099}
+    - target: {fileID: 4882559371063328098, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
+      propertyPath: MainCan
+      value: 
+      objectReference: {fileID: 426812658}
     - target: {fileID: 4894198644290743523, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -9716,10 +9720,6 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4882559371063328098, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
-      propertyPath: MainCan
-      value: 
-      objectReference: {fileID: 426812658}
     - target: {fileID: 4937800340005766323, guid: 7e8a07a6483bae74da369957fd85edbb, type: 3}
       propertyPath: MainCan
       value: 
