@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: P401
+  m_Name: D1P5V0
   m_EditorClassIdentifier: 
-  name: Clarice Tisserand
+  name: Orva Blondlot
   Acts:
-  - Desc: Pyromanie
-    Gravity: 1
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: N'a jamais vu de Cobra
     Gravity: 0
-  - Desc: Assassinat
-    Gravity: 1
-  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
+  - Desc: Fan de requins
     Gravity: 0
-  - Desc: Peur de mourir
+  - Desc: Manchot
     Gravity: 0
-  - Desc: "G\xE2chait du vin pour montrer sa richesse"
-    Gravity: 1
-  - Desc: "N'a jamais cauchemard\xE9"
+  - Desc: Se croyait issu d'un demi-dieu
     Gravity: 0
-  - Desc: Fan du Pilate
+  - Desc: "Aparaissait toujours de mani\xE8re innatendu"
     Gravity: 0
-  - Desc: Peur des serpents
+  - Desc: "Poss\xE9dait une tonne d'amphores"
     Gravity: 0
-  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
+  - Desc: "Mal \xE0 l'aise avec les autres humains"
     Gravity: 0
-  colorOfDoor: 2
+  - Desc: N'a jamais menti
+    Gravity: 0
+  - Desc: Fan de Socrates
+    Gravity: 0
+  - Desc: Humble
+    Gravity: 0
+  colorOfDoor: 0
   IsWhite: 0
-  IsBig: 1
+  IsBig: 0

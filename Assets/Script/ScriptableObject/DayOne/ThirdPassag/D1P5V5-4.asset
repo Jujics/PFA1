@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: P401
+  m_Name: D1P5V5-4
   m_EditorClassIdentifier: 
-  name: Clarice Tisserand
+  name: "Valentine Chass\xE9"
   Acts:
-  - Desc: Pyromanie
+  - Desc: "Intol\xE9rante"
     Gravity: 1
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: Prenait en compte les critiques
     Gravity: 0
-  - Desc: Assassinat
+  - Desc: Fan de Socrates
+    Gravity: 0
+  - Desc: Involontaire
     Gravity: 1
-  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
-    Gravity: 0
-  - Desc: Peur de mourir
-    Gravity: 0
-  - Desc: "G\xE2chait du vin pour montrer sa richesse"
+  - Desc: Avide
     Gravity: 1
-  - Desc: "N'a jamais cauchemard\xE9"
+  - Desc: Serviable
     Gravity: 0
-  - Desc: Fan du Pilate
+  - Desc: Meurtre
+    Gravity: 1
+  - Desc: Adorait semer le chaos
+    Gravity: 1
+  - Desc: Optimiste
     Gravity: 0
-  - Desc: Peur des serpents
+  - Desc: Se pensait libre de penser
     Gravity: 0
-  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
-    Gravity: 0
-  colorOfDoor: 2
+  colorOfDoor: 1
   IsWhite: 0
-  IsBig: 1
+  IsBig: 0

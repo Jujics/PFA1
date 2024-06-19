@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: P401
+  m_Name: D1P4V5
   m_EditorClassIdentifier: 
-  name: Clarice Tisserand
+  name: Normand Lang
   Acts:
   - Desc: Pyromanie
     Gravity: 1
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: Semait des graines d'arbres
     Gravity: 0
-  - Desc: Assassinat
+  - Desc: Paresseux
     Gravity: 1
-  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
+  - Desc: Attentif
     Gravity: 0
-  - Desc: Peur de mourir
+  - Desc: Intelligent
     Gravity: 0
-  - Desc: "G\xE2chait du vin pour montrer sa richesse"
+  - Desc: "Enl\xE8vement"
     Gravity: 1
-  - Desc: "N'a jamais cauchemard\xE9"
+  - Desc: Consommation d'Ambroisie
+    Gravity: 1
+  - Desc: Homicide
+    Gravity: 1
+  - Desc: Confiant
     Gravity: 0
-  - Desc: Fan du Pilate
+  - Desc: Courtois
     Gravity: 0
-  - Desc: Peur des serpents
-    Gravity: 0
-  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
-    Gravity: 0
-  colorOfDoor: 2
+  colorOfDoor: 1
   IsWhite: 0
-  IsBig: 1
+  IsBig: 0

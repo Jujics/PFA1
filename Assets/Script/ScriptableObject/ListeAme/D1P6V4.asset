@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: P401
+  m_Name: D1P6V4
   m_EditorClassIdentifier: 
-  name: Clarice Tisserand
+  name: "Florence Dub\xE9"
   Acts:
-  - Desc: Pyromanie
+  - Desc: "S'imaginait dans un monde cr\xE9e par des GD"
+    Gravity: 0
+  - Desc: Esclavagisme
     Gravity: 1
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: Se croyait issu d'un demi-dieu
     Gravity: 0
-  - Desc: Assassinat
+  - Desc: "A d\xE9j\xE0 fait tomber sa tablette \xE0 gravure"
+    Gravity: 0
+  - Desc: N'honorait pas les dieux
     Gravity: 1
-  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
-    Gravity: 0
-  - Desc: Peur de mourir
-    Gravity: 0
-  - Desc: "G\xE2chait du vin pour montrer sa richesse"
+  - Desc: Acte de Guerre
     Gravity: 1
-  - Desc: "N'a jamais cauchemard\xE9"
+  - Desc: N'agissait selon aucun code moral
+    Gravity: 1
+  - Desc: N'a jamais compris les maths
     Gravity: 0
-  - Desc: Fan du Pilate
+  - Desc: Attentif
     Gravity: 0
-  - Desc: Peur des serpents
-    Gravity: 0
-  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
+  - Desc: Exceptionnellement fort
     Gravity: 0
   colorOfDoor: 2
   IsWhite: 0
-  IsBig: 1
+  IsBig: 0

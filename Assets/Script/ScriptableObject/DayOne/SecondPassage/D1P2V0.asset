@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: P401
+  m_Name: D1P2V0
   m_EditorClassIdentifier: 
-  name: Clarice Tisserand
+  name: Franck Chicoine
   Acts:
-  - Desc: Pyromanie
-    Gravity: 1
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: Malin
     Gravity: 0
-  - Desc: Assassinat
-    Gravity: 1
-  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
+  - Desc: Simplet
     Gravity: 0
-  - Desc: Peur de mourir
+  - Desc: Peur du noir
     Gravity: 0
-  - Desc: "G\xE2chait du vin pour montrer sa richesse"
-    Gravity: 1
-  - Desc: "N'a jamais cauchemard\xE9"
+  - Desc: "N'\xE9tait pas tr\xE8s sociable"
     Gravity: 0
-  - Desc: Fan du Pilate
+  - Desc: "Son humour laisse \xE0 d\xE9sirer"
     Gravity: 0
-  - Desc: Peur des serpents
+  - Desc: "A d\xE9j\xE0 fait tomber sa tablette \xE0 gravure"
     Gravity: 0
-  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
+  - Desc: "N'a jamais fait la guerre\t"
     Gravity: 0
-  colorOfDoor: 2
+  - Desc: Peur des chats
+    Gravity: 0
+  - Desc: "Elev\xE9 par des loups"
+    Gravity: 0
+  - Desc: N'a jamais vu de Gorille
+    Gravity: 0
+  colorOfDoor: 0
   IsWhite: 0
-  IsBig: 1
+  IsBig: 0

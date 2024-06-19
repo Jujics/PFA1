@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: P401
+  m_Name: D1P5V5-3
   m_EditorClassIdentifier: 
-  name: Clarice Tisserand
+  name: "Doroth\xE9e Lebrun"
   Acts:
+  - Desc: "A fait un march\xE9 et ne l'a jamais respect\xE9"
+    Gravity: 1
   - Desc: Pyromanie
     Gravity: 1
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: "Ne r\xE9agissait pas souvent \xE0 son pr\xE9nom"
     Gravity: 0
-  - Desc: Assassinat
+  - Desc: Recherchait le pouvoir
     Gravity: 1
-  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
+  - Desc: "A sauv\xE9 un chat dans un arbre"
     Gravity: 0
-  - Desc: Peur de mourir
+  - Desc: Intelligent
     Gravity: 0
-  - Desc: "G\xE2chait du vin pour montrer sa richesse"
+  - Desc: "Spontan\xE9"
+    Gravity: 0
+  - Desc: Meurtre
     Gravity: 1
-  - Desc: "N'a jamais cauchemard\xE9"
+  - Desc: Esclavagisme
+    Gravity: 1
+  - Desc: Courtois
     Gravity: 0
-  - Desc: Fan du Pilate
-    Gravity: 0
-  - Desc: Peur des serpents
-    Gravity: 0
-  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
-    Gravity: 0
-  colorOfDoor: 2
+  colorOfDoor: 1
   IsWhite: 0
-  IsBig: 1
+  IsBig: 0

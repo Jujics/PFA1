@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: P401
+  m_Name: D1P2V3
   m_EditorClassIdentifier: 
-  name: Clarice Tisserand
+  name: Maslin Godin
   Acts:
-  - Desc: Pyromanie
+  - Desc: Original
+    Gravity: 0
+  - Desc: Simple
+    Gravity: 0
+  - Desc: "Infid\xE8le"
     Gravity: 1
-  - Desc: "Gardait les secrets confi\xE9s"
-    Gravity: 0
-  - Desc: Assassinat
+  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
     Gravity: 1
-  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
+  - Desc: "Coop\xE9ratif"
     Gravity: 0
-  - Desc: Peur de mourir
-    Gravity: 0
-  - Desc: "G\xE2chait du vin pour montrer sa richesse"
+  - Desc: Acte de Guerre
     Gravity: 1
-  - Desc: "N'a jamais cauchemard\xE9"
+  - Desc: Humble
     Gravity: 0
-  - Desc: Fan du Pilate
+  - Desc: Charismatique
     Gravity: 0
-  - Desc: Peur des serpents
+  - Desc: "N'a jamais mang\xE9 de viande"
     Gravity: 0
-  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
+  - Desc: "A aid\xE9 un fermier en difficult\xE9"
     Gravity: 0
   colorOfDoor: 2
   IsWhite: 0
-  IsBig: 1
+  IsBig: 0

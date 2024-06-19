@@ -12,27 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: P308-2
   m_EditorClassIdentifier: 
-  name: 
+  name: "Olivier Ren\xE9"
   Acts:
-  - Desc: aaaaaaa
+  - Desc: A toujours menti
     Gravity: 1
-  - Desc: bbbbbbb
+  - Desc: "Voudrait un autographe d'Had\xE8s"
     Gravity: 0
-  - Desc: ffffffffff
+  - Desc: N'a jamais vu de Cobra
     Gravity: 0
-  - Desc: uuuuuuuu
+  - Desc: "A d\xE9j\xE0 \xE9t\xE9 sur Chypres"
     Gravity: 1
-  - Desc: yyyyyyyyy
+  - Desc: Cannibalisme
     Gravity: 1
-  - Desc: zzzzzzzzz
+  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
     Gravity: 0
-  - Desc: ggggggggg
+  - Desc: Savait lire
     Gravity: 0
-  - Desc: uuuuuuuuuu
+  - Desc: "Enl\xE8vement"
     Gravity: 1
-  - Desc: qqqqqqqqq
-    Gravity: 0
-  - Desc: dddddddd
+  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
+    Gravity: 1
+  - Desc: "Gardait les secrets confi\xE9s"
     Gravity: 0
   colorOfDoor: 1
   IsWhite: 0
+  IsBig: 0

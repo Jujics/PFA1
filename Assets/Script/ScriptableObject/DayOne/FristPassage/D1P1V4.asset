@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: P401
+  m_Name: D1P1V4
   m_EditorClassIdentifier: 
-  name: Clarice Tisserand
+  name: Jean Loiselle
   Acts:
-  - Desc: Pyromanie
+  - Desc: 'Braconage '
     Gravity: 1
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: Sociable
     Gravity: 0
-  - Desc: Assassinat
+  - Desc: "A failli mourir noy\xE9"
+    Gravity: 0
+  - Desc: A toujours menti
     Gravity: 1
-  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
+  - Desc: Confiant
     Gravity: 0
-  - Desc: Peur de mourir
-    Gravity: 0
-  - Desc: "G\xE2chait du vin pour montrer sa richesse"
+  - Desc: Avare
     Gravity: 1
-  - Desc: "N'a jamais cauchemard\xE9"
+  - Desc: "N'\xE9tait pas tr\xE8s sociable"
     Gravity: 0
-  - Desc: Fan du Pilate
+  - Desc: Unijambiste
     Gravity: 0
-  - Desc: Peur des serpents
-    Gravity: 0
-  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
+  - Desc: Homicide
+    Gravity: 1
+  - Desc: "Se dit avoir invent\xE9 la Roue\t\t"
     Gravity: 0
   colorOfDoor: 2
   IsWhite: 0
-  IsBig: 1
+  IsBig: 0

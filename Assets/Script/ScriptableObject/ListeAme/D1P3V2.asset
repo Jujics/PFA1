@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: P401
+  m_Name: D1P3V2
   m_EditorClassIdentifier: 
-  name: Clarice Tisserand
+  name: Agramant Arnoux
   Acts:
-  - Desc: Pyromanie
+  - Desc: "Intol\xE9rance"
     Gravity: 1
+  - Desc: "Se battait pour l'\xE9galit\xE9"
+    Gravity: 0
+  - Desc: "A toujours bu avec mod\xE9ration"
+    Gravity: 0
+  - Desc: Fan de Socrates
+    Gravity: 0
+  - Desc: N'acceptait pas la critique
+    Gravity: 0
   - Desc: "Gardait les secrets confi\xE9s"
     Gravity: 0
-  - Desc: Assassinat
+  - Desc: "N'a jamais pris part \xE0 un d\xE9bat"
+    Gravity: 0
+  - Desc: Bienfaiteur
+    Gravity: 0
+  - Desc: Philosophe
+    Gravity: 0
+  - Desc: Recherchait le pouvoir
     Gravity: 1
-  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
-    Gravity: 0
-  - Desc: Peur de mourir
-    Gravity: 0
-  - Desc: "G\xE2chait du vin pour montrer sa richesse"
-    Gravity: 1
-  - Desc: "N'a jamais cauchemard\xE9"
-    Gravity: 0
-  - Desc: Fan du Pilate
-    Gravity: 0
-  - Desc: Peur des serpents
-    Gravity: 0
-  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
-    Gravity: 0
-  colorOfDoor: 2
+  colorOfDoor: 3
   IsWhite: 0
-  IsBig: 1
+  IsBig: 0

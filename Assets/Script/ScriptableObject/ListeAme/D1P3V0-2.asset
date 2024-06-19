@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D1P3V0-2
+  m_EditorClassIdentifier: 
+  name: Harriette Caya
+  Acts:
+  - Desc: Peur des chiens
+    Gravity: 0
+  - Desc: "Savait \xE9crire"
+    Gravity: 0
+  - Desc: "Affirmait pouvoir cr\xE9er de l'eau"
+    Gravity: 0
+  - Desc: Serviable
+    Gravity: 0
+  - Desc: "A aid\xE9 un fermier en difficult\xE9"
+    Gravity: 0
+  - Desc: "N'a jamais mang\xE9 de fruit"
+    Gravity: 0
+  - Desc: "Avait un ami nomm\xE9 Dimitri Otek"
+    Gravity: 0
+  - Desc: "S'adaptait peu \xE0 la vie en soci\xE9t\xE9"
+    Gravity: 0
+  - Desc: Emettait souvent des avis contradictoires
+    Gravity: 0
+  - Desc: Ratait toujours ses repas
+    Gravity: 0
+  colorOfDoor: 0
+  IsWhite: 0
+  IsBig: 0
