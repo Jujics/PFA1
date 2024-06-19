@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D1P3V3
+  m_Name: D2P3V2
   m_EditorClassIdentifier: 
-  name: "Angelette Rivi\xE8re"
+  name: Monique Doyon
   Acts:
-  - Desc: "M\xE9nageais ses confr\xE8res"
-    Gravity: 0
-  - Desc: Homicide
+  - Desc: "Intol\xE9rant"
     Gravity: 1
-  - Desc: Authentique
+  - Desc: Curieux
     Gravity: 0
-  - Desc: Attentif
+  - Desc: "S\xE9journait chez ses parents"
     Gravity: 0
-  - Desc: N'a jamais cru en la philosophie
+  - Desc: N'a jamais vu de Gorille
     Gravity: 0
-  - Desc: "N'\xE9tait pas sage \xE9tant petit"
+  - Desc: "Est port\xE9 disparu"
     Gravity: 0
-  - Desc: "P\xEAchait souvent"
+  - Desc: "S'entretenait avec lui-m\xEAme r\xE9guli\xE8rement"
     Gravity: 0
-  - Desc: Recherchait le pouvoir
+  - Desc: Affirmait sortir d'une caverne
+    Gravity: 0
+  - Desc: Ambigue
+    Gravity: 0
+  - Desc: A partager ses richesses
+    Gravity: 0
+  - Desc: Acte de Guerre
     Gravity: 1
-  - Desc: "Ecoutait les probl\xE8mes des autres"
-    Gravity: 0
-  - Desc: Pyromanie
-    Gravity: 1
-  colorOfDoor: 2
+  colorOfDoor: 3
   IsWhite: 0
   IsBig: 0

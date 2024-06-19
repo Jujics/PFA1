@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D1P3V3
+  m_Name: D2P2V4-G
   m_EditorClassIdentifier: 
-  name: "Angelette Rivi\xE8re"
+  name: "Allyriane \xC9toile"
   Acts:
-  - Desc: "M\xE9nageais ses confr\xE8res"
+  - Desc: "N'a jamais fait la guerre\t"
+    Gravity: 0
+  - Desc: Acte de Guerre
+    Gravity: 1
+  - Desc: "A d\xE9j\xE0 officiellement \xE9t\xE9 emprisonn\xE9 \xE0 tord"
+    Gravity: 0
+  - Desc: N'a jamais vu de Cobra
+    Gravity: 0
+  - Desc: "Elev\xE9 par des Ours"
+    Gravity: 0
+  - Desc: A toujours menti
+    Gravity: 1
+  - Desc: "A toujours bu avec mod\xE9ration"
     Gravity: 0
   - Desc: Homicide
     Gravity: 1
-  - Desc: Authentique
+  - Desc: Serviable
     Gravity: 0
-  - Desc: Attentif
-    Gravity: 0
-  - Desc: N'a jamais cru en la philosophie
-    Gravity: 0
-  - Desc: "N'\xE9tait pas sage \xE9tant petit"
-    Gravity: 0
-  - Desc: "P\xEAchait souvent"
-    Gravity: 0
-  - Desc: Recherchait le pouvoir
-    Gravity: 1
-  - Desc: "Ecoutait les probl\xE8mes des autres"
-    Gravity: 0
-  - Desc: Pyromanie
+  - Desc: Violent
     Gravity: 1
   colorOfDoor: 2
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

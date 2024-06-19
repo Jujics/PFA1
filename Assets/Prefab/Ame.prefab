@@ -1422,6 +1422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Boat: {fileID: 0}
   MainCan: {fileID: 0}
+  Ame: {fileID: 5370991267343087892}
   PreviousSlot: {fileID: 0}
 --- !u!114 &3524443266737643759
 MonoBehaviour:

@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D1P3V3
+  m_Name: D2P2V1
   m_EditorClassIdentifier: 
-  name: "Angelette Rivi\xE8re"
+  name: Louise Daviau
   Acts:
-  - Desc: "M\xE9nageais ses confr\xE8res"
+  - Desc: "N'\xE9tait pas tr\xE8s sociable"
     Gravity: 0
-  - Desc: Homicide
-    Gravity: 1
-  - Desc: Authentique
+  - Desc: "Cr\xE9ateur de l'anc\xEAtre de la pizza"
     Gravity: 0
-  - Desc: Attentif
+  - Desc: "Pensais se r\xE9incarner en mourrant"
     Gravity: 0
-  - Desc: N'a jamais cru en la philosophie
+  - Desc: "S\xE9journait dans la for\xEAt"
     Gravity: 0
-  - Desc: "N'\xE9tait pas sage \xE9tant petit"
+  - Desc: N'a jamais fait la guerre
     Gravity: 0
-  - Desc: "P\xEAchait souvent"
-    Gravity: 0
-  - Desc: Recherchait le pouvoir
-    Gravity: 1
-  - Desc: "Ecoutait les probl\xE8mes des autres"
+  - Desc: Simplet
     Gravity: 0
   - Desc: Pyromanie
     Gravity: 1
-  colorOfDoor: 2
+  - Desc: "S\xE9journait incognito"
+    Gravity: 0
+  - Desc: Se prenait pour un vampire
+    Gravity: 0
+  - Desc: "A aid\xE9 un fermier en difficult\xE9"
+    Gravity: 0
+  colorOfDoor: 3
   IsWhite: 0
   IsBig: 0

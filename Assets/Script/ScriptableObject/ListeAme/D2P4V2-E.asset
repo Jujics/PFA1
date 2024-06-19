@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D1P3V3
+  m_Name: D2P4V2-E
   m_EditorClassIdentifier: 
-  name: "Angelette Rivi\xE8re"
+  name: Huon Michel
   Acts:
-  - Desc: "M\xE9nageais ses confr\xE8res"
+  - Desc: "Poss\xE9dait une tonne d'amphores"
     Gravity: 0
-  - Desc: Homicide
+  - Desc: Violent
     Gravity: 1
-  - Desc: Authentique
+  - Desc: Meurtre
+    Gravity: 1
+  - Desc: N'allais jamais voir ses parents
     Gravity: 0
-  - Desc: Attentif
+  - Desc: "S'\xE9clipsait avant son tour lors des d\xE9bats\t"
     Gravity: 0
-  - Desc: N'a jamais cru en la philosophie
+  - Desc: "Pers\xE9v\xE9rant"
     Gravity: 0
-  - Desc: "N'\xE9tait pas sage \xE9tant petit"
+  - Desc: "Cultiv\xE9"
     Gravity: 0
-  - Desc: "P\xEAchait souvent"
+  - Desc: "N'arrivait jamais au bout de ses id\xE9es"
     Gravity: 0
   - Desc: Recherchait le pouvoir
     Gravity: 1
-  - Desc: "Ecoutait les probl\xE8mes des autres"
+  - Desc: Peur des espaces ouverts
     Gravity: 0
-  - Desc: Pyromanie
-    Gravity: 1
-  colorOfDoor: 2
+  colorOfDoor: 3
   IsWhite: 0
   IsBig: 0

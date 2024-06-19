@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D1P3V3
+  m_Name: D2P1V3
   m_EditorClassIdentifier: 
-  name: "Angelette Rivi\xE8re"
+  name: Clarice Tisserand
   Acts:
-  - Desc: "M\xE9nageais ses confr\xE8res"
-    Gravity: 0
-  - Desc: Homicide
-    Gravity: 1
-  - Desc: Authentique
-    Gravity: 0
-  - Desc: Attentif
-    Gravity: 0
-  - Desc: N'a jamais cru en la philosophie
-    Gravity: 0
-  - Desc: "N'\xE9tait pas sage \xE9tant petit"
-    Gravity: 0
-  - Desc: "P\xEAchait souvent"
-    Gravity: 0
-  - Desc: Recherchait le pouvoir
-    Gravity: 1
-  - Desc: "Ecoutait les probl\xE8mes des autres"
-    Gravity: 0
   - Desc: Pyromanie
     Gravity: 1
+  - Desc: "Gardait les secrets confi\xE9s"
+    Gravity: 0
+  - Desc: Assassinat
+    Gravity: 1
+  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
+    Gravity: 0
+  - Desc: Peur de mourir
+    Gravity: 0
+  - Desc: "G\xE2chait du vin pour montrer sa richesse"
+    Gravity: 1
+  - Desc: "N'a jamais cauchemard\xE9"
+    Gravity: 0
+  - Desc: Fan du Pilate
+    Gravity: 0
+  - Desc: Peur des serpents
+    Gravity: 0
+  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
+    Gravity: 0
   colorOfDoor: 2
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

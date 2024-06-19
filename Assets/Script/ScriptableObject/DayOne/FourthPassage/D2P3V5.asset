@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D1P3V3
+  m_Name: D2P3V5
   m_EditorClassIdentifier: 
-  name: "Angelette Rivi\xE8re"
+  name: "Olivier Ren\xE9"
   Acts:
-  - Desc: "M\xE9nageais ses confr\xE8res"
-    Gravity: 0
-  - Desc: Homicide
+  - Desc: A toujours menti
     Gravity: 1
-  - Desc: Authentique
+  - Desc: "Voudrait un autographe d'Had\xE8s"
     Gravity: 0
-  - Desc: Attentif
+  - Desc: N'a jamais vu de Cobra
     Gravity: 0
-  - Desc: N'a jamais cru en la philosophie
-    Gravity: 0
-  - Desc: "N'\xE9tait pas sage \xE9tant petit"
-    Gravity: 0
-  - Desc: "P\xEAchait souvent"
-    Gravity: 0
-  - Desc: Recherchait le pouvoir
+  - Desc: "A d\xE9j\xE0 \xE9t\xE9 sur Chypres"
     Gravity: 1
-  - Desc: "Ecoutait les probl\xE8mes des autres"
-    Gravity: 0
-  - Desc: Pyromanie
+  - Desc: Cannibalisme
     Gravity: 1
-  colorOfDoor: 2
+  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
+    Gravity: 0
+  - Desc: Savait lire
+    Gravity: 0
+  - Desc: "Enl\xE8vement"
+    Gravity: 1
+  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
+    Gravity: 1
+  - Desc: "Gardait les secrets confi\xE9s"
+    Gravity: 0
+  colorOfDoor: 1
   IsWhite: 0
   IsBig: 0
