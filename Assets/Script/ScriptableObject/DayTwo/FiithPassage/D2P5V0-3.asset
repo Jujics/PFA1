@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D1P3V3
+  m_Name: D2P5V0-3
   m_EditorClassIdentifier: 
-  name: "Angelette Rivi\xE8re"
+  name: Prunella Lafontaine
   Acts:
-  - Desc: "M\xE9nageais ses confr\xE8res"
-    Gravity: 0
-  - Desc: Homicide
-    Gravity: 1
-  - Desc: Authentique
-    Gravity: 0
-  - Desc: Attentif
-    Gravity: 0
-  - Desc: N'a jamais cru en la philosophie
-    Gravity: 0
-  - Desc: "N'\xE9tait pas sage \xE9tant petit"
+  - Desc: "A d\xE9j\xE0 mang\xE9 de la terre"
     Gravity: 0
   - Desc: "P\xEAchait souvent"
     Gravity: 0
-  - Desc: Recherchait le pouvoir
-    Gravity: 1
-  - Desc: "Ecoutait les probl\xE8mes des autres"
+  - Desc: Frappait l'air sans raison
     Gravity: 0
-  - Desc: Pyromanie
-    Gravity: 1
-  colorOfDoor: 2
+  - Desc: Ratait toujours ses repas
+    Gravity: 0
+  - Desc: "Est port\xE9 disparu"
+    Gravity: 0
+  - Desc: Ne savait pas lire
+    Gravity: 0
+  - Desc: "Peur des Araign\xE9es"
+    Gravity: 0
+  - Desc: "Poss\xE9dait une tonne d'amphores"
+    Gravity: 0
+  - Desc: "Cultiv\xE9"
+    Gravity: 0
+  - Desc: "L\xE9g\xE8rement fanatique du Feu"
+    Gravity: 0
+  colorOfDoor: 0
   IsWhite: 0
   IsBig: 0

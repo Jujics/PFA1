@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D2P5V1-2-G
+  m_EditorClassIdentifier: 
+  name: Richard Babin
+  Acts:
+  - Desc: "Criait sur tout les toits qu'il \xE9tait immortel"
+    Gravity: 0
+  - Desc: S'affalait toujours dans les fauteuils
+    Gravity: 0
+  - Desc: "Assistait souvent \xE0 des d\xE9bats"
+    Gravity: 0
+  - Desc: "N'\xE9tait pas tr\xE8s sociable"
+    Gravity: 0
+  - Desc: Affirmait sortir d'une caverne
+    Gravity: 0
+  - Desc: "Affirmait que la Terre \xE9tait une pyramide"
+    Gravity: 0
+  - Desc: "A d\xE9j\xE0 fait tomber sa tablette \xE0 gravure"
+    Gravity: 0
+  - Desc: N'acceptait pas la critique
+    Gravity: 0
+  - Desc: Impulsif
+    Gravity: 0
+  - Desc: 'Meurtre '
+    Gravity: 1
+  colorOfDoor: 3
+  IsWhite: 0
+  IsBig: 1

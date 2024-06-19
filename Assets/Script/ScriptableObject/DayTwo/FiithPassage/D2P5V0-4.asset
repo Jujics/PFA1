@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D1P3V3
+  m_Name: D2P5V0-4
   m_EditorClassIdentifier: 
-  name: "Angelette Rivi\xE8re"
+  name: Turner Guibord
   Acts:
-  - Desc: "M\xE9nageais ses confr\xE8res"
+  - Desc: Simple
     Gravity: 0
-  - Desc: Homicide
-    Gravity: 1
-  - Desc: Authentique
+  - Desc: "Coop\xE9ratif"
     Gravity: 0
-  - Desc: Attentif
+  - Desc: Inspirant
     Gravity: 0
-  - Desc: N'a jamais cru en la philosophie
+  - Desc: Humble
     Gravity: 0
-  - Desc: "N'\xE9tait pas sage \xE9tant petit"
+  - Desc: Confiant
     Gravity: 0
-  - Desc: "P\xEAchait souvent"
+  - Desc: "Exceptionnellement fort\t"
     Gravity: 0
-  - Desc: Recherchait le pouvoir
-    Gravity: 1
-  - Desc: "Ecoutait les probl\xE8mes des autres"
+  - Desc: "Assistait souvent \xE0 des d\xE9bats"
     Gravity: 0
-  - Desc: Pyromanie
-    Gravity: 1
-  colorOfDoor: 2
+  - Desc: Peur de mourir
+    Gravity: 0
+  - Desc: "N'avait aucune r\xE9parti"
+    Gravity: 0
+  - Desc: "A saut\xE9 d'une grande hauteur en esp\xE9rant voler"
+    Gravity: 0
+  colorOfDoor: 0
   IsWhite: 0
   IsBig: 0

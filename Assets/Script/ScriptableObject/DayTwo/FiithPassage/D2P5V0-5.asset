@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D1P3V3
+  m_Name: D2P5V0-5
   m_EditorClassIdentifier: 
-  name: "Angelette Rivi\xE8re"
+  name: Paien Landry
   Acts:
-  - Desc: "M\xE9nageais ses confr\xE8res"
+  - Desc: "Peur des chiens\t"
     Gravity: 0
-  - Desc: Homicide
-    Gravity: 1
-  - Desc: Authentique
+  - Desc: Peur des monstres
     Gravity: 0
-  - Desc: Attentif
+  - Desc: "A failli \xEAtre noy\xE9"
     Gravity: 0
-  - Desc: N'a jamais cru en la philosophie
+  - Desc: "L\xE9g\xE8rement fanatique du Feu"
     Gravity: 0
-  - Desc: "N'\xE9tait pas sage \xE9tant petit"
+  - Desc: Grand Admirateur de Platon
     Gravity: 0
-  - Desc: "P\xEAchait souvent"
+  - Desc: "A toujours ador\xE9 les maths"
     Gravity: 0
-  - Desc: Recherchait le pouvoir
-    Gravity: 1
-  - Desc: "Ecoutait les probl\xE8mes des autres"
+  - Desc: "Coop\xE9ratif"
     Gravity: 0
-  - Desc: Pyromanie
-    Gravity: 1
-  colorOfDoor: 2
+  - Desc: Charismatique
+    Gravity: 0
+  - Desc: "A port\xE9 des chaussettes d\xE9paraill\xE9es"
+    Gravity: 0
+  - Desc: "Sinc\xE8re"
+    Gravity: 0
+  colorOfDoor: 0
   IsWhite: 0
   IsBig: 0

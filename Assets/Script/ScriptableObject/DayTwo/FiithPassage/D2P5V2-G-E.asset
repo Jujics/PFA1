@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D1P3V3
+  m_Name: D2P5V2-G-E
   m_EditorClassIdentifier: 
-  name: "Angelette Rivi\xE8re"
+  name: "Michel Lesp\xE9rance"
   Acts:
-  - Desc: "M\xE9nageais ses confr\xE8res"
+  - Desc: Philosophe
     Gravity: 0
-  - Desc: Homicide
-    Gravity: 1
-  - Desc: Authentique
+  - Desc: Intelligent
     Gravity: 0
-  - Desc: Attentif
-    Gravity: 0
-  - Desc: N'a jamais cru en la philosophie
-    Gravity: 0
-  - Desc: "N'\xE9tait pas sage \xE9tant petit"
-    Gravity: 0
-  - Desc: "P\xEAchait souvent"
-    Gravity: 0
-  - Desc: Recherchait le pouvoir
-    Gravity: 1
   - Desc: "Ecoutait les probl\xE8mes des autres"
     Gravity: 0
-  - Desc: Pyromanie
+  - Desc: 'N''aimait pas les enfants  '
+    Gravity: 0
+  - Desc: 'N''honorait pas les dieux '
+    Gravity: 1
+  - Desc: 'Recherchait le pouvoir '
+    Gravity: 1
+  - Desc: "Intol\xE9rance "
+    Gravity: 1
+  - Desc: Charismatique
+    Gravity: 0
+  - Desc: 'N''agissait selon aucun code moral '
+    Gravity: 1
+  - Desc: 'Violent '
     Gravity: 1
   colorOfDoor: 2
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

@@ -9,6 +9,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
 {
     public GameObject Boat;
     public Transform MainCan;
+    public GameObject Ame;
     public GameObject PreviousSlot; 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
@@ -20,7 +21,7 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
         _soulDataGrab = GetComponent<SoulDataGrab>();
-        animator = GetComponent<Animator>(); 
+        animator = Ame.GetComponent<Animator>(); 
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -32,7 +33,6 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        animator.SetBool("Grab", true);
         // Debug.Log("OnBeginDrag");
         canvasGroup.blocksRaycasts = false;
         PreviousSlot = transform.parent.gameObject;
