@@ -19,6 +19,8 @@ public class CycleManager : MonoBehaviour
     public float PlayerTrustFloat;
     public GameObject[] OrderToDel;
     public AudioSource CharonIsComming;
+
+    public GameObject EndScreenDefeat;
     
     void Start()
     {
@@ -85,7 +87,7 @@ public class CycleManager : MonoBehaviour
 
         if (isSmallerThanL1 && isSmallerThanL2 && isSmallerThanL3 && isSmallerThanL4 && isSmallerThanL5)
         {
-            //set end screen
+            EndScreenDefeat.SetActive(false);
         }
         else
         {
