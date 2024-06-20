@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P1V4
+  m_Name: D5P3V3-2
   m_EditorClassIdentifier: 
-  name: Luc Lier
+  name: 
   Acts:
-  - Desc: Adorait les animaux
+  - Desc: Charismatique
     Gravity: 0
-  - Desc: "M\xE9nageais ses confr\xE8res"
+  - Desc: "Coop\xE9ratif"
     Gravity: 0
-  - Desc: "Se battait pour l'\xE9galit\xE9"
+  - Desc: Exceptionnellement fort
     Gravity: 0
-  - Desc: Serviable
-    Gravity: 0
-  - Desc: "A nettoy\xE9 des amphores sacr\xE9es"
-    Gravity: 0
-  - Desc: N'agissait selon aucun code moral
+  - Desc: N'honorait pas les dieux
     Gravity: 1
-  - Desc: "A cr\xE9e un incendie en l'honneur des dieux"
+  - Desc: "D\xE9pense sa richesse sans compter"
     Gravity: 1
-  - Desc: Confiant
+  - Desc: "A aid\xE9 un fermier en difficult\xE9"
     Gravity: 0
-  - Desc: Se prenait pour un vampire
+  - Desc: Semait des graines d'arbres
+    Gravity: 0
+  - Desc: Patient
+    Gravity: 0
+  - Desc: Se pensait libre de penser
     Gravity: 1
-  - Desc: "A toujours d\xE9tourn\xE9 le regard "
-    Gravity: 1
+  - Desc: "A d\xE9j\xE0 officiellement \xE9t\xE9 emprisonn\xE9 \xE0 tord"
+    Gravity: 0
   colorOfDoor: 2
   IsWhite: 0
   IsBig: 0

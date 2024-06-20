@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P1V4
+  m_Name: D5P3V1-B
   m_EditorClassIdentifier: 
-  name: Luc Lier
+  name: Hyp Nos
   Acts:
+  - Desc: "Avait des r\xEAves assez r\xE9guli\xE8rement"
+    Gravity: 0
+  - Desc: "N'a jamais cauchemard\xE9"
+    Gravity: 0
+  - Desc: "Ne faisais que cauchemard\xE9"
+    Gravity: 0
+  - Desc: S'agitait dans son sommeil
+    Gravity: 0
+  - Desc: "Songeais souvent \xE0 songer plus souvent"
+    Gravity: 0
+  - Desc: Peur du noir
+    Gravity: 0
+  - Desc: "Recherche de pouvoir th\xE9ologique"
+    Gravity: 1
   - Desc: Adorait les animaux
     Gravity: 0
   - Desc: "M\xE9nageais ses confr\xE8res"
     Gravity: 0
-  - Desc: "Se battait pour l'\xE9galit\xE9"
-    Gravity: 0
-  - Desc: Serviable
-    Gravity: 0
-  - Desc: "A nettoy\xE9 des amphores sacr\xE9es"
-    Gravity: 0
-  - Desc: N'agissait selon aucun code moral
-    Gravity: 1
-  - Desc: "A cr\xE9e un incendie en l'honneur des dieux"
-    Gravity: 1
   - Desc: Confiant
     Gravity: 0
-  - Desc: Se prenait pour un vampire
-    Gravity: 1
-  - Desc: "A toujours d\xE9tourn\xE9 le regard "
-    Gravity: 1
-  colorOfDoor: 2
-  IsWhite: 0
+  colorOfDoor: 3
+  IsWhite: 1
   IsBig: 0

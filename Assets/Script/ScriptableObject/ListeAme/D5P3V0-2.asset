@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P1V4
+  m_Name: D5P3V0-2
   m_EditorClassIdentifier: 
-  name: Luc Lier
+  name: "Beltane Barri\xE8re"
   Acts:
-  - Desc: Adorait les animaux
-    Gravity: 0
-  - Desc: "M\xE9nageais ses confr\xE8res"
-    Gravity: 0
   - Desc: "Se battait pour l'\xE9galit\xE9"
     Gravity: 0
   - Desc: Serviable
     Gravity: 0
-  - Desc: "A nettoy\xE9 des amphores sacr\xE9es"
+  - Desc: Authentique
     Gravity: 0
-  - Desc: N'agissait selon aucun code moral
-    Gravity: 1
-  - Desc: "A cr\xE9e un incendie en l'honneur des dieux"
-    Gravity: 1
+  - Desc: "A invent\xE9 la gravure"
+    Gravity: 0
+  - Desc: Un spartiate pacifiste
+    Gravity: 0
   - Desc: Confiant
     Gravity: 0
-  - Desc: Se prenait pour un vampire
-    Gravity: 1
-  - Desc: "A toujours d\xE9tourn\xE9 le regard "
-    Gravity: 1
-  colorOfDoor: 2
+  - Desc: "Gardait les secrets confi\xE9s"
+    Gravity: 0
+  - Desc: Intelligent
+    Gravity: 0
+  - Desc: Curieux
+    Gravity: 0
+  - Desc: "Acc\xE9l\xE9rait souvent le pas sans raison"
+    Gravity: 0
+  colorOfDoor: 0
   IsWhite: 0
   IsBig: 0

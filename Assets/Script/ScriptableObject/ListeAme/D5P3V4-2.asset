@@ -10,29 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P1V4
+  m_Name: D5P3V4-2
   m_EditorClassIdentifier: 
-  name: Luc Lier
+  name: 
   Acts:
-  - Desc: Adorait les animaux
+  - Desc: "A soign\xE9 les plaies d'un animal"
     Gravity: 0
-  - Desc: "M\xE9nageais ses confr\xE8res"
-    Gravity: 0
-  - Desc: "Se battait pour l'\xE9galit\xE9"
-    Gravity: 0
-  - Desc: Serviable
-    Gravity: 0
-  - Desc: "A nettoy\xE9 des amphores sacr\xE9es"
-    Gravity: 0
-  - Desc: N'agissait selon aucun code moral
+  - Desc: "Enl\xE8vement"
     Gravity: 1
-  - Desc: "A cr\xE9e un incendie en l'honneur des dieux"
+  - Desc: "Chassait des animaux sans n\xE9cessit\xE9"
     Gravity: 1
-  - Desc: Confiant
+  - Desc: Modeste
     Gravity: 0
-  - Desc: Se prenait pour un vampire
+  - Desc: "Pers\xE9v\xE9rant"
+    Gravity: 0
+  - Desc: Grand Admirateur de Platon
+    Gravity: 0
+  - Desc: "Coop\xE9ratif"
+    Gravity: 0
+  - Desc: "Intol\xE9rance"
     Gravity: 1
-  - Desc: "A toujours d\xE9tourn\xE9 le regard "
+  - Desc: "A toujours bu avec mod\xE9ration"
+    Gravity: 0
+  - Desc: "A jou\xE9 au Baseball avec ses adversaires"
     Gravity: 1
   colorOfDoor: 2
   IsWhite: 0
