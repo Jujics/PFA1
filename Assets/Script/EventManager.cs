@@ -28,7 +28,7 @@ public class EventManager : MonoBehaviour
             HasStarted = true;
             StartCoroutine(CurrentEventManager());
             //if(day ==  3 && currentpassage == 3)
-            //{here set tuto group??}
+            //{here set tuto group8}
         }
     }
 
