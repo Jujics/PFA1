@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P2V3-2
+  m_Name: D5P2V6-G
   m_EditorClassIdentifier: 
-  name: Cerise Brousseau
+  name: 
   Acts:
-  - Desc: Pacifiste
-    Gravity: 0
-  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
+  - Desc: "A cr\xE9e un incendie volontairement"
+    Gravity: 1
+  - Desc: "Infid\xE8le"
+    Gravity: 1
+  - Desc: N'honorait pas les dieux
+    Gravity: 1
+  - Desc: "A sauv\xE9 un chat dans un arbre"
     Gravity: 0
   - Desc: "A toujours bu avec mod\xE9ration"
     Gravity: 0
-  - Desc: A partager ses richesses
+  - Desc: Confiant
     Gravity: 0
-  - Desc: Bienfaiteur
-    Gravity: 0
-  - Desc: Intelligent
-    Gravity: 0
-  - Desc: Se prenait pour un vampire
+  - Desc: Recherchait le pouvoir
     Gravity: 1
-  - Desc: "A toujours bu avec mod\xE9ration"
+  - Desc: Paresseux
+    Gravity: 1
+  - Desc: "Ecoutait les probl\xE8mes des autres"
     Gravity: 0
-  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
-    Gravity: 1
-  - Desc: "A fait un march\xE9 et ne l'a jamais respect\xE9"
-    Gravity: 1
-  colorOfDoor: 2
+  - Desc: Esclavagisme
+    Gravity: 0
+  colorOfDoor: 1
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

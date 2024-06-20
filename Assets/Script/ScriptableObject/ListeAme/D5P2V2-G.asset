@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P2V3
+  m_Name: D5P2V2-G
   m_EditorClassIdentifier: 
-  name: 
+  name: Maurelle Senneville
   Acts:
-  - Desc: 
+  - Desc: "Songeais souvent \xE0 songer plus souvent"
     Gravity: 0
-  - Desc: 
+  - Desc: "Avait des r\xEAves assez r\xE9guli\xE8rement"
     Gravity: 0
-  - Desc: 
+  - Desc: Philosophe
     Gravity: 0
-  - Desc: 
+  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
     Gravity: 0
-  - Desc: 
+  - Desc: "Songeais souvent \xE0 songer plus souvent"
     Gravity: 0
-  - Desc: 
+  - Desc: Paresseux
+    Gravity: 1
+  - Desc: Semait des graines d'arbres
     Gravity: 0
-  - Desc: 
+  - Desc: Involontaire
+    Gravity: 1
+  - Desc: "Se battait pour l'\xE9galit\xE9"
     Gravity: 0
-  - Desc: 
+  - Desc: Humble
     Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  colorOfDoor: 0
+  colorOfDoor: 3
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

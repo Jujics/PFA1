@@ -12,27 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: D5P2V0-2
   m_EditorClassIdentifier: 
-  name: 
+  name: Liane Sansouci
   Acts:
-  - Desc: 
+  - Desc: "Aparaissait toujours de mani\xE8re innatendu"
     Gravity: 0
-  - Desc: 
+  - Desc: "Affirmait que la Terre \xE9tait une pyramide"
     Gravity: 0
-  - Desc: 
+  - Desc: "Affirmait que la Terre \xE9tait plate\t"
     Gravity: 0
-  - Desc: 
+  - Desc: "Affirmait que la Terre \xE9tait ronde"
     Gravity: 0
-  - Desc: 
+  - Desc: Ne savait pas lire
     Gravity: 0
-  - Desc: 
+  - Desc: "Savait \xE9crire"
     Gravity: 0
-  - Desc: 
+  - Desc: "N'\xE9tait pas tr\xE8s sociable"
     Gravity: 0
-  - Desc: 
+  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
     Gravity: 0
-  - Desc: 
+  - Desc: "S'est d\xE9j\xE0 pris pour un envoy\xE9 des Dieux"
     Gravity: 0
-  - Desc: 
+  - Desc: N'a jamais vu de Cobra
     Gravity: 0
   colorOfDoor: 0
   IsWhite: 0
