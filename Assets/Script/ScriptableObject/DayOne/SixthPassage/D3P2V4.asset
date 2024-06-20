@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D3P1V5
+  m_Name: D3P2V4
   m_EditorClassIdentifier: 
-  name: "Melodie Labont\xE9"
+  name: Georgette Chalifour
   Acts:
-  - Desc: Esclavagisme
+  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
     Gravity: 1
-  - Desc: Loyal
+  - Desc: "N'a jamais mang\xE9 de fruit"
     Gravity: 0
-  - Desc: "A fait un march\xE9 et ne l'a jamais respect\xE9"
-    Gravity: 1
-  - Desc: Humble
+  - Desc: Ne dormait pas bien
     Gravity: 0
-  - Desc: "A failli \xEAtre mang\xE9 par un animal"
-    Gravity: 0
-  - Desc: "D\xE9pense sa richesse sans compter"
-    Gravity: 1
-  - Desc: Assassinat
-    Gravity: 1
-  - Desc: Violent
+  - Desc: N'agissait selon aucun code moral
     Gravity: 1
   - Desc: N'a jamais compris les maths
     Gravity: 0
-  - Desc: "N'a jamais pris part \xE0 un d\xE9bat"
+  - Desc: Avide
+    Gravity: 1
+  - Desc: "L\xE9g\xE8rement fanatique du Feu"
     Gravity: 0
-  colorOfDoor: 1
-  IsWhite: 1
+  - Desc: "R\xE2lait souvent"
+    Gravity: 0
+  - Desc: "Intol\xE9rant"
+    Gravity: 1
+  - Desc: "A d\xE9j\xE0 fait tomber sa tablette \xE0 gravure"
+    Gravity: 0
+  colorOfDoor: 2
+  IsWhite: 0
   IsBig: 0

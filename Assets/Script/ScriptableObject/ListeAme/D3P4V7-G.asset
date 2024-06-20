@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D3P1V5
+  m_Name: D3P4V7-G
   m_EditorClassIdentifier: 
-  name: "Melodie Labont\xE9"
+  name: Oedipe Jr.
   Acts:
-  - Desc: Esclavagisme
-    Gravity: 1
-  - Desc: Loyal
-    Gravity: 0
-  - Desc: "A fait un march\xE9 et ne l'a jamais respect\xE9"
-    Gravity: 1
-  - Desc: Humble
-    Gravity: 0
-  - Desc: "A failli \xEAtre mang\xE9 par un animal"
-    Gravity: 0
-  - Desc: "D\xE9pense sa richesse sans compter"
-    Gravity: 1
-  - Desc: Assassinat
+  - Desc: "S'appelait \u0152dipe"
     Gravity: 1
   - Desc: Violent
     Gravity: 1
-  - Desc: N'a jamais compris les maths
+  - Desc: Insultait souvent les dieux dans sa barbe
+    Gravity: 1
+  - Desc: Acte de Guerre
+    Gravity: 1
+  - Desc: Homicide
+    Gravity: 1
+  - Desc: Meurtre
+    Gravity: 1
+  - Desc: Assassinat
+    Gravity: 1
+  - Desc: Original
     Gravity: 0
-  - Desc: "N'a jamais pris part \xE0 un d\xE9bat"
+  - Desc: "Ecoutait les probl\xE8mes des autres"
+    Gravity: 0
+  - Desc: Optimiste
     Gravity: 0
   colorOfDoor: 1
-  IsWhite: 1
-  IsBig: 0
+  IsWhite: 0
+  IsBig: 1

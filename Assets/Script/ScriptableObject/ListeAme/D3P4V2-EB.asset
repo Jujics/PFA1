@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D3P1V5
+  m_Name: D3P4V2-EB
   m_EditorClassIdentifier: 
-  name: "Melodie Labont\xE9"
+  name: "Beaufort B\xE9lair "
   Acts:
-  - Desc: Esclavagisme
-    Gravity: 1
-  - Desc: Loyal
+  - Desc: "A aid\xE9 un fermier en difficult\xE9"
     Gravity: 0
-  - Desc: "A fait un march\xE9 et ne l'a jamais respect\xE9"
-    Gravity: 1
-  - Desc: Humble
-    Gravity: 0
-  - Desc: "A failli \xEAtre mang\xE9 par un animal"
-    Gravity: 0
-  - Desc: "D\xE9pense sa richesse sans compter"
-    Gravity: 1
-  - Desc: Assassinat
-    Gravity: 1
   - Desc: Violent
     Gravity: 1
-  - Desc: N'a jamais compris les maths
+  - Desc: "Voudrait un autographe d'Had\xE8s"
     Gravity: 0
-  - Desc: "N'a jamais pris part \xE0 un d\xE9bat"
+  - Desc: Paresseux
+    Gravity: 1
+  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
     Gravity: 0
-  colorOfDoor: 1
+  - Desc: "Intol\xE9rant"
+    Gravity: 1
+  - Desc: "A d\xE9j\xE0 vu la mort dans les yeux"
+    Gravity: 0
+  - Desc: Adorait la nature
+    Gravity: 0
+  - Desc: Modeste
+    Gravity: 0
+  - Desc: N'aimait pas les enfants
+    Gravity: 0
+  colorOfDoor: 3
   IsWhite: 1
   IsBig: 0

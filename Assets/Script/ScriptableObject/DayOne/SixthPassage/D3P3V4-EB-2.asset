@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D3P1V5
+  m_Name: D3P3V4-EB-2
   m_EditorClassIdentifier: 
-  name: "Melodie Labont\xE9"
+  name: "Madelene Lafreni\xE8re"
   Acts:
-  - Desc: Esclavagisme
-    Gravity: 1
-  - Desc: Loyal
-    Gravity: 0
-  - Desc: "A fait un march\xE9 et ne l'a jamais respect\xE9"
-    Gravity: 1
-  - Desc: Humble
-    Gravity: 0
   - Desc: "A failli \xEAtre mang\xE9 par un animal"
     Gravity: 0
-  - Desc: "D\xE9pense sa richesse sans compter"
+  - Desc: Braconage
     Gravity: 1
-  - Desc: Assassinat
-    Gravity: 1
-  - Desc: Violent
-    Gravity: 1
-  - Desc: N'a jamais compris les maths
+  - Desc: "A imagin\xE9 un concept de \"Retraite\"\t"
     Gravity: 0
-  - Desc: "N'a jamais pris part \xE0 un d\xE9bat"
+  - Desc: "S\xE9journait chez son oncle"
     Gravity: 0
-  colorOfDoor: 1
+  - Desc: Pyromanie
+    Gravity: 1
+  - Desc: Cannibalisme
+    Gravity: 1
+  - Desc: Recherchait le pouvoir
+    Gravity: 1
+  - Desc: Paresseux
+    Gravity: 1
+  - Desc: "M\xE9nageais ses confr\xE8res"
+    Gravity: 0
+  - Desc: Frappait l'air sans raison
+    Gravity: 0
+  colorOfDoor: 2
   IsWhite: 1
   IsBig: 0
