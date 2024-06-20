@@ -12,27 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: D5P1V0
   m_EditorClassIdentifier: 
-  name: 
+  name: Descartes
   Acts:
-  - Desc: 
+  - Desc: Philosophe
     Gravity: 0
-  - Desc: 
+  - Desc: Doute
     Gravity: 0
-  - Desc: 
+  - Desc: Doute
     Gravity: 0
-  - Desc: 
+  - Desc: Doute
     Gravity: 0
-  - Desc: 
+  - Desc: Doute
     Gravity: 0
-  - Desc: 
+  - Desc: Doute
     Gravity: 0
-  - Desc: 
+  - Desc: Doute
     Gravity: 0
-  - Desc: 
+  - Desc: Doute
     Gravity: 0
-  - Desc: 
+  - Desc: Doute
     Gravity: 0
-  - Desc: 
+  - Desc: Doute
     Gravity: 0
   colorOfDoor: 0
   IsWhite: 0

@@ -13,7 +13,27 @@ MonoBehaviour:
   m_Name: D5P2V0
   m_EditorClassIdentifier: 
   name: 
-  Acts: []
+  Acts:
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
   colorOfDoor: 0
   IsWhite: 0
   IsBig: 0
