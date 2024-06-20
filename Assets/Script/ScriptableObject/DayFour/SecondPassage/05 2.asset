@@ -10,10 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: 05
+  m_Name: 05 2
   m_EditorClassIdentifier: 
-  name: 
-  ActGravity: 
-  Acts: []
-  _colorOfSoul: 0
+  name: "Fletcher Boul\xE9"
+  Acts:
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  - Desc: 
+    Gravity: 0
+  colorOfDoor: 0
   IsWhite: 0
+  IsBig: 0
