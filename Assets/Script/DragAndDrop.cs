@@ -4,13 +4,15 @@ using System.Collections.Generic;
 using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using Random = System.Random;
 
 public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
     public GameObject Boat;
     public Transform MainCan;
     public GameObject Ame;
-    public GameObject PreviousSlot; 
+    public GameObject PreviousSlot;
+    public AudioSource[] GrabSound;
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
     private SoulDataGrab _soulDataGrab;
@@ -26,6 +28,8 @@ public class DragAndDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler
 
     public void OnPointerDown(PointerEventData eventData)
     { 
+        int index = new Random().Next(GrabSound.Length);
+        GrabSound[index].Play();
         animator.SetBool("Grab", true); 
         // Debug.Log("OnPointerDown");
         _soulDataGrab.DieOutScreen = false;

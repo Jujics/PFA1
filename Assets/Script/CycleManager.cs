@@ -85,7 +85,7 @@ public class CycleManager : MonoBehaviour
 
         if (isSmallerThanL1 && isSmallerThanL2 && isSmallerThanL3 && isSmallerThanL4 && isSmallerThanL5)
         {
-            //set end screen
+            //set end loose screen
         }
         else
         {
@@ -119,7 +119,7 @@ public class CycleManager : MonoBehaviour
     private IEnumerator WaitUntilEndLevel()
     {
         yield return new WaitForSeconds(TimeUntilEndDay);
-        //add ui logic
+        //set end of day screen
         if (CurrentDay < MaxDays.Value)
         {
             PlayerTrustFloat = PlayerTrust.Score;
@@ -130,7 +130,7 @@ public class CycleManager : MonoBehaviour
         }
         else
         {
-            //set end screen
+            //set end win screen
         }
 
     }

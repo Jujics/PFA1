@@ -1451,6 +1451,11 @@ MonoBehaviour:
   - {fileID: 6250628388340054331}
   - {fileID: 7837916785224712226}
   _PlayerTrust: {fileID: 0}
+  SonIdle:
+  - {fileID: 6856462300785770275, guid: 23064f1cf86ed1144890b5e55e085f1b, type: 3}
+  - {fileID: 1922226548884149198, guid: d46c12f4736d3aa4a9562773d2d0b598, type: 3}
+  - {fileID: 1689170977554742993, guid: f3a8b588bf1c6764992163e5e0c2021f, type: 3}
+  - {fileID: 2591890863346848109, guid: ba70a6b1794d27841bf1b68335ba415a, type: 3}
   InFile: 0
   InErebe: 0
   DieOutScreen: 1
