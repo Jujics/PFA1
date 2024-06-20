@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D2P2V4-G
+  m_Name: D3P5V2
   m_EditorClassIdentifier: 
-  name: "Allyriane \xC9toile"
+  name: Audrey L'Hiver
   Acts:
-  - Desc: "N'a jamais fait la guerre\t"
+  - Desc: Authentique
     Gravity: 0
-  - Desc: Acte de Guerre
+  - Desc: "A essay\xE9 d'imiter les dieux"
     Gravity: 1
-  - Desc: "A d\xE9j\xE0 officiellement \xE9t\xE9 emprisonn\xE9 \xE0 tord"
-    Gravity: 0
-  - Desc: N'a jamais vu de Cobra
-    Gravity: 0
-  - Desc: "Elev\xE9 par des Ours"
-    Gravity: 0
-  - Desc: A toujours menti
+  - Desc: Pyromanie
     Gravity: 1
-  - Desc: "A toujours bu avec mod\xE9ration"
+  - Desc: Patient
     Gravity: 0
-  - Desc: Homicide
-    Gravity: 1
-  - Desc: Serviable
+  - Desc: "Sinc\xE8re"
     Gravity: 0
-  - Desc: Violent
-    Gravity: 1
-  colorOfDoor: 2
+  - Desc: Modeste
+    Gravity: 0
+  - Desc: "A sauv\xE9 un chat dans un arbre"
+    Gravity: 0
+  - Desc: Grande Admiratrice de Platon
+    Gravity: 0
+  - Desc: Peur des monstres
+    Gravity: 0
+  - Desc: Frappait l'air sans raison
+    Gravity: 0
+  colorOfDoor: 3
   IsWhite: 0
-  IsBig: 1
+  IsBig: 0

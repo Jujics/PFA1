@@ -10,29 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D2P4V0
+  m_Name: D3P5V0-2
   m_EditorClassIdentifier: 
-  name: Amorette Dagenais
+  name: Mirabelle Barteaux
   Acts:
-  - Desc: "A failli \xEAtre noy\xE9"
+  - Desc: "Ne faisais que cauchemard\xE9"
+    Gravity: 0
+  - Desc: "S'est d\xE9j\xE0 pris pour un envoy\xE9 des Dieux"
+    Gravity: 0
+  - Desc: Peur des trous
+    Gravity: 0
+  - Desc: N'a jamais menti
+    Gravity: 0
+  - Desc: Confiant
+    Gravity: 0
+  - Desc: Adorait la nature
+    Gravity: 0
+  - Desc: Fan de Socrates
     Gravity: 0
   - Desc: Peur des chiens
     Gravity: 0
-  - Desc: "N'arrivait jamais au bout de ses id\xE9es"
+  - Desc: N'acceptait pas la critique
     Gravity: 0
-  - Desc: "Adorait les animaux\t "
-    Gravity: 0
-  - Desc: "A imagin\xE9 un concept de \"Retraite\""
-    Gravity: 0
-  - Desc: Fan de requins
-    Gravity: 0
-  - Desc: Inspirant
-    Gravity: 0
-  - Desc: "Fr\xE8re d'un ours"
-    Gravity: 0
-  - Desc: "Coop\xE9ratif"
-    Gravity: 0
-  - Desc: "A aid\xE9 un fermier en difficult\xE9"
+  - Desc: "Appliquait de la cr\xE8me sur sa peau"
     Gravity: 0
   colorOfDoor: 0
   IsWhite: 0

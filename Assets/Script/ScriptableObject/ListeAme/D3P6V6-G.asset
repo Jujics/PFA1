@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D2P4V10-G
+  m_Name: D3P6V6-G
   m_EditorClassIdentifier: 
-  name: Kon Are
+  name: Scoville Gadbois
   Acts:
-  - Desc: Assassinat
-    Gravity: 1
-  - Desc: "Enl\xE8vement"
-    Gravity: 1
-  - Desc: Braconage
-    Gravity: 1
-  - Desc: Esclavagisme
-    Gravity: 1
-  - Desc: A toujours menti
+  - Desc: "A cr\xE9e un incendie volontairement"
     Gravity: 1
   - Desc: "Infid\xE8le"
     Gravity: 1
   - Desc: N'honorait pas les dieux
     Gravity: 1
-  - Desc: 'Cannibalisme '
+  - Desc: "A sauv\xE9 un chat dans un arbre"
+    Gravity: 0
+  - Desc: "A toujours bu avec mod\xE9ration"
+    Gravity: 0
+  - Desc: Confiant
+    Gravity: 0
+  - Desc: Recherchait le pouvoir
     Gravity: 1
-  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
+  - Desc: Paresseux
     Gravity: 1
-  - Desc: Pyromanie
-    Gravity: 1
+  - Desc: "Ecoutait les probl\xE8mes des autres"
+    Gravity: 0
+  - Desc: Esclavagisme
+    Gravity: 0
   colorOfDoor: 1
   IsWhite: 0
   IsBig: 1

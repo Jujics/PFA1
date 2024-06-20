@@ -10,29 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D2P4V0
+  m_Name: D3P6V0-2
   m_EditorClassIdentifier: 
-  name: Amorette Dagenais
+  name: Agramant Arnoux
   Acts:
-  - Desc: "A failli \xEAtre noy\xE9"
+  - Desc: Peur des trous
     Gravity: 0
-  - Desc: Peur des chiens
+  - Desc: "Se battait pour l'\xE9galit\xE9"
     Gravity: 0
-  - Desc: "N'arrivait jamais au bout de ses id\xE9es"
+  - Desc: "A toujours bu avec mod\xE9ration"
     Gravity: 0
-  - Desc: "Adorait les animaux\t "
+  - Desc: Fan de Socrates
     Gravity: 0
-  - Desc: "A imagin\xE9 un concept de \"Retraite\""
+  - Desc: N'acceptait pas la critique
     Gravity: 0
-  - Desc: Fan de requins
+  - Desc: "Gardait les secrets confi\xE9s"
     Gravity: 0
-  - Desc: Inspirant
+  - Desc: "N'a jamais pris part \xE0 un d\xE9bat"
     Gravity: 0
-  - Desc: "Fr\xE8re d'un ours"
+  - Desc: Bienfaiteur
     Gravity: 0
-  - Desc: "Coop\xE9ratif"
+  - Desc: Philosophe
     Gravity: 0
-  - Desc: "A aid\xE9 un fermier en difficult\xE9"
+  - Desc: "Affirmait que la Terre \xE9tait plate"
     Gravity: 0
   colorOfDoor: 0
   IsWhite: 0

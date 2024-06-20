@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D2P4V0
+  m_Name: D3P6V4-G
   m_EditorClassIdentifier: 
-  name: Amorette Dagenais
+  name: "Allyriane \xC9toile"
   Acts:
-  - Desc: "A failli \xEAtre noy\xE9"
+  - Desc: "N'a jamais fait la guerre\t"
     Gravity: 0
-  - Desc: Peur des chiens
+  - Desc: Acte de Guerre
+    Gravity: 1
+  - Desc: "A d\xE9j\xE0 officiellement \xE9t\xE9 emprisonn\xE9 \xE0 tord"
     Gravity: 0
-  - Desc: "N'arrivait jamais au bout de ses id\xE9es"
+  - Desc: N'a jamais vu de Cobra
     Gravity: 0
-  - Desc: "Adorait les animaux\t "
+  - Desc: "Elev\xE9 par des Ours"
     Gravity: 0
-  - Desc: "A imagin\xE9 un concept de \"Retraite\""
+  - Desc: A toujours menti
+    Gravity: 1
+  - Desc: "A toujours bu avec mod\xE9ration"
     Gravity: 0
-  - Desc: Fan de requins
+  - Desc: Homicide
+    Gravity: 1
+  - Desc: Serviable
     Gravity: 0
-  - Desc: Inspirant
-    Gravity: 0
-  - Desc: "Fr\xE8re d'un ours"
-    Gravity: 0
-  - Desc: "Coop\xE9ratif"
-    Gravity: 0
-  - Desc: "A aid\xE9 un fermier en difficult\xE9"
-    Gravity: 0
-  colorOfDoor: 0
+  - Desc: Violent
+    Gravity: 1
+  colorOfDoor: 2
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

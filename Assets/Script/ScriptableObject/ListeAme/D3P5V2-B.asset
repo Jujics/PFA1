@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D3P3V2
+  m_Name: D3P5V2-B
   m_EditorClassIdentifier: 
-  name: Anouk Vadnais
+  name: Monique Doyon
   Acts:
-  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
+  - Desc: "Intol\xE9rant"
     Gravity: 1
-  - Desc: "L\xE9g\xE8rement fanatique du Feu"
+  - Desc: Curieux
     Gravity: 0
-  - Desc: Peur du noir
+  - Desc: "S\xE9journait chez ses parents"
     Gravity: 0
-  - Desc: "N'\xE9tait pas sage \xE9tant petit"
+  - Desc: N'a jamais vu de Gorille
     Gravity: 0
-  - Desc: "Coop\xE9ratif"
+  - Desc: "Est port\xE9 disparu"
     Gravity: 0
-  - Desc: Attentif
+  - Desc: "S'entretenait avec lui-m\xEAme r\xE9guli\xE8rement"
     Gravity: 0
-  - Desc: N'a jamais cru en la philosophie
+  - Desc: Affirmait sortir d'une caverne
     Gravity: 0
-  - Desc: "A saut\xE9 d'une grande hauteur en esp\xE9rant voler"
+  - Desc: Ambigue
     Gravity: 0
-  - Desc: "A r\xE9v\xE9l\xE9 des \xE9quations essentielles\t"
+  - Desc: A partager ses richesses
     Gravity: 0
-  - Desc: Assassinat
+  - Desc: Acte de Guerre
     Gravity: 1
   colorOfDoor: 3
-  IsWhite: 0
+  IsWhite: 1
   IsBig: 0

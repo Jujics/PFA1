@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D2P2V5 - E
+  m_Name: D3P5V3-E
   m_EditorClassIdentifier: 
-  name: Antoinette Loiselle
+  name: Arridano Charette
   Acts:
-  - Desc: Violent
+  - Desc: "M\xE9nageais ses confr\xE8res"
+    Gravity: 0
+  - Desc: Fan du Pilate
+    Gravity: 0
+  - Desc: Esclavagisme
     Gravity: 1
-  - Desc: Emettait souvent des avis contradictoires
-    Gravity: 0
-  - Desc: N'aimait pas les enfants
-    Gravity: 0
-  - Desc: Ne faisais que cauchemarder
-    Gravity: 0
   - Desc: Humble
     Gravity: 0
-  - Desc: Pyromanie
-    Gravity: 1
-  - Desc: "Infid\xE8le"
-    Gravity: 1
-  - Desc: Meurtre
-    Gravity: 1
-  - Desc: "A toujours bu avec mod\xE9ration"
+  - Desc: "Mangeait 5 fruits et l\xE9gumes par jour"
     Gravity: 0
-  - Desc: Serviable
+  - Desc: Peur du noir
     Gravity: 0
-  colorOfDoor: 1
+  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
+    Gravity: 0
+  - Desc: "Criait sur tout les toits qu'il \xE9tait immortel\t"
+    Gravity: 0
+  - Desc: "A port\xE9 des chaussettes d\xE9paraill\xE9es"
+    Gravity: 0
+  - Desc: Adorait semer le chaos
+    Gravity: 1
+  colorOfDoor: 2
   IsWhite: 0
   IsBig: 0

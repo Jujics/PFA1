@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D2P4V0
+  m_Name: D3P6V0-B
   m_EditorClassIdentifier: 
-  name: Amorette Dagenais
+  name: Antoinette Loiselle
   Acts:
-  - Desc: "A failli \xEAtre noy\xE9"
+  - Desc: Peur des monstres
     Gravity: 0
-  - Desc: Peur des chiens
+  - Desc: Emettait souvent des avis contradictoires
     Gravity: 0
-  - Desc: "N'arrivait jamais au bout de ses id\xE9es"
+  - Desc: N'aimait pas les enfants
     Gravity: 0
-  - Desc: "Adorait les animaux\t "
+  - Desc: Ne faisais que cauchemarder
     Gravity: 0
-  - Desc: "A imagin\xE9 un concept de \"Retraite\""
+  - Desc: Humble
     Gravity: 0
-  - Desc: Fan de requins
+  - Desc: "S'imaginait dans un monde cr\xE9e par des GD"
     Gravity: 0
-  - Desc: Inspirant
+  - Desc: Imaginatif
     Gravity: 0
-  - Desc: "Fr\xE8re d'un ours"
+  - Desc: "\xC9tait mort en mer il y a dix ans...Apparemment"
     Gravity: 0
-  - Desc: "Coop\xE9ratif"
+  - Desc: "A toujours bu avec mod\xE9ration"
     Gravity: 0
-  - Desc: "A aid\xE9 un fermier en difficult\xE9"
+  - Desc: Serviable
     Gravity: 0
   colorOfDoor: 0
-  IsWhite: 0
+  IsWhite: 1
   IsBig: 0

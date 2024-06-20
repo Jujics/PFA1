@@ -21,7 +21,6 @@ public class ErebeScript : MonoBehaviour, IDropHandler
     public bool isErebActive = true;
     public AudioSource ErebeOut;
     private Vector3 initialTranslateTargetPos; 
-    private int CurrentNumberOfList = 0;
     private bool canLaunchTimer = true;
 
 

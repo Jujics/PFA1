@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D2P4V0
+  m_Name: D3P5V0-BE
   m_EditorClassIdentifier: 
-  name: Amorette Dagenais
+  name: Gifford Proulx
   Acts:
-  - Desc: "A failli \xEAtre noy\xE9"
+  - Desc: "Savait \xE9crire"
     Gravity: 0
-  - Desc: Peur des chiens
+  - Desc: "Pers\xE9v\xE9rant"
     Gravity: 0
-  - Desc: "N'arrivait jamais au bout de ses id\xE9es"
+  - Desc: "A d\xE9j\xE0 quitter la Gr\xE8ce"
     Gravity: 0
-  - Desc: "Adorait les animaux\t "
+  - Desc: "N'\xE9tait pas sage \xE9tant petit"
     Gravity: 0
-  - Desc: "A imagin\xE9 un concept de \"Retraite\""
+  - Desc: N'a jamais cru en la philosophie
     Gravity: 0
-  - Desc: Fan de requins
+  - Desc: "A d\xE9j\xE0 quitter la Gr\xE8ce"
     Gravity: 0
-  - Desc: Inspirant
+  - Desc: Ne faisais que cauchemarder
     Gravity: 0
-  - Desc: "Fr\xE8re d'un ours"
+  - Desc: Se croyait issu d'un demi-dieu
     Gravity: 0
-  - Desc: "Coop\xE9ratif"
-    Gravity: 0
-  - Desc: "A aid\xE9 un fermier en difficult\xE9"
+  - Desc: Paresseux
+    Gravity: 1
+  - Desc: "S'\xE9clipsait avant son tour lors des d\xE9bats\t"
     Gravity: 0
   colorOfDoor: 0
-  IsWhite: 0
+  IsWhite: 1
   IsBig: 0

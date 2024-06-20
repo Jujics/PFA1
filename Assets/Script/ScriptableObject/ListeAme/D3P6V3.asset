@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D2P3V4 -2
+  m_Name: D3P6V3
   m_EditorClassIdentifier: 
-  name: Marcelle Bourgeois
+  name: Onfroi Gaulin
   Acts:
+  - Desc: Optimiste
+    Gravity: 0
+  - Desc: Violent
+    Gravity: 1
+  - Desc: Avare
+    Gravity: 1
+  - Desc: "A toujours bu avec mod\xE9ration"
+    Gravity: 0
+  - Desc: "Sinc\xE8re"
+    Gravity: 0
+  - Desc: Grand Admirateur de Platon
+    Gravity: 0
+  - Desc: Simplet
+    Gravity: 0
+  - Desc: "N'arrivait jamais au bout de ses id\xE9es"
+    Gravity: 0
   - Desc: Braconage
     Gravity: 1
-  - Desc: N'a jamais compris les maths
+  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
     Gravity: 0
-  - Desc: Attentif
-    Gravity: 0
-  - Desc: "Intol\xE9rant"
-    Gravity: 1
-  - Desc: "Gardait les secrets confi\xE9s"
-    Gravity: 0
-  - Desc: "Mal \xE0 l'aise avec les animaux"
-    Gravity: 0
-  - Desc: Pyromanie
-    Gravity: 1
-  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
-    Gravity: 0
-  - Desc: Manchot
-    Gravity: 0
-  - Desc: Esclavagisme
-    Gravity: 1
   colorOfDoor: 2
   IsWhite: 0
   IsBig: 0

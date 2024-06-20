@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D2P3V4
+  m_Name: D3P5V2-E
   m_EditorClassIdentifier: 
-  name: Lundy Bellemare
+  name: Monique Doyon
   Acts:
-  - Desc: "M\xE9nageais ses confr\xE8res"
-    Gravity: 0
-  - Desc: Esclavagisme
+  - Desc: "Intol\xE9rant"
     Gravity: 1
-  - Desc: Braconage
+  - Desc: Curieux
+    Gravity: 0
+  - Desc: "S\xE9journait chez ses parents"
+    Gravity: 0
+  - Desc: N'a jamais vu de Gorille
+    Gravity: 0
+  - Desc: "Est port\xE9 disparu"
+    Gravity: 0
+  - Desc: "S'entretenait avec lui-m\xEAme r\xE9guli\xE8rement"
+    Gravity: 0
+  - Desc: Affirmait sortir d'une caverne
+    Gravity: 0
+  - Desc: Paresseux
     Gravity: 1
-  - Desc: Solitaire
+  - Desc: A partager ses richesses
     Gravity: 0
-  - Desc: "Poss\xE9dait une tonne d'amphores"
-    Gravity: 0
-  - Desc: Un spartiate pacifiste
-    Gravity: 0
-  - Desc: Philosophe
-    Gravity: 0
-  - Desc: Assassinat
+  - Desc: Acte de Guerre
     Gravity: 1
-  - Desc: "A port\xE9 des chaussettes d\xE9paraill\xE9es"
-    Gravity: 0
-  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
-    Gravity: 1
-  colorOfDoor: 2
+  colorOfDoor: 3
   IsWhite: 0
   IsBig: 0

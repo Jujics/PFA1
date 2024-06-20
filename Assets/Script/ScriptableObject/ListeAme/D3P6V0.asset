@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D1P6V2
+  m_Name: D3P6V0
   m_EditorClassIdentifier: 
-  name: Onfroi Gaulin
+  name: Avelaine de Launay
   Acts:
-  - Desc: Optimiste
-    Gravity: 0
-  - Desc: Violent
-    Gravity: 1
-  - Desc: Avare
-    Gravity: 1
-  - Desc: "A toujours bu avec mod\xE9ration"
-    Gravity: 0
   - Desc: "Sinc\xE8re"
     Gravity: 0
   - Desc: Grand Admirateur de Platon
     Gravity: 0
-  - Desc: Simplet
+  - Desc: Solitaire
     Gravity: 0
   - Desc: "N'arrivait jamais au bout de ses id\xE9es"
     Gravity: 0
-  - Desc: Braconage
-    Gravity: 1
-  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
+  - Desc: "S\xE9journait chez son oncle"
     Gravity: 0
-  colorOfDoor: 3
+  - Desc: "Branch\xE9 avec les jeunes"
+    Gravity: 0
+  - Desc: Manchot
+    Gravity: 0
+  - Desc: "Savait \xE9crire"
+    Gravity: 0
+  - Desc: "Elev\xE9 par des Ours"
+    Gravity: 0
+  - Desc: "A imagin\xE9 un concept de \"Cong\xE9s\""
+    Gravity: 0
+  colorOfDoor: 0
   IsWhite: 0
   IsBig: 0

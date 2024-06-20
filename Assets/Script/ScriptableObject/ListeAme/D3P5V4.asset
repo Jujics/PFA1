@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D2P4V0
+  m_Name: D3P5V4
   m_EditorClassIdentifier: 
-  name: Amorette Dagenais
+  name: "Florence Dub\xE9"
   Acts:
-  - Desc: "A failli \xEAtre noy\xE9"
+  - Desc: "S'imaginait dans un monde cr\xE9e par des GD"
     Gravity: 0
-  - Desc: Peur des chiens
+  - Desc: Esclavagisme
+    Gravity: 1
+  - Desc: Se croyait issu d'un demi-dieu
     Gravity: 0
-  - Desc: "N'arrivait jamais au bout de ses id\xE9es"
+  - Desc: "A d\xE9j\xE0 fait tomber sa tablette \xE0 gravure"
     Gravity: 0
-  - Desc: "Adorait les animaux\t "
+  - Desc: N'honorait pas les dieux
+    Gravity: 1
+  - Desc: Acte de Guerre
+    Gravity: 1
+  - Desc: N'agissait selon aucun code moral
+    Gravity: 1
+  - Desc: N'a jamais compris les maths
     Gravity: 0
-  - Desc: "A imagin\xE9 un concept de \"Retraite\""
+  - Desc: Attentif
     Gravity: 0
-  - Desc: Fan de requins
+  - Desc: Exceptionnellement fort
     Gravity: 0
-  - Desc: Inspirant
-    Gravity: 0
-  - Desc: "Fr\xE8re d'un ours"
-    Gravity: 0
-  - Desc: "Coop\xE9ratif"
-    Gravity: 0
-  - Desc: "A aid\xE9 un fermier en difficult\xE9"
-    Gravity: 0
-  colorOfDoor: 0
+  colorOfDoor: 2
   IsWhite: 0
   IsBig: 0
