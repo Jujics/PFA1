@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V2 - 1
+  m_Name: D4P5V0-1
   m_EditorClassIdentifier: 
-  name: Maurice Barjavel
+  name: Jules Bellefeuille
   Acts:
-  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
+  - Desc: Sociable
     Gravity: 0
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: Inspirant
     Gravity: 0
-  - Desc: "Humble\t\t"
+  - Desc: "Original\t"
     Gravity: 0
-  - Desc: Adorait semer le chaos
-    Gravity: 1
-  - Desc: "Authentique\t"
+  - Desc: "A couru dans un incendie\t"
     Gravity: 0
-  - Desc: "Elev\xE9 par des Otaries"
+  - Desc: Courtois
     Gravity: 0
-  - Desc: Ne buvait que de l'eau chaude
+  - Desc: "L\xE9g\xE8rement fanatique du Feu"
     Gravity: 0
-  - Desc: Meurtre
-    Gravity: 1
-  - Desc: "\xC9tait pr\xE9sent lors de l'Odyss\xE9e"
+  - Desc: "A failli \xEAtre noy\xE9\t"
     Gravity: 0
-  - Desc: Violent
-    Gravity: 1
-  colorOfDoor: 2
+  - Desc: Peur des serpents
+    Gravity: 0
+  - Desc: Peur du noir
+    Gravity: 0
+  - Desc: "Fron\xE7ait les sourcils quand il faisait nuit"
+    Gravity: 0
+  colorOfDoor: 0
   IsWhite: 0
   IsBig: 0

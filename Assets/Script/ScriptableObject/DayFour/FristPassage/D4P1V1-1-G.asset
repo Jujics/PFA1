@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V2 - 1
+  m_Name: D4P1V1-1-G
   m_EditorClassIdentifier: 
-  name: Maurice Barjavel
+  name: Hugo Fighter
   Acts:
-  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
+  - Desc: Courtois
     Gravity: 0
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: Ne finissait jamais ses projets
     Gravity: 0
-  - Desc: "Humble\t\t"
-    Gravity: 0
-  - Desc: Adorait semer le chaos
-    Gravity: 1
-  - Desc: "Authentique\t"
-    Gravity: 0
-  - Desc: "Elev\xE9 par des Otaries"
+  - Desc: "A failli \xEAtre noy\xE9\t"
     Gravity: 0
   - Desc: Ne buvait que de l'eau chaude
     Gravity: 0
-  - Desc: Meurtre
-    Gravity: 1
-  - Desc: "\xC9tait pr\xE9sent lors de l'Odyss\xE9e"
+  - Desc: "Frappait l'air sans raison\t"
     Gravity: 0
-  - Desc: Violent
+  - Desc: "Elev\xE9 par des Otaries"
+    Gravity: 0
+  - Desc: "P\xEAchait souvent\t"
+    Gravity: 0
+  - Desc: "N'a jamais cauchemard\xE9\t"
+    Gravity: 0
+  - Desc: "Voudrait un autographe d'Had\xE8s\t"
+    Gravity: 0
+  - Desc: "Infid\xE8le "
     Gravity: 1
-  colorOfDoor: 2
+  colorOfDoor: 3
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

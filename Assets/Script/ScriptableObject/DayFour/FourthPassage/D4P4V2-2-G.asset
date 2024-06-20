@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V2 - 1
+  m_Name: D4P4V2-2-G
   m_EditorClassIdentifier: 
-  name: Maurice Barjavel
+  name: Lucille Lanctot
   Acts:
-  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
+  - Desc: "A r\xE9v\xE9l\xE9 des \xE9quations essentielles\t"
     Gravity: 0
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: "Ratait toujours ses repas\t"
     Gravity: 0
-  - Desc: "Humble\t\t"
-    Gravity: 0
-  - Desc: Adorait semer le chaos
+  - Desc: 'N''agissait selon aucun code moral '
     Gravity: 1
-  - Desc: "Authentique\t"
+  - Desc: "Fan de requins\t"
     Gravity: 0
-  - Desc: "Elev\xE9 par des Otaries"
+  - Desc: "Ambigue\t"
     Gravity: 0
-  - Desc: Ne buvait que de l'eau chaude
+  - Desc: "Son humour laisse \xE0 d\xE9sirer"
     Gravity: 0
-  - Desc: Meurtre
+  - Desc: "Infid\xE8le "
     Gravity: 1
-  - Desc: "\xC9tait pr\xE9sent lors de l'Odyss\xE9e"
+  - Desc: "A saut\xE9 d'une grande hauteur en esp\xE9rant voler"
     Gravity: 0
-  - Desc: Violent
+  - Desc: Est parti acheter du lait
     Gravity: 1
+  - Desc: "S'adaptait peu \xE0 la vie en soci\xE9t\xE9\t"
+    Gravity: 0
   colorOfDoor: 2
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

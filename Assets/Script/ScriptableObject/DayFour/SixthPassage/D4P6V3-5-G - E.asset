@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V3 - 1
+  m_Name: D4P6V3-5-G - E
   m_EditorClassIdentifier: 
-  name: "Holly Girard (\u0152dipe)"
+  name: Legget Boucher
   Acts:
-  - Desc: "S'appelait \u0152dipe"
+  - Desc: 'Esclavagisme '
     Gravity: 1
-  - Desc: Est parti acheter du lait
+  - Desc: 'A toujours menti '
     Gravity: 1
-  - Desc: "N'a jamais cru en la philosophie\t"
-    Gravity: 0
-  - Desc: "G\xE2chait du vin pour montrer sa richesse"
+  - Desc: 'Acte de Guerre '
     Gravity: 1
-  - Desc: Se pensait libre de penser
+  - Desc: "A toujours d\xE9tourn\xE9 le regard  "
     Gravity: 1
-  - Desc: "N'avait aucune r\xE9parti\t"
+  - Desc: Unijambiste
     Gravity: 0
-  - Desc: "S'affalait toujours dans les fauteuils\t"
-    Gravity: 0
-  - Desc: Se pensait libre de penser
+  - Desc: 'Cannibalisme  '
     Gravity: 1
-  - Desc: "L\xE9g\xE8rement fanatique du Feu\t"
+  - Desc: "Fan de requins\t"
     Gravity: 0
-  - Desc: "Fan de Socrates\t"
+  - Desc: Manchot
     Gravity: 0
+  - Desc: S'agitait dans son sommeil
+    Gravity: 0
+  - Desc: "Intol\xE9rance "
+    Gravity: 1
   colorOfDoor: 1
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

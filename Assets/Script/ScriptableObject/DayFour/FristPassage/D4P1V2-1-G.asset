@@ -10,29 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V2 - 1
+  m_Name: D4P1V2-1-G
   m_EditorClassIdentifier: 
-  name: Maurice Barjavel
+  name: Ranger Gagnon
   Acts:
-  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
+  - Desc: "N'\xE9tait pas sage \xE9tant petit"
     Gravity: 0
-  - Desc: "Gardait les secrets confi\xE9s"
-    Gravity: 0
-  - Desc: "Humble\t\t"
-    Gravity: 0
-  - Desc: Adorait semer le chaos
+  - Desc: 'Meurtre '
     Gravity: 1
-  - Desc: "Authentique\t"
+  - Desc: N'aimait pas l'eau
     Gravity: 0
-  - Desc: "Elev\xE9 par des Otaries"
+  - Desc: "S\xE9journait incognito"
     Gravity: 0
-  - Desc: Ne buvait que de l'eau chaude
+  - Desc: "Pensais se r\xE9incarner en mourrant"
     Gravity: 0
-  - Desc: Meurtre
+  - Desc: "A fait un march\xE9 et ne l'a jamais respect\xE9 "
     Gravity: 1
-  - Desc: "\xC9tait pr\xE9sent lors de l'Odyss\xE9e"
+  - Desc: Ambigue
     Gravity: 0
-  - Desc: Violent
+  - Desc: "Peur des chiens\t"
+    Gravity: 0
+  - Desc: "Mal \xE0 l'aise avec les animaux"
+    Gravity: 0
+  - Desc: 'Assassinat '
     Gravity: 1
   colorOfDoor: 2
   IsWhite: 0
