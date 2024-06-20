@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D3P5V2-B
+  m_EditorClassIdentifier: 
+  name: Monique Doyon
+  Acts:
+  - Desc: "Intol\xE9rant"
+    Gravity: 1
+  - Desc: Curieux
+    Gravity: 0
+  - Desc: "S\xE9journait chez ses parents"
+    Gravity: 0
+  - Desc: N'a jamais vu de Gorille
+    Gravity: 0
+  - Desc: "Est port\xE9 disparu"
+    Gravity: 0
+  - Desc: "S'entretenait avec lui-m\xEAme r\xE9guli\xE8rement"
+    Gravity: 0
+  - Desc: Affirmait sortir d'une caverne
+    Gravity: 0
+  - Desc: Ambigue
+    Gravity: 0
+  - Desc: A partager ses richesses
+    Gravity: 0
+  - Desc: Acte de Guerre
+    Gravity: 1
+  colorOfDoor: 3
+  IsWhite: 1
+  IsBig: 0

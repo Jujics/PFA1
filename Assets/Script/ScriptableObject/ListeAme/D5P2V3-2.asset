@@ -12,28 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: D5P2V3-2
   m_EditorClassIdentifier: 
-  name: 
+  name: Cerise Brousseau
   Acts:
-  - Desc: 
+  - Desc: Pacifiste
     Gravity: 0
-  - Desc: 
+  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
     Gravity: 0
-  - Desc: 
+  - Desc: "A toujours bu avec mod\xE9ration"
     Gravity: 0
-  - Desc: 
+  - Desc: A partager ses richesses
     Gravity: 0
-  - Desc: 
+  - Desc: Bienfaiteur
     Gravity: 0
-  - Desc: 
+  - Desc: Intelligent
     Gravity: 0
-  - Desc: 
+  - Desc: Se prenait pour un vampire
+    Gravity: 1
+  - Desc: "A toujours bu avec mod\xE9ration"
     Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  colorOfDoor: 0
+  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
+    Gravity: 1
+  - Desc: "A fait un march\xE9 et ne l'a jamais respect\xE9"
+    Gravity: 1
+  colorOfDoor: 2
   IsWhite: 0
   IsBig: 0

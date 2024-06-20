@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D3P3V0
+  m_EditorClassIdentifier: 
+  name: "H\xE9l\xE8ne L\xE9veill\xE9 "
+  Acts:
+  - Desc: Semait des graines d'arbres
+    Gravity: 0
+  - Desc: "Coop\xE9ratif"
+    Gravity: 0
+  - Desc: Semait des graines d'arbres
+    Gravity: 0
+  - Desc: "Coop\xE9ratif"
+    Gravity: 0
+  - Desc: "N'a jamais fait la guerre\t"
+    Gravity: 0
+  - Desc: Ne buvait que de l'eau chaude
+    Gravity: 0
+  - Desc: Frappait l'air sans raison
+    Gravity: 0
+  - Desc: "S'adaptait peu \xE0 la vie en soci\xE9t\xE9"
+    Gravity: 0
+  - Desc: "Savait \xE9crire\t"
+    Gravity: 0
+  - Desc: Adorait les animaux
+    Gravity: 0
+  colorOfDoor: 0
+  IsWhite: 0
+  IsBig: 0

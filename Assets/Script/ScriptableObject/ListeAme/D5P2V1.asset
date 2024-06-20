@@ -12,28 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: D5P2V1
   m_EditorClassIdentifier: 
-  name: 
+  name: Fantina de Launay
   Acts:
-  - Desc: 
+  - Desc: Un spartiate pacifiste
     Gravity: 0
-  - Desc: 
+  - Desc: "Cr\xE9ateur de l'anc\xEAtre de la pizza"
     Gravity: 0
-  - Desc: 
+  - Desc: Se croyait issu d'un demi-dieu
     Gravity: 0
-  - Desc: 
+  - Desc: "P\xEAchait souvent"
     Gravity: 0
-  - Desc: 
+  - Desc: "A d\xE9j\xE0 mang\xE9 de la terre"
     Gravity: 0
-  - Desc: 
+  - Desc: N'agissait selon aucun code moral
+    Gravity: 1
+  - Desc: "A invent\xE9 la gravure"
     Gravity: 0
-  - Desc: 
+  - Desc: "Voudrait un autographe d'Had\xE8s"
     Gravity: 0
-  - Desc: 
+  - Desc: "Pensais se r\xE9incarner en mourrant"
     Gravity: 0
-  - Desc: 
+  - Desc: Fan du Pilate
     Gravity: 0
-  - Desc: 
-    Gravity: 0
-  colorOfDoor: 0
+  colorOfDoor: 3
   IsWhite: 0
   IsBig: 0

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D3P2V2
+  m_EditorClassIdentifier: 
+  name: 'Brigliador Faucher '
+  Acts:
+  - Desc: Philosophe
+    Gravity: 0
+  - Desc: "S\xE9journait incognito"
+    Gravity: 0
+  - Desc: Avare
+    Gravity: 1
+  - Desc: Emettait souvent des avis contradictoires
+    Gravity: 0
+  - Desc: Peur des serpents
+    Gravity: 0
+  - Desc: "A saut\xE9 d'une grande hauteur en esp\xE9rant voler"
+    Gravity: 0
+  - Desc: "Infid\xE8le"
+    Gravity: 1
+  - Desc: N'acceptait pas la critique
+    Gravity: 0
+  - Desc: Avalait souvent sa salvie
+    Gravity: 0
+  - Desc: "Songeais souvent \xE0 ce qu'il y a apr\xE8s la mort"
+    Gravity: 0
+  colorOfDoor: 3
+  IsWhite: 0
+  IsBig: 0
