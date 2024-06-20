@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P4V3
+  m_Name: D4P2V2-4-G
   m_EditorClassIdentifier: 
-  name: Maslin Godin
+  name: Barry St-Jacques
   Acts:
-  - Desc: Original
+  - Desc: "Se battait pour l'\xE9galit\xE9\t"
     Gravity: 0
-  - Desc: Simple
+  - Desc: "A sauv\xE9 un chat dans un arbre\t"
     Gravity: 0
-  - Desc: "Infid\xE8le"
+  - Desc: 'N''honorait pas les dieux '
     Gravity: 1
-  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
+  - Desc: "Fan de Socrates\t"
+    Gravity: 0
+  - Desc: 'Homicide '
     Gravity: 1
-  - Desc: "Coop\xE9ratif"
+  - Desc: "Solitaire\t"
     Gravity: 0
-  - Desc: Acte de Guerre
+  - Desc: "Mal \xE0 l'aise avec les animaux"
+    Gravity: 0
+  - Desc: "Affirmait que la Terre \xE9tait plate\t"
+    Gravity: 0
+  - Desc: 'Se pensait libre de penser '
     Gravity: 1
-  - Desc: Humble
-    Gravity: 0
-  - Desc: Charismatique
-    Gravity: 0
-  - Desc: "N'a jamais mang\xE9 de viande"
-    Gravity: 0
-  - Desc: "A aid\xE9 un fermier en difficult\xE9"
-    Gravity: 0
+  - Desc: 'N''agissait selon aucun code moral '
+    Gravity: 1
   colorOfDoor: 2
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

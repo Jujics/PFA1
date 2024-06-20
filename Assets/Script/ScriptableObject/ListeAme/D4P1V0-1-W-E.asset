@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D4P1V0-1-W-E
+  m_EditorClassIdentifier: 
+  name: Jeoffroi Cotuand
+  Acts:
+  - Desc: Pacifiste
+    Gravity: 0
+  - Desc: "Amical\t"
+    Gravity: 0
+  - Desc: A couru dans un incendie
+    Gravity: 0
+  - Desc: N'aimait pas les enfants
+    Gravity: 0
+  - Desc: 'Acte de Guerre '
+    Gravity: 1
+  - Desc: Peur des espaces clos
+    Gravity: 0
+  - Desc: "Peur du noir\t"
+    Gravity: 0
+  - Desc: "A sauv\xE9 un chat dans un arbre\t"
+    Gravity: 0
+  - Desc: 'Esclavagisme '
+    Gravity: 1
+  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage\t"
+    Gravity: 0
+  colorOfDoor: 0
+  IsWhite: 1
+  IsBig: 0
