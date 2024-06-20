@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V2 - 1
+  m_Name: D4P4V2-1-G-E
   m_EditorClassIdentifier: 
-  name: Maurice Barjavel
+  name: Burkett Begin
   Acts:
-  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
+  - Desc: Original
     Gravity: 0
-  - Desc: "Gardait les secrets confi\xE9s"
-    Gravity: 0
-  - Desc: "Humble\t\t"
-    Gravity: 0
-  - Desc: Adorait semer le chaos
+  - Desc: "A toujours d\xE9tourn\xE9 le regard  "
     Gravity: 1
-  - Desc: "Authentique\t"
-    Gravity: 0
-  - Desc: "Elev\xE9 par des Otaries"
-    Gravity: 0
-  - Desc: Ne buvait que de l'eau chaude
-    Gravity: 0
-  - Desc: Meurtre
+  - Desc: "Enl\xE8vement "
     Gravity: 1
-  - Desc: "\xC9tait pr\xE9sent lors de l'Odyss\xE9e"
+  - Desc: "A toujours pri\xE9 les dieux\t"
     Gravity: 0
-  - Desc: Violent
+  - Desc: "Mal \xE0 l'aise avec les autres humains"
+    Gravity: 0
+  - Desc: 'Recherchait le pouvoir '
+    Gravity: 1
+  - Desc: 'Assassinat '
+    Gravity: 1
+  - Desc: "Savait \xE9crire\t"
+    Gravity: 0
+  - Desc: "A imagin\xE9 un concept de \"Retraite\""
+    Gravity: 0
+  - Desc: 'Esclavagisme '
     Gravity: 1
   colorOfDoor: 2
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

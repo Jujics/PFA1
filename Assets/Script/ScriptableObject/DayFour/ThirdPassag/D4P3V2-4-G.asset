@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V2 - 1
+  m_Name: D4P3V2-4-G
   m_EditorClassIdentifier: 
-  name: Maurice Barjavel
+  name: "Bradamate Beaupr\xE9"
   Acts:
-  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
-    Gravity: 0
   - Desc: "Gardait les secrets confi\xE9s"
     Gravity: 0
-  - Desc: "Humble\t\t"
+  - Desc: Peur des espaces clos
     Gravity: 0
-  - Desc: Adorait semer le chaos
+  - Desc: "S'appelait apparement \u0152dipe "
     Gravity: 1
-  - Desc: "Authentique\t"
+  - Desc: "Appliquait de la cr\xE8me sur sa peau"
     Gravity: 0
-  - Desc: "Elev\xE9 par des Otaries"
+  - Desc: "Attentif\t"
     Gravity: 0
-  - Desc: Ne buvait que de l'eau chaude
-    Gravity: 0
-  - Desc: Meurtre
+  - Desc: 'N''agissait selon aucun code moral '
     Gravity: 1
-  - Desc: "\xC9tait pr\xE9sent lors de l'Odyss\xE9e"
+  - Desc: "Criait sur tout les toits qu'il \xE9tait immortel\t"
     Gravity: 0
-  - Desc: Violent
+  - Desc: "Branch\xE9 avec les jeunes\t"
+    Gravity: 0
+  - Desc: "Songeais souvent \xE0 ce qu'il y a apr\xE8s la mort"
+    Gravity: 0
+  - Desc: 'Violent '
     Gravity: 1
   colorOfDoor: 2
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

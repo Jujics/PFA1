@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V3-4-G
+  m_Name: D4P6V1-2-G
   m_EditorClassIdentifier: 
-  name: Auriville Parrot
+  name: Dexter Lesage
   Acts:
-  - Desc: N'aimait pas l'eau
+  - Desc: "Est port\xE9 disparu"
     Gravity: 0
-  - Desc: Consommation d'Ambroisie
-    Gravity: 1
-  - Desc: Violent
-    Gravity: 1
-  - Desc: Se prenait pour un vampire
-    Gravity: 1
-  - Desc: "A r\xE9v\xE9l\xE9 des \xE9quations essentielles"
+  - Desc: "A imagin\xE9 un concept de \"Cong\xE9s\""
     Gravity: 0
-  - Desc: "A jou\xE9 au Baseball avec ses adversaires"
+  - Desc: "N'allais jamais voir ses parents\t"
+    Gravity: 0
+  - Desc: "Branch\xE9 avec les jeunes"
+    Gravity: 0
+  - Desc: Est parti acheter du lait
     Gravity: 1
-  - Desc: Adorait semer le chaos
-    Gravity: 1
-  - Desc: N'agissait selon aucun code moral
-    Gravity: 1
-  - Desc: "Avait d\xE9j\xE0 tout pr\xE9vu"
+  - Desc: "Cr\xE9ateur de l'anc\xEAtre de la pizza"
+    Gravity: 0
+  - Desc: Intelligent
     Gravity: 0
   - Desc: Prenait plus que ce dont il avait besoin
     Gravity: 1
-  colorOfDoor: 1
+  - Desc: "A sauv\xE9 un chat dans un arbre"
+    Gravity: 0
+  - Desc: "A toujours bu avec mod\xE9ration"
+    Gravity: 0
+  colorOfDoor: 3
   IsWhite: 0
   IsBig: 1

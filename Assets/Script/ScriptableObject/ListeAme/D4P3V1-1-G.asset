@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V2 - 1
+  m_Name: D4P3V1-1-G
   m_EditorClassIdentifier: 
-  name: Maurice Barjavel
+  name: Bayard Lanctot
   Acts:
-  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
+  - Desc: 'Paresseux '
+    Gravity: 1
+  - Desc: Philosophe
     Gravity: 0
+  - Desc: 'Avide '
+    Gravity: 1
   - Desc: "Gardait les secrets confi\xE9s"
     Gravity: 0
-  - Desc: "Humble\t\t"
+  - Desc: "Tol\xE9rant\t"
     Gravity: 0
-  - Desc: Adorait semer le chaos
-    Gravity: 1
-  - Desc: "Authentique\t"
+  - Desc: "A failli \xEAtre noy\xE9"
     Gravity: 0
-  - Desc: "Elev\xE9 par des Otaries"
+  - Desc: "Assistait souvent \xE0 des d\xE9bats"
     Gravity: 0
-  - Desc: Ne buvait que de l'eau chaude
+  - Desc: Ne dormait pas bien
     Gravity: 0
-  - Desc: Meurtre
-    Gravity: 1
-  - Desc: "\xC9tait pr\xE9sent lors de l'Odyss\xE9e"
+  - Desc: Ne savait pas lire
     Gravity: 0
-  - Desc: Violent
-    Gravity: 1
-  colorOfDoor: 2
+  - Desc: "S'est d\xE9j\xE0 pris pour un envoy\xE9 des Dieux\t"
+    Gravity: 0
+  colorOfDoor: 3
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

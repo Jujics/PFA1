@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V2 - 1
+  m_Name: D4P2V2-2-G
   m_EditorClassIdentifier: 
-  name: Maurice Barjavel
+  name: Bartlett Barjavel
   Acts:
-  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
+  - Desc: Bienfaiteur
     Gravity: 0
-  - Desc: "Gardait les secrets confi\xE9s"
-    Gravity: 0
-  - Desc: "Humble\t\t"
-    Gravity: 0
-  - Desc: Adorait semer le chaos
+  - Desc: 'Consommation d''Ambroisie '
     Gravity: 1
-  - Desc: "Authentique\t"
+  - Desc: Semait des graines d'arbres
     Gravity: 0
-  - Desc: "Elev\xE9 par des Otaries"
+  - Desc: "Mature\t"
     Gravity: 0
-  - Desc: Ne buvait que de l'eau chaude
-    Gravity: 0
-  - Desc: Meurtre
+  - Desc: 'Se pensait libre de penser '
     Gravity: 1
-  - Desc: "\xC9tait pr\xE9sent lors de l'Odyss\xE9e"
-    Gravity: 0
-  - Desc: Violent
+  - Desc: 'Se prenait pour un vampire '
     Gravity: 1
+  - Desc: "R\xE2lait souvent\t"
+    Gravity: 0
+  - Desc: "Mal \xE0 l'aise avec les autres humains"
+    Gravity: 0
+  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort "
+    Gravity: 1
+  - Desc: "Curieux\t"
+    Gravity: 0
   colorOfDoor: 2
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

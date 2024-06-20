@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V2 - 1
+  m_Name: D4P5V2-2-G
   m_EditorClassIdentifier: 
-  name: Maurice Barjavel
+  name: "Rapha\xEBl Midir"
   Acts:
-  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
+  - Desc: "S\xE9journait dans la for\xEAt"
     Gravity: 0
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: "Ne faisais que cauchemard\xE9"
     Gravity: 0
-  - Desc: "Humble\t\t"
+  - Desc: S'agitait dans son sommeil
     Gravity: 0
-  - Desc: Adorait semer le chaos
+  - Desc: Sacrifiait des animaux au nom des dieux
+    Gravity: 0
+  - Desc: 'Cannibalisme  '
     Gravity: 1
-  - Desc: "Authentique\t"
-    Gravity: 0
-  - Desc: "Elev\xE9 par des Otaries"
-    Gravity: 0
-  - Desc: Ne buvait que de l'eau chaude
-    Gravity: 0
-  - Desc: Meurtre
+  - Desc: 'Homicide '
     Gravity: 1
-  - Desc: "\xC9tait pr\xE9sent lors de l'Odyss\xE9e"
+  - Desc: Sacrifiait des "animaux" au nom des dieux
     Gravity: 0
-  - Desc: Violent
+  - Desc: 'N''honorait pas les dieux '
     Gravity: 1
+  - Desc: Authentique
+    Gravity: 0
+  - Desc: N'aimait pas les enfants
+    Gravity: 0
   colorOfDoor: 2
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

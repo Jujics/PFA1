@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V2 - 1
+  m_Name: D4P5V1-2-G
   m_EditorClassIdentifier: 
-  name: Maurice Barjavel
+  name: Jade Midir
   Acts:
   - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
     Gravity: 0
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: "Passion\xE9\t"
     Gravity: 0
-  - Desc: "Humble\t\t"
+  - Desc: Serviable
     Gravity: 0
-  - Desc: Adorait semer le chaos
+  - Desc: "Ne dormait pas bien\t"
+    Gravity: 0
+  - Desc: Ne finissait jamais ses projets
+    Gravity: 0
+  - Desc: "Ne savait pas \xE9crire"
+    Gravity: 0
+  - Desc: 'Cannibalisme  '
     Gravity: 1
-  - Desc: "Authentique\t"
+  - Desc: "N'a jamais vu de Cobra\t"
     Gravity: 0
-  - Desc: "Elev\xE9 par des Otaries"
+  - Desc: Unijambiste
     Gravity: 0
-  - Desc: Ne buvait que de l'eau chaude
+  - Desc: "A invent\xE9 la gravure"
     Gravity: 0
-  - Desc: Meurtre
-    Gravity: 1
-  - Desc: "\xC9tait pr\xE9sent lors de l'Odyss\xE9e"
-    Gravity: 0
-  - Desc: Violent
-    Gravity: 1
-  colorOfDoor: 2
+  colorOfDoor: 3
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

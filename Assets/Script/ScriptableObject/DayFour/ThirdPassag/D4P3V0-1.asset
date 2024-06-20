@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V2 - 1
+  m_Name: D4P3V0-1
   m_EditorClassIdentifier: 
-  name: Maurice Barjavel
+  name: Christelle Perrault
   Acts:
-  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
+  - Desc: "Mal \xE0 l'aise avec les autres humains"
     Gravity: 0
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: "Avalait souvent sa salvie\t"
     Gravity: 0
-  - Desc: "Humble\t\t"
+  - Desc: "Peur des chiens\t\t"
     Gravity: 0
-  - Desc: Adorait semer le chaos
-    Gravity: 1
-  - Desc: "Authentique\t"
+  - Desc: "A d\xE9j\xE0 tent\xE9 de brasser son propre alcool\t"
     Gravity: 0
-  - Desc: "Elev\xE9 par des Otaries"
+  - Desc: "Pimpais r\xE9guli\xE8rement son char\t"
     Gravity: 0
-  - Desc: Ne buvait que de l'eau chaude
-    Gravity: 0
-  - Desc: Meurtre
-    Gravity: 1
   - Desc: "\xC9tait pr\xE9sent lors de l'Odyss\xE9e"
     Gravity: 0
-  - Desc: Violent
-    Gravity: 1
-  colorOfDoor: 2
+  - Desc: Sacrifiait des animaux au nom des dieux
+    Gravity: 0
+  - Desc: "S\xE9journait dans la for\xEAt\t"
+    Gravity: 0
+  - Desc: "Optimiste\t"
+    Gravity: 0
+  - Desc: "A toujours bu avec mod\xE9ration"
+    Gravity: 0
+  colorOfDoor: 0
   IsWhite: 0
   IsBig: 0

@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V2 - 1
+  m_Name: D4P2V2-4-G
   m_EditorClassIdentifier: 
-  name: Maurice Barjavel
+  name: Barry St-Jacques
   Acts:
-  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
+  - Desc: "Se battait pour l'\xE9galit\xE9\t"
     Gravity: 0
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: "A sauv\xE9 un chat dans un arbre\t"
     Gravity: 0
-  - Desc: "Humble\t\t"
-    Gravity: 0
-  - Desc: Adorait semer le chaos
+  - Desc: 'N''honorait pas les dieux '
     Gravity: 1
-  - Desc: "Authentique\t"
+  - Desc: "Fan de Socrates\t"
     Gravity: 0
-  - Desc: "Elev\xE9 par des Otaries"
-    Gravity: 0
-  - Desc: Ne buvait que de l'eau chaude
-    Gravity: 0
-  - Desc: Meurtre
+  - Desc: 'Homicide '
     Gravity: 1
-  - Desc: "\xC9tait pr\xE9sent lors de l'Odyss\xE9e"
+  - Desc: "Solitaire\t"
     Gravity: 0
-  - Desc: Violent
+  - Desc: "Mal \xE0 l'aise avec les animaux"
+    Gravity: 0
+  - Desc: "Affirmait que la Terre \xE9tait plate\t"
+    Gravity: 0
+  - Desc: 'Se pensait libre de penser '
+    Gravity: 1
+  - Desc: 'N''agissait selon aucun code moral '
     Gravity: 1
   colorOfDoor: 2
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1
