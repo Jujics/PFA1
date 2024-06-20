@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D3P6V0-2
+  m_EditorClassIdentifier: 
+  name: Agramant Arnoux
+  Acts:
+  - Desc: Peur des trous
+    Gravity: 0
+  - Desc: "Se battait pour l'\xE9galit\xE9"
+    Gravity: 0
+  - Desc: "A toujours bu avec mod\xE9ration"
+    Gravity: 0
+  - Desc: Fan de Socrates
+    Gravity: 0
+  - Desc: N'acceptait pas la critique
+    Gravity: 0
+  - Desc: "Gardait les secrets confi\xE9s"
+    Gravity: 0
+  - Desc: "N'a jamais pris part \xE0 un d\xE9bat"
+    Gravity: 0
+  - Desc: Bienfaiteur
+    Gravity: 0
+  - Desc: Philosophe
+    Gravity: 0
+  - Desc: "Affirmait que la Terre \xE9tait plate"
+    Gravity: 0
+  colorOfDoor: 0
+  IsWhite: 0
+  IsBig: 0

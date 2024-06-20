@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D5P2V6-G
+  m_EditorClassIdentifier: 
+  name: 
+  Acts:
+  - Desc: "A cr\xE9e un incendie volontairement"
+    Gravity: 1
+  - Desc: "Infid\xE8le"
+    Gravity: 1
+  - Desc: N'honorait pas les dieux
+    Gravity: 1
+  - Desc: "A sauv\xE9 un chat dans un arbre"
+    Gravity: 0
+  - Desc: "A toujours bu avec mod\xE9ration"
+    Gravity: 0
+  - Desc: Confiant
+    Gravity: 0
+  - Desc: Recherchait le pouvoir
+    Gravity: 1
+  - Desc: Paresseux
+    Gravity: 1
+  - Desc: "Ecoutait les probl\xE8mes des autres"
+    Gravity: 0
+  - Desc: Esclavagisme
+    Gravity: 0
+  colorOfDoor: 1
+  IsWhite: 0
+  IsBig: 1

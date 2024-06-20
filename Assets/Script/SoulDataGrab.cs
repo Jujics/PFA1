@@ -6,6 +6,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using Random = System.Random;
 
 public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
@@ -14,6 +15,9 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public TMP_Text Name;
     public TMP_Text[] Deed;
     public PlayerTrust _PlayerTrust;
+    public AudioSource[] SonIdle;
+    public AudioSource[] DedWhileWait;
+    public AudioSource[] SoulInDoor;
     public bool InFile;
     public bool InErebe;
     public bool DieOutScreen, DieWhileWait, DieOnWrongDoor, DieOnCorrectDoor;
@@ -53,19 +57,31 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         {
             if (DieOutScreen && AmeData.IsWhite!)
             {
+                //Add FeedBack
                 _PlayerTrust.LooseScore(ScoreData.DieOutScreen);
             }
             else if (DieWhileWait)
             {
+                //Add FeedBack
+                int index = new Random().Next(DedWhileWait.Length);
+                DedWhileWait[index].Play();
                 _PlayerTrust.LooseScore(ScoreData.DieWhileWait);
             }
             else if (DieOnCorrectDoor)
             {
+                //Add FeedBack
                 _PlayerTrust.GainScore(ScoreData.DieOnCorrectDoor);
+                int index = new Random().Next(SoulInDoor.Length);
+                SoulInDoor[index].Play();
+                _PlayerTrust.LooseScore(ScoreData.DieWhileWait);
             }
             else if (DieOnWrongDoor)
             {
+                //Add FeedBack
                 _PlayerTrust.LooseScore(ScoreData.DieOnWrongDoor);
+                int index = new Random().Next(SoulInDoor.Length);
+                SoulInDoor[index].Play();
+                _PlayerTrust.LooseScore(ScoreData.DieWhileWait);
             }
         }
     }
@@ -116,7 +132,13 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     void Update()
     {
-
+        int Rnd = new Random().Next(0, 1000);
+        Debug.Log(Rnd);
+        if (Rnd > 998)
+        {
+            int index = new Random().Next(SonIdle.Length);
+            SonIdle[index].Play();
+        }
     }
 
     public void OnPointerEnter(PointerEventData eventData)

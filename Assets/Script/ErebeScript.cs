@@ -9,13 +9,18 @@ public class ErebeScript : MonoBehaviour, IDropHandler
 {
     public List<GameObject> SoulList;
     public GameObject RespawnPos;
+
+    private int CurrentNumberOfList = 0;
+
+    private int ErebeCurrentSize = 0;
+
     public GameObject TranslateTarget;
     public FloatScriptable ErebeCooldown;
     public int tailleMaxErebe = 10;
     public TMP_Text tailleErebeText;
     public bool isErebActive = true;
+    public AudioSource ErebeOut;
     private Vector3 initialTranslateTargetPos; 
-    private int CurrentNumberOfList = 0;
     private bool canLaunchTimer = true;
 
 
@@ -50,9 +55,15 @@ public class ErebeScript : MonoBehaviour, IDropHandler
                 SoulList.Add(droppedObject);
                 SoulList[CurrentNumberOfList].gameObject.SetActive(false);
                 if(!droppedObject.gameObject.GetComponent<SoulDataGrab>().AmeData.IsBig)
-                CurrentNumberOfList++;
+                {
+                    CurrentNumberOfList++;
+                    ErebeCurrentSize++;
+                }
                 else
-                CurrentNumberOfList += 2;
+                {
+                    ErebeCurrentSize++;
+                    CurrentNumberOfList += 2;
+                }
                 tailleErebeText.text = CurrentNumberOfList + " / " + tailleMaxErebe;
             }
         }
@@ -79,7 +90,7 @@ public class ErebeScript : MonoBehaviour, IDropHandler
 
     public IEnumerator ExpulseSouls()
     {
-        for (int i = 0; i < CurrentNumberOfList; i++)
+        for (int i = 0; i < ErebeCurrentSize; i++)
         {
             GameObject currentSoul = SoulList[i];
             currentSoul.GetComponent<CanvasGroup>().blocksRaycasts = true;
@@ -96,9 +107,10 @@ public class ErebeScript : MonoBehaviour, IDropHandler
             Debug.Log(currentSoul + "Va en" + targetPosition);
             yield return new WaitForSeconds(0.1f);
         }
-
+        ErebeOut.Play();
         SoulList.Clear();
         CurrentNumberOfList = 0;
+        ErebeCurrentSize = 0;
         isErebActive = false;
         gameObject.GetComponent<Image>().color = Color.red;
         tailleErebeText.text = CurrentNumberOfList + " / " + tailleMaxErebe;

@@ -12,28 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: D5P2V4
   m_EditorClassIdentifier: 
-  name: 
+  name: Ancelina Morin
   Acts:
-  - Desc: 
+  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
     Gravity: 0
-  - Desc: 
+  - Desc: "N'a jamais mang\xE9 de fruit"
     Gravity: 0
-  - Desc: 
+  - Desc: Simplet
     Gravity: 0
-  - Desc: 
+  - Desc: Violent
+    Gravity: 1
+  - Desc: "Intol\xE9rance"
+    Gravity: 1
+  - Desc: Cannibalisme
+    Gravity: 1
+  - Desc: Adorait les animaux
     Gravity: 0
-  - Desc: 
+  - Desc: Bienfaiteur
     Gravity: 0
-  - Desc: 
+  - Desc: Modeste
     Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  colorOfDoor: 0
+  - Desc: Recherchait le pouvoir
+    Gravity: 1
+  colorOfDoor: 2
   IsWhite: 0
   IsBig: 0

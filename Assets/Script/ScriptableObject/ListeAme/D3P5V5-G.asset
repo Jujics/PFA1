@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D3P5V5-G
+  m_EditorClassIdentifier: 
+  name: "Doroth\xE9e Lebrun"
+  Acts:
+  - Desc: "A fait un march\xE9 et ne l'a jamais respect\xE9"
+    Gravity: 1
+  - Desc: Pyromanie
+    Gravity: 1
+  - Desc: "Ne r\xE9agissait pas souvent \xE0 son pr\xE9nom"
+    Gravity: 0
+  - Desc: Recherchait le pouvoir
+    Gravity: 1
+  - Desc: "A sauv\xE9 un chat dans un arbre"
+    Gravity: 0
+  - Desc: Intelligent
+    Gravity: 0
+  - Desc: "Spontan\xE9"
+    Gravity: 0
+  - Desc: Meurtre
+    Gravity: 1
+  - Desc: Esclavagisme
+    Gravity: 1
+  - Desc: Courtois
+    Gravity: 0
+  colorOfDoor: 1
+  IsWhite: 0
+  IsBig: 1
