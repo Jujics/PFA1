@@ -18,6 +18,7 @@ public class CycleManager : MonoBehaviour
     public PlayerTrust PlayerTrust;
     public float PlayerTrustFloat;
     public GameObject[] OrderToDel;
+    public AudioSource CharonIsComming;
     
     void Start()
     {
@@ -42,6 +43,7 @@ public class CycleManager : MonoBehaviour
 
     public void OnBoatStartTime()
     {
+        CharonIsComming.Play();
         BoatMovement.StartMovement();
     }
 
@@ -63,7 +65,6 @@ public class CycleManager : MonoBehaviour
         float[] ListData3;
         float[] ListData4;
         float[] ListData5;
-        float[] ListData6;
         ListData1 = EnemiesDataHold.EnemyOne;
         ListData2 = EnemiesDataHold.EnemyTwo;
         ListData3 = EnemiesDataHold.EnemyThree;
