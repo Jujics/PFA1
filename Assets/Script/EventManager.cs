@@ -36,37 +36,49 @@ public class EventManager : MonoBehaviour
         if (EventData[i].IsCloseY1)
         {
             DoorY1.SetActive(false);
+            DoorY1.GetComponent<Animator>().SetBool("InEvent",true);
             yield return new WaitForSeconds(EventData[i].ForHowLong);
+            DoorY1.GetComponent<Animator>().SetBool("InEvent",false);
             DoorY1.SetActive(true);
         }
         else if (EventData[i].IsCloseY2)
         {
             DoorY2.SetActive(false);
+            DoorY2.GetComponent<Animator>().SetBool("InEvent",true);
             yield return new WaitForSeconds(EventData[i].ForHowLong);
+            DoorY2.GetComponent<Animator>().SetBool("InEvent",false);
             DoorY2.SetActive(true);   
         }
         else if (EventData[i].IsCloseO1)
         {
             DoorO1.SetActive(false);
+            DoorO1.GetComponent<Animator>().SetBool("InEvent",true);
             yield return new WaitForSeconds(EventData[i].ForHowLong);
+            DoorO1.GetComponent<Animator>().SetBool("InEvent",false);
             DoorO1.SetActive(true);
         }
         else if (EventData[i].IsCloseO2)
         {
             DoorO2.SetActive(false);
+            DoorO2.GetComponent<Animator>().SetBool("InEvent",true);
             yield return new WaitForSeconds(EventData[i].ForHowLong);
+            DoorO2.GetComponent<Animator>().SetBool("InEvent",false);
             DoorO2.SetActive(true);
         }
         else if (EventData[i].IsCloseR1)
         {
             DoorR1.SetActive(false);
+            DoorR1.GetComponent<Animator>().SetBool("",true);
             yield return new WaitForSeconds(EventData[i].ForHowLong);
+            DoorR1.GetComponent<Animator>().SetBool("",true);
             DoorR2.SetActive(true);
         }
         else if (EventData[i].IsCloseR2)
         {
             DoorR2.SetActive(false);
+            DoorR2.GetComponent<Animator>().SetBool("",true);
             yield return new WaitForSeconds(EventData[i].ForHowLong);
+            DoorR2.GetComponent<Animator>().SetBool("",true);
             DoorR2.SetActive(true);
         }
         else if (EventData[i].IsErebeClosed)

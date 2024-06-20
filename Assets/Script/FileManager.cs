@@ -12,6 +12,8 @@ public class FileManager : MonoBehaviour, IDropHandler
     public float doorCooldown = 2f;
     public GameObject Door;
     public GameObject Aiguille;
+    public AudioSource DoorOpen;
+    public AudioSource DoorClose;
     public enum ColorOfAtk{Blue,Red,Orange,Yellow}
     public ColorOfAtk colorOfDoor;
     private bool doorOpen = true;
@@ -80,7 +82,9 @@ public class FileManager : MonoBehaviour, IDropHandler
         Debug.Log("Door is closed for " + doorCooldown + " seconds.");
         Door.GetComponent<Animator>().SetBool("IsOpen",false);
         Aiguille.GetComponent<Animator>().SetBool("IsClosed",true);
+        DoorOpen.Play();
         yield return new WaitForSeconds(doorCooldown);
+        DoorClose.Play();
         Door.GetComponent<Animator>().SetBool("IsOpen",true);
         Aiguille.GetComponent<Animator>().SetBool("IsClosed",false);
         Debug.Log("Door is open.");

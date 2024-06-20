@@ -15,6 +15,7 @@ public class BoatMovement : MonoBehaviour
     public GameObject[] DayThreeList;
     public GameObject[] DayFourList;
     public GameObject[] DayFiveList;
+    public GameObject NextButton;
     private bool Pause = true;
     private Vector2 StartPosition, EndPosition;
     
@@ -43,10 +44,16 @@ public class BoatMovement : MonoBehaviour
             float t = CurrentTravelTime / MaxTravelTime.Value;
             rectTransform.anchoredPosition = Vector2.Lerp(StartPosition, EndPosition, t);
         }
+
+        if (rectTransform.anchoredPosition == EndPosition)
+        {
+            NextButton.SetActive(true);
+        }
     }
 
     public void StartMovement()
     {
+        NextButton.SetActive(false);
         CycleManager cycleManager;
         cycleManager = CycleManagerHolder.GetComponent<CycleManager>();
         Reset();

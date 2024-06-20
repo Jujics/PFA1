@@ -12,8 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: D5P2V0
   m_EditorClassIdentifier: 
-  name: 
-  Acts: []
+  name: Xavier Leclair
+  Acts:
+  - Desc: "Peur des Araign\xE9es"
+    Gravity: 0
+  - Desc: Peur des chiens
+    Gravity: 0
+  - Desc: Peur des chats
+    Gravity: 0
+  - Desc: Peur des serpents
+    Gravity: 0
+  - Desc: Peur des espaces clos
+    Gravity: 0
+  - Desc: Peur des espaces ouverts
+    Gravity: 0
+  - Desc: Peur des trous
+    Gravity: 0
+  - Desc: Peur des monstres
+    Gravity: 0
+  - Desc: Peur du noir
+    Gravity: 0
+  - Desc: Peur de mourir
+    Gravity: 0
   colorOfDoor: 0
   IsWhite: 0
   IsBig: 0
