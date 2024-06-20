@@ -27,6 +27,8 @@ public class EventManager : MonoBehaviour
         {
             HasStarted = true;
             StartCoroutine(CurrentEventManager());
+            //if(day ==  3 && currentpassage == 3)
+            //{here set tuto group??}
         }
     }
 
@@ -68,17 +70,17 @@ public class EventManager : MonoBehaviour
         else if (EventData[i].IsCloseR1)
         {
             DoorR1.SetActive(false);
-            DoorR1.GetComponent<Animator>().SetBool("",true);
+            DoorR1.GetComponent<Animator>().SetBool("InEvent",true);
             yield return new WaitForSeconds(EventData[i].ForHowLong);
-            DoorR1.GetComponent<Animator>().SetBool("",true);
+            DoorR1.GetComponent<Animator>().SetBool("InEvent",true);
             DoorR2.SetActive(true);
         }
         else if (EventData[i].IsCloseR2)
         {
             DoorR2.SetActive(false);
-            DoorR2.GetComponent<Animator>().SetBool("",true);
+            DoorR2.GetComponent<Animator>().SetBool("InEvent",true);
             yield return new WaitForSeconds(EventData[i].ForHowLong);
-            DoorR2.GetComponent<Animator>().SetBool("",true);
+            DoorR2.GetComponent<Animator>().SetBool("InEvent",true);
             DoorR2.SetActive(true);
         }
         else if (EventData[i].IsErebeClosed)

@@ -34,6 +34,6 @@ MonoBehaviour:
     Gravity: 0
   - Desc: "A aid\xE9 un fermier en difficult\xE9"
     Gravity: 0
-  colorOfDoor: 1
+  colorOfDoor: 0
   IsWhite: 0
   IsBig: 0

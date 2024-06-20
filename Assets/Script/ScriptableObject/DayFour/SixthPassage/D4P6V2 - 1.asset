@@ -14,26 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Maurice Barjavel
   Acts:
-  - Desc: 
+  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
     Gravity: 0
-  - Desc: 
+  - Desc: "Gardait les secrets confi\xE9s"
     Gravity: 0
-  - Desc: 
+  - Desc: "Humble\t\t"
     Gravity: 0
-  - Desc: 
+  - Desc: Adorait semer le chaos
+    Gravity: 1
+  - Desc: "Authentique\t"
     Gravity: 0
-  - Desc: 
+  - Desc: "Elev\xE9 par des Otaries"
     Gravity: 0
-  - Desc: 
+  - Desc: Ne buvait que de l'eau chaude
     Gravity: 0
-  - Desc: 
+  - Desc: Meurtre
+    Gravity: 1
+  - Desc: "\xC9tait pr\xE9sent lors de l'Odyss\xE9e"
     Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
+  - Desc: Violent
+    Gravity: 1
   colorOfDoor: 2
   IsWhite: 0
   IsBig: 0

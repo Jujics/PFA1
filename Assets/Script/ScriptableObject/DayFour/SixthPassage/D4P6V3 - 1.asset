@@ -12,27 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: D4P6V3 - 1
   m_EditorClassIdentifier: 
-  name: Holly Girard
+  name: "Holly Girard (\u0152dipe)"
   Acts:
-  - Desc: 
+  - Desc: "S'appelait \u0152dipe"
+    Gravity: 1
+  - Desc: Est parti acheter du lait
+    Gravity: 1
+  - Desc: "N'a jamais cru en la philosophie\t"
     Gravity: 0
-  - Desc: 
+  - Desc: "G\xE2chait du vin pour montrer sa richesse"
+    Gravity: 1
+  - Desc: Se pensait libre de penser
+    Gravity: 1
+  - Desc: "N'avait aucune r\xE9parti\t"
     Gravity: 0
-  - Desc: 
+  - Desc: "S'affalait toujours dans les fauteuils\t"
     Gravity: 0
-  - Desc: 
+  - Desc: Se pensait libre de penser
+    Gravity: 1
+  - Desc: "L\xE9g\xE8rement fanatique du Feu\t"
     Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
+  - Desc: "Fan de Socrates\t"
     Gravity: 0
   colorOfDoor: 1
   IsWhite: 0

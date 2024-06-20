@@ -14,26 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Marie Pelland
   Acts:
-  - Desc: 
+  - Desc: "Spontan\xE9"
     Gravity: 0
-  - Desc: 
+  - Desc: Se prenait pour un vampire
+    Gravity: 1
+  - Desc: Mature
     Gravity: 0
-  - Desc: 
+  - Desc: "A cr\xE9e un incendie volontairement"
+    Gravity: 1
+  - Desc: "Cultiv\xE9 "
     Gravity: 0
-  - Desc: 
+  - Desc: "S'imaginait dans un monde cr\xE9e par des GD"
     Gravity: 0
-  - Desc: 
+  - Desc: Peur des chats
     Gravity: 0
-  - Desc: 
+  - Desc: "Affirmait que la Terre \xE9tait ronde\t"
     Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
+  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
+    Gravity: 1
+  - Desc: Homicide
+    Gravity: 1
   colorOfDoor: 2
   IsWhite: 0
   IsBig: 1

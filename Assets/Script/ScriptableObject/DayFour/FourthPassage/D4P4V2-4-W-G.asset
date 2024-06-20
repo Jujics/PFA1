@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D4P4V2-4-W-G
+  m_EditorClassIdentifier: 
+  name: Alice Faubert
+  Acts:
+  - Desc: Ratait toujours ses repas
+    Gravity: 0
+  - Desc: "A d\xE9j\xE0 quitter la Gr\xE8ce\t"
+    Gravity: 0
+  - Desc: "Avait d\xE9j\xE0 tout pr\xE9vu\t"
+    Gravity: 0
+  - Desc: N'a jamais fait la guerre
+    Gravity: 0
+  - Desc: "Fr\xE8re d'Objetek Nik"
+    Gravity: 0
+  - Desc: "S\xE9journait chez ses parents"
+    Gravity: 0
+  - Desc: 'Adorait semer le chaos '
+    Gravity: 1
+  - Desc: "Infid\xE8le "
+    Gravity: 1
+  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort "
+    Gravity: 1
+  - Desc: 'N''agissait selon aucun code moral '
+    Gravity: 1
+  colorOfDoor: 2
+  IsWhite: 1
+  IsBig: 1

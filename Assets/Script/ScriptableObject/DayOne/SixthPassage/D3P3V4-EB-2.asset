@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D3P3V4-EB-2
+  m_EditorClassIdentifier: 
+  name: "Madelene Lafreni\xE8re"
+  Acts:
+  - Desc: "A failli \xEAtre mang\xE9 par un animal"
+    Gravity: 0
+  - Desc: Braconage
+    Gravity: 1
+  - Desc: "A imagin\xE9 un concept de \"Retraite\"\t"
+    Gravity: 0
+  - Desc: "S\xE9journait chez son oncle"
+    Gravity: 0
+  - Desc: Pyromanie
+    Gravity: 1
+  - Desc: Cannibalisme
+    Gravity: 1
+  - Desc: Recherchait le pouvoir
+    Gravity: 1
+  - Desc: Paresseux
+    Gravity: 1
+  - Desc: "M\xE9nageais ses confr\xE8res"
+    Gravity: 0
+  - Desc: Frappait l'air sans raison
+    Gravity: 0
+  colorOfDoor: 2
+  IsWhite: 1
+  IsBig: 0
