@@ -14,6 +14,7 @@ public class ErebeScript : MonoBehaviour, IDropHandler
     public int tailleMaxErebe = 10;
     public TMP_Text tailleErebeText;
     public bool isErebActive = true;
+    public AudioSource ErebeOut;
     private Vector3 initialTranslateTargetPos; 
     private int CurrentNumberOfList = 0;
     private bool canLaunchTimer = true;
@@ -96,7 +97,7 @@ public class ErebeScript : MonoBehaviour, IDropHandler
             Debug.Log(currentSoul + "Va en" + targetPosition);
             yield return new WaitForSeconds(0.1f);
         }
-
+        ErebeOut.Play();
         SoulList.Clear();
         CurrentNumberOfList = 0;
         isErebActive = false;
