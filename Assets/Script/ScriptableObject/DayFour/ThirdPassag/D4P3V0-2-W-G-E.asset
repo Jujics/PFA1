@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V2-2-G
+  m_Name: D4P3V0-2-W-G-E
   m_EditorClassIdentifier: 
-  name: Marie Pelland
+  name: Carole Provencher
   Acts:
-  - Desc: "Spontan\xE9"
+  - Desc: "A soign\xE9 les plaies d'un animal"
     Gravity: 0
-  - Desc: Se prenait pour un vampire
+  - Desc: Inspirant
+    Gravity: 0
+  - Desc: 'Acte de Guerre '
     Gravity: 1
-  - Desc: Mature
+  - Desc: "Fan de Socrates\t"
     Gravity: 0
-  - Desc: "A cr\xE9e un incendie volontairement"
-    Gravity: 1
-  - Desc: "Cultiv\xE9 "
+  - Desc: N'acceptait pas la critique
     Gravity: 0
-  - Desc: "S'imaginait dans un monde cr\xE9e par des GD"
+  - Desc: "Peur de mourir\t\t"
     Gravity: 0
-  - Desc: Peur des chats
+  - Desc: "A imagin\xE9 un concept de \"Retraite\""
     Gravity: 0
-  - Desc: "Affirmait que la Terre \xE9tait ronde\t"
+  - Desc: "Fron\xE7ait les sourcils quand il faisait nuit"
     Gravity: 0
-  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
-    Gravity: 1
-  - Desc: Homicide
-    Gravity: 1
-  colorOfDoor: 2
+  - Desc: "Frappait l'air sans raison\t"
+    Gravity: 0
+  - Desc: "S\xE9journait chez son oncle"
+    Gravity: 0
+  colorOfDoor: 0
   IsWhite: 0
   IsBig: 1

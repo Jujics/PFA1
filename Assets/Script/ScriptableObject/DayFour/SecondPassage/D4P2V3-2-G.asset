@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V2 - 1
+  m_Name: D4P2V3-2-G
   m_EditorClassIdentifier: 
-  name: Maurice Barjavel
+  name: Florus Gauthier
   Acts:
-  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
-    Gravity: 0
-  - Desc: "Gardait les secrets confi\xE9s"
-    Gravity: 0
-  - Desc: "Humble\t\t"
-    Gravity: 0
-  - Desc: Adorait semer le chaos
+  - Desc: 'N''honorait pas les dieux '
     Gravity: 1
-  - Desc: "Authentique\t"
-    Gravity: 0
-  - Desc: "Elev\xE9 par des Otaries"
-    Gravity: 0
-  - Desc: Ne buvait que de l'eau chaude
-    Gravity: 0
-  - Desc: Meurtre
+  - Desc: "Enl\xE8vement "
     Gravity: 1
-  - Desc: "\xC9tait pr\xE9sent lors de l'Odyss\xE9e"
+  - Desc: "A port\xE9 des chaussettes d\xE9paraill\xE9es"
     Gravity: 0
-  - Desc: Violent
+  - Desc: "N'a jamais mang\xE9 de fruit"
+    Gravity: 0
+  - Desc: 'Paresseux '
     Gravity: 1
-  colorOfDoor: 2
+  - Desc: "N'a jamais mang\xE9 de viande"
+    Gravity: 0
+  - Desc: "N'a jamais mang\xE9 de l\xE9gumes\t"
+    Gravity: 0
+  - Desc: "A d\xE9j\xE0 mang\xE9 de la terre"
+    Gravity: 0
+  - Desc: 'N''agissait selon aucun code moral '
+    Gravity: 1
+  - Desc: 'Adorait semer le chaos '
+    Gravity: 1
+  colorOfDoor: 1
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

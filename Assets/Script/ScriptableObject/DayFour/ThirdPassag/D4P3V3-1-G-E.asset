@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V3 - 1
+  m_Name: D4P3V3-1-G-E
   m_EditorClassIdentifier: 
-  name: "Holly Girard (\u0152dipe)"
+  name: Astrid Jardine
   Acts:
-  - Desc: "S'appelait \u0152dipe"
+  - Desc: "Recherche de pouvoir th\xE9ologique "
     Gravity: 1
-  - Desc: Est parti acheter du lait
+  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort "
     Gravity: 1
-  - Desc: "N'a jamais cru en la philosophie\t"
+  - Desc: 'Cannibalisme  '
+    Gravity: 1
+  - Desc: 'Meurtre '
+    Gravity: 1
+  - Desc: "Amical\t"
     Gravity: 0
-  - Desc: "G\xE2chait du vin pour montrer sa richesse"
-    Gravity: 1
-  - Desc: Se pensait libre de penser
-    Gravity: 1
-  - Desc: "N'avait aucune r\xE9parti\t"
+  - Desc: Original
     Gravity: 0
-  - Desc: "S'affalait toujours dans les fauteuils\t"
+  - Desc: "Coop\xE9ratif\t"
     Gravity: 0
-  - Desc: Se pensait libre de penser
-    Gravity: 1
-  - Desc: "L\xE9g\xE8rement fanatique du Feu\t"
+  - Desc: Manchot
     Gravity: 0
-  - Desc: "Fan de Socrates\t"
+  - Desc: "N'arrivait jamais au bout de ses id\xE9es"
+    Gravity: 0
+  - Desc: "N'avait aucune r\xE9parti"
     Gravity: 0
   colorOfDoor: 1
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

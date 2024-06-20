@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D4P6V2-2-G
+  m_Name: D4P4V1-1-G
   m_EditorClassIdentifier: 
-  name: Marie Pelland
+  name: Joe Lopez
   Acts:
-  - Desc: "Spontan\xE9"
+  - Desc: "A imagin\xE9 un concept de \"Retraite\""
     Gravity: 0
-  - Desc: Se prenait pour un vampire
+  - Desc: "Se dit avoir invent\xE9 la Roue"
+    Gravity: 0
+  - Desc: "S\xE9journait chez son oncle"
+    Gravity: 0
+  - Desc: Consommation d'Ambroisie
     Gravity: 1
-  - Desc: Mature
+  - Desc: "Un spartiate pacifiste\t"
+    Gravity: 0
+  - Desc: "A cr\xE9e un incendie en l'honneur des dieux"
     Gravity: 0
   - Desc: "A cr\xE9e un incendie volontairement"
     Gravity: 1
-  - Desc: "Cultiv\xE9 "
+  - Desc: S'appelait Dimitri Kotek avant
     Gravity: 0
-  - Desc: "S'imaginait dans un monde cr\xE9e par des GD"
+  - Desc: Se croyait issu d'un demi-dieu
     Gravity: 0
-  - Desc: Peur des chats
+  - Desc: "A invent\xE9 le lancer de disque"
     Gravity: 0
-  - Desc: "Affirmait que la Terre \xE9tait ronde\t"
-    Gravity: 0
-  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
-    Gravity: 1
-  - Desc: Homicide
-    Gravity: 1
-  colorOfDoor: 2
+  colorOfDoor: 3
   IsWhite: 0
   IsBig: 1
