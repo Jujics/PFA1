@@ -57,19 +57,19 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         {
             if (DieOutScreen && AmeData.IsWhite!)
             {
-                //Add FeedBack
+                //Add FeedBack/Soul going out of screen
                 _PlayerTrust.LooseScore(ScoreData.DieOutScreen);
             }
             else if (DieWhileWait)
             {
-                //Add FeedBack
+                //Add FeedBack/soul dying of old age
                 int index = new Random().Next(DedWhileWait.Length);
                 DedWhileWait[index].Play();
                 _PlayerTrust.LooseScore(ScoreData.DieWhileWait);
             }
             else if (DieOnCorrectDoor)
             {
-                //Add FeedBack
+                //Add FeedBack/Good Door
                 _PlayerTrust.GainScore(ScoreData.DieOnCorrectDoor);
                 int index = new Random().Next(SoulInDoor.Length);
                 SoulInDoor[index].Play();
@@ -77,7 +77,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             }
             else if (DieOnWrongDoor)
             {
-                //Add FeedBack
+                //Add FeedBack/Bad Door
                 _PlayerTrust.LooseScore(ScoreData.DieOnWrongDoor);
                 int index = new Random().Next(SoulInDoor.Length);
                 SoulInDoor[index].Play();
