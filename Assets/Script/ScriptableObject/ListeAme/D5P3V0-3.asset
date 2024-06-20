@@ -10,29 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P3V0
+  m_Name: D5P3V0-3
   m_EditorClassIdentifier: 
-  name: Claude Lessard
+  name: Laure Grignon
   Acts:
-  - Desc: "S'\xE9clipsait avant son tour lors des d\xE9bats"
+  - Desc: Charismatique
     Gravity: 0
-  - Desc: A partager ses richesses
+  - Desc: "Coop\xE9ratif"
     Gravity: 0
-  - Desc: Semait des graines d'arbres
+  - Desc: "Cultiv\xE9"
     Gravity: 0
-  - Desc: "Gardait les secrets confi\xE9s"
+  - Desc: Calme
     Gravity: 0
-  - Desc: Apaisant
+  - Desc: Solitaire
     Gravity: 0
-  - Desc: Original
+  - Desc: Simplet
     Gravity: 0
-  - Desc: Sociable
+  - Desc: "A d\xE9j\xE0 pris part \xE0 un d\xE9bat"
     Gravity: 0
-  - Desc: "Avait d\xE9j\xE0 tout pr\xE9vu"
+  - Desc: "Voudrait un autographe d'Had\xE8s"
     Gravity: 0
-  - Desc: "Fr\xE8re d'un ours"
+  - Desc: "A invent\xE9 le lancer de disque"
     Gravity: 0
-  - Desc: "A invent\xE9 la gravure"
+  - Desc: Se croyait issu d'un demi-dieu
     Gravity: 0
   colorOfDoor: 0
   IsWhite: 0

@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P1V4
+  m_Name: D5P3V3-G
   m_EditorClassIdentifier: 
-  name: Luc Lier
+  name: Melville Course
   Acts:
-  - Desc: Adorait les animaux
-    Gravity: 0
   - Desc: "M\xE9nageais ses confr\xE8res"
     Gravity: 0
-  - Desc: "Se battait pour l'\xE9galit\xE9"
+  - Desc: "Tol\xE9rant"
     Gravity: 0
-  - Desc: Serviable
+  - Desc: "Sinc\xE8re"
     Gravity: 0
-  - Desc: "A nettoy\xE9 des amphores sacr\xE9es"
+  - Desc: Simple
     Gravity: 0
+  - Desc: "Ne r\xE9agissait pas souvent \xE0 son pr\xE9nom"
+    Gravity: 0
+  - Desc: Recherchait le pouvoir
+    Gravity: 1
   - Desc: N'agissait selon aucun code moral
     Gravity: 1
-  - Desc: "A cr\xE9e un incendie en l'honneur des dieux"
+  - Desc: "A fait un march\xE9 et ne l'a jamais respect\xE9"
     Gravity: 1
-  - Desc: Confiant
+  - Desc: Adorait les animaux
     Gravity: 0
-  - Desc: Se prenait pour un vampire
-    Gravity: 1
-  - Desc: "A toujours d\xE9tourn\xE9 le regard "
-    Gravity: 1
+  - Desc: "A sauv\xE9 un chat dans un arbre"
+    Gravity: 0
   colorOfDoor: 2
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

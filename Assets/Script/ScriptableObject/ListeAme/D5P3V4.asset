@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P1V4
+  m_Name: D5P3V4
   m_EditorClassIdentifier: 
-  name: Luc Lier
+  name: Bernard Tougas
   Acts:
-  - Desc: Adorait les animaux
-    Gravity: 0
-  - Desc: "M\xE9nageais ses confr\xE8res"
-    Gravity: 0
-  - Desc: "Se battait pour l'\xE9galit\xE9"
-    Gravity: 0
-  - Desc: Serviable
-    Gravity: 0
-  - Desc: "A nettoy\xE9 des amphores sacr\xE9es"
-    Gravity: 0
-  - Desc: N'agissait selon aucun code moral
+  - Desc: "Enl\xE8vement"
     Gravity: 1
-  - Desc: "A cr\xE9e un incendie en l'honneur des dieux"
+  - Desc: N'a jamais menti
+    Gravity: 0
+  - Desc: A toujours menti
     Gravity: 1
+  - Desc: Philosophe
+    Gravity: 0
+  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
+    Gravity: 0
   - Desc: Confiant
     Gravity: 0
-  - Desc: Se prenait pour un vampire
+  - Desc: Consommation d'Ambroisie
     Gravity: 1
-  - Desc: "A toujours d\xE9tourn\xE9 le regard "
+  - Desc: Pour donner aux plus pauvres
     Gravity: 1
+  - Desc: Adorait la nature
+    Gravity: 0
+  - Desc: "A invent\xE9 le lancer de disque"
+    Gravity: 0
   colorOfDoor: 2
   IsWhite: 0
   IsBig: 0

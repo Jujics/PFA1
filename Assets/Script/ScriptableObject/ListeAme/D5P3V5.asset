@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P1V4
+  m_Name: D5P3V5
   m_EditorClassIdentifier: 
-  name: Luc Lier
+  name: Ferrau Miron
   Acts:
-  - Desc: Adorait les animaux
+  - Desc: "A toujours bu avec mod\xE9ration"
     Gravity: 0
-  - Desc: "M\xE9nageais ses confr\xE8res"
+  - Desc: Bienfaiteur
     Gravity: 0
-  - Desc: "Se battait pour l'\xE9galit\xE9"
+  - Desc: "Ecoutait les probl\xE8mes des autres"
     Gravity: 0
-  - Desc: Serviable
+  - Desc: Amusant
     Gravity: 0
-  - Desc: "A nettoy\xE9 des amphores sacr\xE9es"
-    Gravity: 0
-  - Desc: N'agissait selon aucun code moral
+  - Desc: Homicide
+    Gravity: 1
+  - Desc: A toujours menti
+    Gravity: 1
+  - Desc: "Intol\xE9rance"
     Gravity: 1
   - Desc: "A cr\xE9e un incendie en l'honneur des dieux"
     Gravity: 1
-  - Desc: Confiant
+  - Desc: Est parti acheter du lait
+    Gravity: 1
+  - Desc: Adorait les animaux
     Gravity: 0
-  - Desc: Se prenait pour un vampire
-    Gravity: 1
-  - Desc: "A toujours d\xE9tourn\xE9 le regard "
-    Gravity: 1
-  colorOfDoor: 2
+  colorOfDoor: 1
   IsWhite: 0
   IsBig: 0
