@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D4P6V2-2-G
+  m_EditorClassIdentifier: 
+  name: Marie Pelland
+  Acts:
+  - Desc: "Spontan\xE9"
+    Gravity: 0
+  - Desc: Se prenait pour un vampire
+    Gravity: 1
+  - Desc: Mature
+    Gravity: 0
+  - Desc: "A cr\xE9e un incendie volontairement"
+    Gravity: 1
+  - Desc: "Cultiv\xE9 "
+    Gravity: 0
+  - Desc: "S'imaginait dans un monde cr\xE9e par des GD"
+    Gravity: 0
+  - Desc: Peur des chats
+    Gravity: 0
+  - Desc: "Affirmait que la Terre \xE9tait ronde\t"
+    Gravity: 0
+  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
+    Gravity: 1
+  - Desc: Homicide
+    Gravity: 1
+  colorOfDoor: 2
+  IsWhite: 0
+  IsBig: 1

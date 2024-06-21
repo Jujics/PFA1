@@ -1,8 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class CycleManager : MonoBehaviour
 {
@@ -19,7 +18,13 @@ public class CycleManager : MonoBehaviour
     public float PlayerTrustFloat;
     public GameObject[] OrderToDel;
     public AudioSource CharonIsComming;
+
+    public SequenceManager sequenceManager;
     
+    public TutorialManager tutorialManager;
+
+    public Button CloseResultWinButton;
+
     void Start()
     {
         SliderScript.OnTimerEnd.AddListener(OnTimerEnd);
@@ -27,13 +32,12 @@ public class CycleManager : MonoBehaviour
         StartNewCycle();
     }
 
-
     public void OnTimerEnd()
     {
         CurrentCycle++;
         if (CurrentCycle < MaxCycle.Value)
         {
-            if (CurrentCycle == MaxCycle.Value - 1) 
+            if (CurrentCycle == MaxCycle.Value - 1)
             {
                 LastCycle();
             }
@@ -50,12 +54,66 @@ public class CycleManager : MonoBehaviour
     public void StartNewCycle()
     {
         SliderScript.StartSlider();
+        CheckForTutorial();
     }
 
     public void LastCycle()
     {
         //make the bell sound
         StartCoroutine(WaitUntilEndLevel());
+    }
+
+    private void CheckForTutorial()
+    {
+        // Example: Start tutorial on day 1, cycle 0
+        if (CurrentDay == 1 && CurrentCycle == 0)
+        {
+            tutorialManager.StartTutorial();
+        }
+        else if (CurrentDay == 1 && CurrentCycle == 0)
+        {
+            tutorialManager.StartTutorial();
+        }
+        else if (CurrentDay == 1 && CurrentCycle == 0)
+        {
+            tutorialManager.StartTutorial();
+        }
+        else if (CurrentDay == 1 && CurrentCycle == 0)
+        {
+            tutorialManager.StartTutorial();
+        }
+        else if (CurrentDay == 1 && CurrentCycle == 0)
+        {
+            tutorialManager.StartTutorial();
+        }
+        else if (CurrentDay == 1 && CurrentCycle == 0)
+        {
+            tutorialManager.StartTutorial();
+        }
+        else if (CurrentDay == 1 && CurrentCycle == 0)
+        {
+            tutorialManager.StartTutorial();
+        }
+        else if (CurrentDay == 1 && CurrentCycle == 0)
+        {
+            tutorialManager.StartTutorial();
+        }
+        else if (CurrentDay == 1 && CurrentCycle == 0)
+        {
+            tutorialManager.StartTutorial();
+        }
+        else if (CurrentDay == 1 && CurrentCycle == 0)
+        {
+            tutorialManager.StartTutorial();
+        }
+        else if (CurrentDay == 1 && CurrentCycle == 0)
+        {
+            tutorialManager.StartTutorial();
+        }
+        else if (CurrentDay == 1 && CurrentCycle == 0)
+        {
+            tutorialManager.StartTutorial();
+        }
     }
 
     public void ScoreCompare()
@@ -70,9 +128,7 @@ public class CycleManager : MonoBehaviour
         ListData3 = EnemiesDataHold.EnemyThree;
         ListData4 = EnemiesDataHold.EnemyFour;
         ListData5 = EnemiesDataHold.EnemyFive;
-        SmallerOne(ListData1,ListData2,ListData3,ListData4,ListData5);
-        
-            
+        SmallerOne(ListData1, ListData2, ListData3, ListData4, ListData5);
     }
 
     public void SmallerOne(float[] L1, float[] L2, float[] L3, float[] L4, float[] L5)
@@ -86,6 +142,9 @@ public class CycleManager : MonoBehaviour
         if (isSmallerThanL1 && isSmallerThanL2 && isSmallerThanL3 && isSmallerThanL4 && isSmallerThanL5)
         {
             //set end loose screen
+            sequenceManager.GoToEndScreenLoose(PlayerTrust.Score);
+            //set pause true
+
         }
         else
         {
@@ -119,7 +178,11 @@ public class CycleManager : MonoBehaviour
     private IEnumerator WaitUntilEndLevel()
     {
         yield return new WaitForSeconds(TimeUntilEndDay);
+
         //set end of day screen
+        sequenceManager.GoToEndScreenWin(PlayerTrust.Score);
+        //wait a little/wait for button click
+        new WaitForUIButtons(CloseResultWinButton);
         if (CurrentDay < MaxDays.Value)
         {
             PlayerTrustFloat = PlayerTrust.Score;
@@ -130,8 +193,9 @@ public class CycleManager : MonoBehaviour
         }
         else
         {
-            //set end win screen
+            //set end screen
+            sequenceManager.GoToEndGame();
         }
-
     }
 }
+

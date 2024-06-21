@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D4P6V3-6-W-G
+  m_EditorClassIdentifier: 
+  name: Aubrey Sylvain
+  Acts:
+  - Desc: "Pimpais r\xE9guli\xE8rement son char"
+    Gravity: 0
+  - Desc: Adorait semer le chaos
+    Gravity: 1
+  - Desc: 'Violent '
+    Gravity: 1
+  - Desc: "G\xE2chait du vin pour montrer sa richesse "
+    Gravity: 1
+  - Desc: 'Cannibalisme  '
+    Gravity: 1
+  - Desc: "Ne r\xE9agissait pas souvent \xE0 son pr\xE9nom"
+    Gravity: 0
+  - Desc: 'N''honorait pas les dieux '
+    Gravity: 1
+  - Desc: 'Insultait souvent les dieux dans sa barbe '
+    Gravity: 1
+  - Desc: Un spartiate pacifiste
+    Gravity: 0
+  - Desc: "Enl\xE8vement "
+    Gravity: 1
+  colorOfDoor: 1
+  IsWhite: 1
+  IsBig: 1
