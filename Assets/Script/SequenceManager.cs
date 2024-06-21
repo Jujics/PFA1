@@ -24,16 +24,16 @@ public class SequenceManager : MonoBehaviour
     public int DayNumber;
 
     public TMP_Text ScoreText;
+    private TMP_Text OriginalText;
 
     public GameObject HadesHappyFeedBackTarget;
     public GameObject HadesAngryFeedBackTarget;
 
     void Start()
     {
+        OriginalText.text = ScoreText.text;
         HadesHappyFeedBackTarget = GameObject.Find("Game/HadesHappyFeedBackTarget");
         HadesHappyFeedBackTarget.SetActive(false);
-
-
         HadesAngryFeedBackTarget = GameObject.Find("Game/HadesAngryFeedBackTarget");
         HadesAngryFeedBackTarget.SetActive(false);
         if (SettingsPanel != null)
@@ -54,14 +54,14 @@ public class SequenceManager : MonoBehaviour
     public void GoToEndScreenWin(int playertrust)
     {
         EndScreenWin.SetActive(true);
-        ScoreText.text += "\n" +playertrust;
+        ScoreText.text = OriginalText + "\n" +playertrust;
     }
 
         public void GoToEndScreenLoose(int playertrust)
     {
         EndScreenLoose.SetActive(true);
         //ScoreAffiché = ScoreDuJour;         A prendre pour lier le score
-        ScoreText.text += "\n" +playertrust;
+        ScoreText.text = OriginalText + "\n" +playertrust;
     }
 
     public void CloseResultWin()
