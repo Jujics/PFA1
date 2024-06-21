@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P4V4
+  m_Name: D5P4V4-E
   m_EditorClassIdentifier: 
   name: Aubert Bois
   Acts:
@@ -30,8 +30,8 @@ MonoBehaviour:
     Gravity: 1
   - Desc: N'a jamais compris les maths
     Gravity: 0
-  - Desc: Attentif
-    Gravity: 0
+  - Desc: Cannibalisme
+    Gravity: 1
   - Desc: Exceptionnellement fort
     Gravity: 0
   colorOfDoor: 2

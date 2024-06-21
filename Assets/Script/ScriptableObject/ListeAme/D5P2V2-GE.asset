@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P1V5-G
+  m_Name: D5P2V2-GE
   m_EditorClassIdentifier: 
-  name: Beezow Bartholomew
+  name: Maurelle Senneville
   Acts:
-  - Desc: "Sinc\xE8re"
+  - Desc: "Songeais souvent \xE0 songer plus souvent"
     Gravity: 0
-  - Desc: Menteur
-    Gravity: 1
-  - Desc: Volontaire
+  - Desc: "Avait des r\xEAves assez r\xE9guli\xE8rement"
     Gravity: 0
-  - Desc: Involontaire
-    Gravity: 1
-  - Desc: "Fid\xE8le"
+  - Desc: Philosophe
     Gravity: 0
-  - Desc: "Infid\xE8le "
+  - Desc: Cannibalisme
     Gravity: 1
-  - Desc: "Motiv\xE9"
+  - Desc: "Songeais souvent \xE0 songer plus souvent"
     Gravity: 0
   - Desc: Paresseux
     Gravity: 1
-  - Desc: Doux
+  - Desc: Semait des graines d'arbres
     Gravity: 0
-  - Desc: Violent
+  - Desc: Involontaire
     Gravity: 1
-  colorOfDoor: 1
+  - Desc: "Se battait pour l'\xE9galit\xE9"
+    Gravity: 0
+  - Desc: Humble
+    Gravity: 0
+  colorOfDoor: 3
   IsWhite: 0
   IsBig: 1

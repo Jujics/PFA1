@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P2V4
+  m_Name: D5P3V3-2-E
   m_EditorClassIdentifier: 
-  name: Ancelina Morin
+  name: La Roux Guertin
   Acts:
-  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
+  - Desc: Charismatique
     Gravity: 0
-  - Desc: "N'a jamais mang\xE9 de fruit"
+  - Desc: "Coop\xE9ratif"
     Gravity: 0
-  - Desc: Simplet
+  - Desc: Exceptionnellement fort
     Gravity: 0
-  - Desc: Violent
+  - Desc: N'honorait pas les dieux
     Gravity: 1
-  - Desc: "Intol\xE9rance"
+  - Desc: "D\xE9pense sa richesse sans compter"
     Gravity: 1
-  - Desc: Cannibalisme
-    Gravity: 1
-  - Desc: Adorait les animaux
+  - Desc: "A aid\xE9 un fermier en difficult\xE9"
     Gravity: 0
-  - Desc: Bienfaiteur
+  - Desc: Semait des graines d'arbres
     Gravity: 0
-  - Desc: Modeste
+  - Desc: Patient
     Gravity: 0
-  - Desc: Recherchait le pouvoir
-    Gravity: 1
+  - Desc: Pacifiste
+    Gravity: 0
+  - Desc: "A d\xE9j\xE0 officiellement \xE9t\xE9 emprisonn\xE9 \xE0 tord"
+    Gravity: 0
   colorOfDoor: 2
   IsWhite: 0
   IsBig: 0
