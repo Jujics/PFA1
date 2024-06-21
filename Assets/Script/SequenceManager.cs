@@ -25,13 +25,21 @@ public class SequenceManager : MonoBehaviour
 
     public TMP_Text ScoreText;
 
-
+    public GameObject HadesHappyFeedBackTarget;
+    public GameObject HadesAngryFeedBackTarget;
 
     void Start()
     {
+        HadesHappyFeedBackTarget = GameObject.Find("Game/HadesHappyFeedBackTarget");
+        HadesHappyFeedBackTarget.SetActive(false);
+
+
+        HadesAngryFeedBackTarget = GameObject.Find("Game/HadesAngryFeedBackTarget");
+        HadesAngryFeedBackTarget.SetActive(false);
         if (SettingsPanel != null)
         SettingsPanel.SetActive(false);
     }
+
 
     public void GoToGame()
     {
@@ -82,6 +90,30 @@ public class SequenceManager : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+
+
+    public void StartSpicifiedCoroutine(int n)
+    {
+        if(n == 1)
+        StartCoroutine(HadesHappy());
+        else if(n == 0)
+        StartCoroutine(HadesAngry());
+    }
+
+    public IEnumerator HadesHappy()
+    {
+        HadesHappyFeedBackTarget.SetActive(true);
+        yield return new WaitForSeconds(2);
+        HadesHappyFeedBackTarget.SetActive(false);
+    }
+
+    public IEnumerator HadesAngry()
+    {
+        HadesAngryFeedBackTarget.SetActive(true);
+        yield return new WaitForSeconds(2);
+        HadesAngryFeedBackTarget.SetActive(false);
     }
 
 }
