@@ -42,6 +42,7 @@ public class CycleManager : MonoBehaviour
                 LastCycle();
             }
             StartNewCycle();
+            
         }
     }
 
@@ -65,54 +66,53 @@ public class CycleManager : MonoBehaviour
 
     private void CheckForTutorial()
     {
-        // Example: Start tutorial on day 1, cycle 0
         if (CurrentDay == 1 && CurrentCycle == 0)
         {
-            tutorialManager.StartTutorial();
+            tutorialManager.StartTutorial(0); 
         }
-        else if (CurrentDay == 1 && CurrentCycle == 0)
+        else if (CurrentDay == 1 && CurrentCycle == 1)
         {
-            tutorialManager.StartTutorial();
+            tutorialManager.StartTutorial(1); 
         }
-        else if (CurrentDay == 1 && CurrentCycle == 0)
+        else if (CurrentDay == 1 && CurrentCycle == 2)
         {
-            tutorialManager.StartTutorial();
+            tutorialManager.StartTutorial(2); 
         }
-        else if (CurrentDay == 1 && CurrentCycle == 0)
+        else if (CurrentDay == 1 && CurrentCycle == 4)
         {
-            tutorialManager.StartTutorial();
+            tutorialManager.StartTutorial(3); 
         }
-        else if (CurrentDay == 1 && CurrentCycle == 0)
+        else if (CurrentDay == 2 && CurrentCycle == 0)
         {
-            tutorialManager.StartTutorial();
+            tutorialManager.StartTutorial(4); 
         }
-        else if (CurrentDay == 1 && CurrentCycle == 0)
+        else if (CurrentDay == 3 && CurrentCycle == 0)
         {
-            tutorialManager.StartTutorial();
+            tutorialManager.StartTutorial(5); 
         }
-        else if (CurrentDay == 1 && CurrentCycle == 0)
+        else if (CurrentDay == 3 && CurrentCycle == 1)
         {
-            tutorialManager.StartTutorial();
+            tutorialManager.StartTutorial(6); 
         }
-        else if (CurrentDay == 1 && CurrentCycle == 0)
+        else if (CurrentDay == 3 && CurrentCycle == 3)
         {
-            tutorialManager.StartTutorial();
+            tutorialManager.StartTutorial(7); 
         }
-        else if (CurrentDay == 1 && CurrentCycle == 0)
+        else if (CurrentDay == 3 && CurrentCycle == 4)
         {
-            tutorialManager.StartTutorial();
+            tutorialManager.StartTutorial(8); 
         }
-        else if (CurrentDay == 1 && CurrentCycle == 0)
+        else if (CurrentDay == 4 && CurrentCycle == 0)
         {
-            tutorialManager.StartTutorial();
+            tutorialManager.StartTutorial(9); 
         }
-        else if (CurrentDay == 1 && CurrentCycle == 0)
+        else if (CurrentDay == 4 && CurrentCycle == 1)
         {
-            tutorialManager.StartTutorial();
+            tutorialManager.StartTutorial(10); 
         }
-        else if (CurrentDay == 1 && CurrentCycle == 0)
+        else if (CurrentDay == 5 && CurrentCycle == 0)
         {
-            tutorialManager.StartTutorial();
+            tutorialManager.StartTutorial(11); 
         }
     }
 
@@ -180,7 +180,9 @@ public class CycleManager : MonoBehaviour
         yield return new WaitForSeconds(TimeUntilEndDay);
 
         //set end of day screen
+        
         sequenceManager.GoToEndScreenWin(PlayerTrust.Score);
+        
         //wait a little/wait for button click
         Time.timeScale = 0;
         new WaitForUIButtons(CloseResultWinButton);

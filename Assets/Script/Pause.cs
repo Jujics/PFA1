@@ -10,15 +10,7 @@ public class Pause : MonoBehaviour
     public GameObject PauseMenu;
     public Button ExitTutoButton;
     public TutorialManager tutorialManager;
-
-    public void TutoSelect()
-    {
-        if (OnTuto)
-        {
-            tutorialManager.StartTutorial();
-        }
-    }
-
+    
     public IEnumerator OnPause()
     {
         if (OnTuto)
