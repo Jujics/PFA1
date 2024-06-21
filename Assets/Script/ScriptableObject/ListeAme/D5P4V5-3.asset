@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: D5P4V5-3
   m_EditorClassIdentifier: 
-  name: 
+  name: "Armand Grandpr\xE9"
   Acts:
   - Desc: Est parti acheter du lait
     Gravity: 1
@@ -26,7 +26,7 @@ MonoBehaviour:
     Gravity: 1
   - Desc: "Recherche de pouvoir th\xE9ologique"
     Gravity: 1
-  - Desc: Adorait les animaux
+  - Desc: "Pensais se r\xE9incarner en mourrant"
     Gravity: 0
   - Desc: "Voudrait un autographe d'Had\xE8s"
     Gravity: 0

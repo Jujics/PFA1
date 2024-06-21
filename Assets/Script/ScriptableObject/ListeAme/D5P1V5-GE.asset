@@ -22,9 +22,9 @@ MonoBehaviour:
     Gravity: 0
   - Desc: Involontaire
     Gravity: 1
-  - Desc: "Fid\xE8le"
+  - Desc: "Tol\xE9rant"
     Gravity: 0
-  - Desc: "Infid\xE8le "
+  - Desc: "Intol\xE9rance"
     Gravity: 1
   - Desc: "Motiv\xE9"
     Gravity: 0
