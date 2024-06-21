@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P4V1
+  m_Name: D5P4V1-B
   m_EditorClassIdentifier: 
   name: Dimitri Kotek
   Acts:
@@ -35,5 +35,5 @@ MonoBehaviour:
   - Desc: "Affirmait pouvoir cr\xE9er de l'eau"
     Gravity: 0
   colorOfDoor: 3
-  IsWhite: 0
+  IsWhite: 1
   IsBig: 0
