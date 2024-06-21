@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class CycleManager : MonoBehaviour
 {
@@ -18,9 +19,11 @@ public class CycleManager : MonoBehaviour
     public GameObject[] OrderToDel;
     public AudioSource CharonIsComming;
 
-    public GameObject EndScreenDefeat;
+    public SequenceManager sequenceManager;
     
     public TutorialManager tutorialManager;
+
+    public Button CloseResultWinButton;
 
     void Start()
     {
@@ -139,7 +142,9 @@ public class CycleManager : MonoBehaviour
         if (isSmallerThanL1 && isSmallerThanL2 && isSmallerThanL3 && isSmallerThanL4 && isSmallerThanL5)
         {
             //set end loose screen
+            sequenceManager.GoToEndScreenLoose(PlayerTrust.Score);
             //set pause true
+
         }
         else
         {
@@ -173,9 +178,11 @@ public class CycleManager : MonoBehaviour
     private IEnumerator WaitUntilEndLevel()
     {
         yield return new WaitForSeconds(TimeUntilEndDay);
-        //playertrust.score (la confiance du joueur)
+
         //set end of day screen
+        sequenceManager.GoToEndScreenWin(PlayerTrust.Score);
         //wait a little/wait for button click
+        new WaitForUIButtons(CloseResultWinButton);
         if (CurrentDay < MaxDays.Value)
         {
             PlayerTrustFloat = PlayerTrust.Score;
@@ -187,6 +194,7 @@ public class CycleManager : MonoBehaviour
         else
         {
             //set end screen
+            sequenceManager.GoToEndGame();
         }
     }
 }

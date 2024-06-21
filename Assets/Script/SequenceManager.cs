@@ -43,20 +43,22 @@ public class SequenceManager : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void GoToEndScreenWin()
+    public void GoToEndScreenWin(int playertrust)
     {
-        int ScoreAffiché = 0;
         EndScreenWin.SetActive(true);
-        //ScoreAffiché = ScoreDuJour;         A prendre pour lier le score
-        ScoreText.text += "\n" +ScoreAffiché;
+        ScoreText.text += "\n" +playertrust;
     }
 
-        public void GoToEndScreenLoose()
+        public void GoToEndScreenLoose(int playertrust)
     {
-        int ScoreAffiché = 0;
         EndScreenLoose.SetActive(true);
         //ScoreAffiché = ScoreDuJour;         A prendre pour lier le score
-        ScoreText.text += "\n" +ScoreAffiché;
+        ScoreText.text += "\n" +playertrust;
+    }
+
+    public void CloseResultWin()
+    {
+        EndScreenWin.SetActive(false);
     }
 
     public void GoToEndGame()
@@ -77,11 +79,6 @@ public class SequenceManager : MonoBehaviour
         MainMenuPanel.SetActive(true); 
     }
     
-    
-    
-
-
-
     public void QuitGame()
     {
         Application.Quit();
