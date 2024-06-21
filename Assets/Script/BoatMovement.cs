@@ -45,7 +45,7 @@ public class BoatMovement : MonoBehaviour
             rectTransform.anchoredPosition = Vector2.Lerp(StartPosition, EndPosition, t);
         }
 
-        if (rectTransform.anchoredPosition == EndPosition && CycleManagerHolder.GetComponent<CycleManager>().CurrentCycle != 6)
+        if (rectTransform.anchoredPosition == EndPosition && CycleManagerHolder.GetComponent<CycleManager>().CurrentCycle != 5)
         {
                 NextButton.SetActive(true);
         }
@@ -91,6 +91,7 @@ public class BoatMovement : MonoBehaviour
                 switch (cycleManager.CurrentCycle)
                 {
                     case 0:
+                        DayOneList[5].SetActive(false);
                         DayTwoList[0].SetActive(true);
                         break;
                     case 1:
@@ -119,6 +120,7 @@ public class BoatMovement : MonoBehaviour
                 switch (cycleManager.CurrentCycle)
                 {
                     case 0:
+                        DayTwoList[5].SetActive(false);
                         DayThreeList[0].SetActive(true);
                         break;
                     case 1:
@@ -147,6 +149,7 @@ public class BoatMovement : MonoBehaviour
                 switch (cycleManager.CurrentCycle)
                 {
                     case 0:
+                        DayThreeList[5].SetActive(false);
                         DayFourList[0].SetActive(true);
                         break;
                     case 1:
@@ -175,6 +178,7 @@ public class BoatMovement : MonoBehaviour
                 switch (cycleManager.CurrentCycle)
                 {
                     case 0:
+                        DayFourList[5].SetActive(false);
                         DayFiveList[0].SetActive(true);
                         break;
                     case 1:

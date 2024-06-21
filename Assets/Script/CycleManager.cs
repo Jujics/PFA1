@@ -18,7 +18,7 @@ public class CycleManager : MonoBehaviour
     public float PlayerTrustFloat;
     public GameObject[] OrderToDel;
     public AudioSource CharonIsComming;
-
+    public WaitForUIButtons UiReset;
     public SequenceManager sequenceManager;
     
     public TutorialManager tutorialManager;
