@@ -19,6 +19,8 @@ public class CycleManager : MonoBehaviour
     public float PlayerTrustFloat;
     public GameObject[] OrderToDel;
     public AudioSource CharonIsComming;
+
+    public GameObject EndScreenDefeat;
     
     void Start()
     {
@@ -85,7 +87,7 @@ public class CycleManager : MonoBehaviour
 
         if (isSmallerThanL1 && isSmallerThanL2 && isSmallerThanL3 && isSmallerThanL4 && isSmallerThanL5)
         {
-            //set end loose screen
+            EndScreenDefeat.SetActive(false);  //afficher l'écran de défaite
         }
         else
         {
@@ -119,7 +121,7 @@ public class CycleManager : MonoBehaviour
     private IEnumerator WaitUntilEndLevel()
     {
         yield return new WaitForSeconds(TimeUntilEndDay);
-        //set end of day screen
+        //add ui logic
         if (CurrentDay < MaxDays.Value)
         {
             PlayerTrustFloat = PlayerTrust.Score;
@@ -130,7 +132,7 @@ public class CycleManager : MonoBehaviour
         }
         else
         {
-            //set end win screen
+            //set end screen
         }
 
     }
