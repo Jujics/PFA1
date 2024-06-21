@@ -1,23 +1,35 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Pause : MonoBehaviour
 {
     public bool IsPaused = false;
-    public int TutoPannel;
+    public bool OnTuto;
     public GameObject[] TutoPannelList;
     public GameObject PauseMenu;
-    public IEnumerator OnPause(bool OnTuto)
+    public Button ExitTutoButton;
+    public TutorialManager tutorialManager;
+
+    public void TutoSelect()
     {
-        if(OnTuto)
+        if (OnTuto)
         {
+            tutorialManager.StartTutorial();
+        }
+    }
+
+    public IEnumerator OnPause()
+    {
+        if (OnTuto)
+        {
+            var waitForButton = new WaitForUIButtons(ExitTutoButton);
             while (IsPaused)
             {
                 Time.timeScale = 0;
-                TutoPannelList[0].SetActive(true);
+                yield return null; // Wait for the next frame
             }
-
+            yield return waitForButton.Reset();
             Time.timeScale = 1;
         }
         else
@@ -26,6 +38,7 @@ public class Pause : MonoBehaviour
             {
                 Time.timeScale = 0;
                 PauseMenu.SetActive(true);
+                yield return null; // Wait for the next frame
             }
 
             Time.timeScale = 1;

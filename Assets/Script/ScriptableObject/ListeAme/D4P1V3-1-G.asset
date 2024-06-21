@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D4P1V3-1-G
+  m_EditorClassIdentifier: 
+  name: Pansy Margand
+  Acts:
+  - Desc: "M\xE9nageais ses confr\xE8res"
+    Gravity: 0
+  - Desc: Philosophe
+    Gravity: 0
+  - Desc: "Prenait en compte les critiques\t"
+    Gravity: 0
+  - Desc: "Attentif\t"
+    Gravity: 0
+  - Desc: "Spontan\xE9"
+    Gravity: 0
+  - Desc: 'Cannibalisme  '
+    Gravity: 1
+  - Desc: "Chassait des animaux sans n\xE9cessit\xE9 "
+    Gravity: 1
+  - Desc: "Intol\xE9rance "
+    Gravity: 1
+  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort "
+    Gravity: 1
+  - Desc: 'Se pensait libre de penser '
+    Gravity: 1
+  colorOfDoor: 1
+  IsWhite: 0
+  IsBig: 1
