@@ -79,20 +79,19 @@ public class ErebeScript : MonoBehaviour, IDropHandler
             yield return new WaitForFixedUpdate();
         }
         canLaunchTimer = true;
-        isErebActive = true;
-        StartCoroutine(AnimErebeFerme());
-        
+        isErebActive = true; 
+        StartCoroutine(AnimErebeOuvre());      
     }
 
     public IEnumerator AnimErebeFerme()
     {
         animator.SetBool("ErebeClose", false);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForEndOfFrame();
     }
     public IEnumerator AnimErebeOuvre()
     {
         animator.SetBool("ErebeClose", true);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForEndOfFrame();
     }
 
 
@@ -125,7 +124,8 @@ public class ErebeScript : MonoBehaviour, IDropHandler
         CurrentNumberOfList = 0;
         ErebeCurrentSize = 0;
         isErebActive = false;
-        StartCoroutine(AnimErebeOuvre());
+        StartCoroutine(AnimErebeFerme());
+
         tailleErebeText.text = CurrentNumberOfList + " / " + tailleMaxErebe;
     }
 
