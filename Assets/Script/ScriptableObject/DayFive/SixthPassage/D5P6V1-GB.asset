@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D5P6V1-GB
+  m_EditorClassIdentifier: 
+  name: "L\xE9o Feuillet\xE9"
+  Acts:
+  - Desc: "Tire son nom d'un g\xE2teau"
+    Gravity: 0
+  - Desc: Calme
+    Gravity: 0
+  - Desc: "A d\xE9couvert le Tabac"
+    Gravity: 0
+  - Desc: "Aimait beaucoup les pierres pr\xE9cieuses"
+    Gravity: 0
+  - Desc: "A toujours ador\xE9 les Statistiques"
+    Gravity: 0
+  - Desc: Philosophe
+    Gravity: 0
+  - Desc: Ne buvait que de l'eau chaude
+    Gravity: 0
+  - Desc: Sociable
+    Gravity: 0
+  - Desc: "Branch\xE9 avec les jeunes"
+    Gravity: 0
+  - Desc: Consommation d'Ambroisie
+    Gravity: 1
+  colorOfDoor: 3
+  IsWhite: 1
+  IsBig: 1

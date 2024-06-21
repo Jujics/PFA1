@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D5P5V1-1E
+  m_EditorClassIdentifier: 
+  name: Cineas
+  Acts:
+  - Desc: "Fr\xE8re de Cerb"
+    Gravity: 0
+  - Desc: "Se croyait dans un dessin anim\xE9"
+    Gravity: 0
+  - Desc: Adorait les animaux
+    Gravity: 0
+  - Desc: Adorait la nature
+    Gravity: 0
+  - Desc: Pacifiste
+    Gravity: 0
+  - Desc: Prenait en compte les critiques
+    Gravity: 0
+  - Desc: "Coop\xE9ratif"
+    Gravity: 0
+  - Desc: Curieux
+    Gravity: 0
+  - Desc: "L\xE9g\xE8rement fanatique du Feu"
+    Gravity: 0
+  - Desc: Savait lire
+    Gravity: 0
+  colorOfDoor: 3
+  IsWhite: 0
+  IsBig: 0

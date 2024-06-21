@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D5P6V0
+  m_EditorClassIdentifier: 
+  name: "Anatole Le S\xFBr"
+  Acts:
+  - Desc: Attendait Silksong
+    Gravity: 0
+  - Desc: Attend toujours
+    Gravity: 0
+  - Desc: "Ecoutait les probl\xE8mes des autres\t"
+    Gravity: 0
+  - Desc: Amical
+    Gravity: 0
+  - Desc: Mature
+    Gravity: 0
+  - Desc: "Tol\xE9rant"
+    Gravity: 0
+  - Desc: Savait lire
+    Gravity: 0
+  - Desc: "Son humour laisse \xE0 d\xE9sirer"
+    Gravity: 0
+  - Desc: "Ne jouait qu'\xE0 des jeux 2D"
+    Gravity: 0
+  - Desc: "Affirmait que la Terre \xE9tait ronde"
+    Gravity: 0
+  colorOfDoor: 0
+  IsWhite: 0
+  IsBig: 0

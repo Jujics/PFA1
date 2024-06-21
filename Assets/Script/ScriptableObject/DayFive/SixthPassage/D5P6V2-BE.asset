@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D5P6V2-BE
+  m_EditorClassIdentifier: 
+  name: Romain L'Absent
+  Acts:
+  - Desc: "Est port\xE9 disparu"
+    Gravity: 0
+  - Desc: "N'a jamais pris part \xE0 un d\xE9bat"
+    Gravity: 0
+  - Desc: Adorait les animaux
+    Gravity: 0
+  - Desc: "N'\xE9tait pas tr\xE8s sociable"
+    Gravity: 0
+  - Desc: "S'\xE9clipsait avant son tour lors des d\xE9bats"
+    Gravity: 0
+  - Desc: "Ne r\xE9agissait pas souvent \xE0 son pr\xE9nom"
+    Gravity: 0
+  - Desc: "N'a jamais r\xE9ussi \xE0 bien dormir"
+    Gravity: 0
+  - Desc: Solitaire
+    Gravity: 0
+  - Desc: Paresseux
+    Gravity: 1
+  - Desc: S'affalait toujours dans les fauteuils
+    Gravity: 0
+  colorOfDoor: 3
+  IsWhite: 1
+  IsBig: 0

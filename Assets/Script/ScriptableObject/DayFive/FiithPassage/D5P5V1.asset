@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D5P5V1
+  m_EditorClassIdentifier: 
+  name: Helice Davillon
+  Acts:
+  - Desc: Affirmait pouvoir voler
+    Gravity: 0
+  - Desc: Violent
+    Gravity: 1
+  - Desc: "Tr\xE8s bruyant"
+    Gravity: 0
+  - Desc: Philosophe
+    Gravity: 0
+  - Desc: "Spontan\xE9"
+    Gravity: 0
+  - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
+    Gravity: 0
+  - Desc: N'acceptait pas la critique
+    Gravity: 0
+  - Desc: Peur du noir
+    Gravity: 0
+  - Desc: "N'\xE9tait pas sage \xE9tant petit"
+    Gravity: 0
+  - Desc: "A saut\xE9 d'une grande hauteur en esp\xE9rant voler\t"
+    Gravity: 0
+  colorOfDoor: 3
+  IsWhite: 0
+  IsBig: 0
