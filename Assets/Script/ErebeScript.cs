@@ -7,6 +7,7 @@ using TMPro;
 
 public class ErebeScript : MonoBehaviour, IDropHandler
 {
+    public Animator animator;
     public List<GameObject> SoulList;
     public GameObject RespawnPos;
 
@@ -79,9 +80,21 @@ public class ErebeScript : MonoBehaviour, IDropHandler
         }
         canLaunchTimer = true;
         isErebActive = true;
+        StartCoroutine(AnimErebeFerme());
         
-        gameObject.GetComponent<Image>().color = Color.blue;
     }
+
+    public IEnumerator AnimErebeFerme()
+    {
+        animator.SetBool("ErebeClose", false);
+        yield return new WaitForSeconds(0.5f);
+    }
+    public IEnumerator AnimErebeOuvre()
+    {
+        animator.SetBool("ErebeClose", true);
+        yield return new WaitForSeconds(0.5f);
+    }
+
 
     public void Ejection()
     {
@@ -112,7 +125,7 @@ public class ErebeScript : MonoBehaviour, IDropHandler
         CurrentNumberOfList = 0;
         ErebeCurrentSize = 0;
         isErebActive = false;
-        gameObject.GetComponent<Image>().color = Color.red;
+        StartCoroutine(AnimErebeOuvre());
         tailleErebeText.text = CurrentNumberOfList + " / " + tailleMaxErebe;
     }
 
