@@ -182,7 +182,9 @@ public class CycleManager : MonoBehaviour
         //set end of day screen
         sequenceManager.GoToEndScreenWin(PlayerTrust.Score);
         //wait a little/wait for button click
+        Time.timeScale = 0;
         new WaitForUIButtons(CloseResultWinButton);
+        Time.timeScale = 1;
         if (CurrentDay < MaxDays.Value)
         {
             PlayerTrustFloat = PlayerTrust.Score;
