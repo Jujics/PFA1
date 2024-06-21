@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D5P6V4-2E
+  m_EditorClassIdentifier: 
+  name: Mathis Le Brun
+  Acts:
+  - Desc: Magicien
+    Gravity: 0
+  - Desc: "Affirmait pouvoir cr\xE9er de l'eau"
+    Gravity: 0
+  - Desc: "Savait cr\xE9er de l'alcool"
+    Gravity: 0
+  - Desc: Consommation d'Ambroisie
+    Gravity: 1
+  - Desc: Insultait souvent les dieux dans sa barbe
+    Gravity: 1
+  - Desc: "D\xE9pense sa richesse sans compter"
+    Gravity: 1
+  - Desc: "Infid\xE8le"
+    Gravity: 1
+  - Desc: Participant de Combat de Rue
+    Gravity: 1
+  - Desc: "A cr\xE9e un incendie en l'honneur des dieux"
+    Gravity: 1
+  - Desc: Amical
+    Gravity: 0
+  colorOfDoor: 2
+  IsWhite: 0
+  IsBig: 0

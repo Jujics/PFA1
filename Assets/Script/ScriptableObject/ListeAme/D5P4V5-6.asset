@@ -12,27 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: D5P4V5-6
   m_EditorClassIdentifier: 
-  name: "Melodie Labont\xE9"
+  name: Oriel Batard
   Acts:
   - Desc: Esclavagisme
     Gravity: 1
-  - Desc: Loyal
-    Gravity: 0
-  - Desc: "A fait un march\xE9 et ne l'a jamais respect\xE9"
-    Gravity: 1
   - Desc: Humble
     Gravity: 0
-  - Desc: "A failli \xEAtre mang\xE9 par un animal"
+  - Desc: "N'a jamais pris part \xE0 un d\xE9bat"
+    Gravity: 0
+  - Desc: Loyal
     Gravity: 0
   - Desc: "D\xE9pense sa richesse sans compter"
     Gravity: 1
-  - Desc: Assassinat
-    Gravity: 1
   - Desc: Violent
     Gravity: 1
-  - Desc: N'a jamais compris les maths
+  - Desc: Assassinat
+    Gravity: 1
+  - Desc: "A fait un march\xE9 et ne l'a jamais respect\xE9"
+    Gravity: 1
+  - Desc: "A failli \xEAtre mang\xE9 par un animal"
     Gravity: 0
-  - Desc: "N'a jamais pris part \xE0 un d\xE9bat"
+  - Desc: N'a jamais compris les maths
     Gravity: 0
   colorOfDoor: 1
   IsWhite: 0

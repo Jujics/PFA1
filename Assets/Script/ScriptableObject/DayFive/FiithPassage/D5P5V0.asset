@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D5P5V0
+  m_EditorClassIdentifier: 
+  name: Pumba
+  Acts:
+  - Desc: Sociable
+    Gravity: 0
+  - Desc: "Pers\xE9v\xE9rant"
+    Gravity: 0
+  - Desc: Inspirant
+    Gravity: 0
+  - Desc: Loyal
+    Gravity: 0
+  - Desc: Authentique
+    Gravity: 0
+  - Desc: "A failli \xEAtre noy\xE9"
+    Gravity: 0
+  - Desc: Ami de Timon
+    Gravity: 0
+  - Desc: "Songeais souvent \xE0 ce qu'il y a apr\xE8s la mort"
+    Gravity: 0
+  - Desc: N'a jamais dormi
+    Gravity: 0
+  - Desc: "Va \xE0 merveille sur une Pizza"
+    Gravity: 0
+  colorOfDoor: 0
+  IsWhite: 0
+  IsBig: 0

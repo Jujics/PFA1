@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D5P6V2
+  m_EditorClassIdentifier: 
+  name: Pierre le Boulenger
+  Acts:
+  - Desc: "Savait tr\xE8s bien faire le pain"
+    Gravity: 0
+  - Desc: Sociable
+    Gravity: 0
+  - Desc: Se pensait libre de penser
+    Gravity: 1
+  - Desc: Intelligent
+    Gravity: 0
+  - Desc: Philosophe
+    Gravity: 0
+  - Desc: Confiant
+    Gravity: 0
+  - Desc: "Cultiv\xE9"
+    Gravity: 0
+  - Desc: "A d\xE9j\xE0 tent\xE9 de brasser son propre alcool"
+    Gravity: 0
+  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
+    Gravity: 1
+  - Desc: Ne dormait pas bien
+    Gravity: 0
+  colorOfDoor: 3
+  IsWhite: 0
+  IsBig: 0

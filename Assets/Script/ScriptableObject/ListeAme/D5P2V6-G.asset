@@ -16,7 +16,7 @@ MonoBehaviour:
   Acts:
   - Desc: "A cr\xE9e un incendie volontairement"
     Gravity: 1
-  - Desc: "Infid\xE8le"
+  - Desc: Pour donner aux plus pauvres
     Gravity: 1
   - Desc: N'honorait pas les dieux
     Gravity: 1
@@ -33,7 +33,7 @@ MonoBehaviour:
   - Desc: "Ecoutait les probl\xE8mes des autres"
     Gravity: 0
   - Desc: Esclavagisme
-    Gravity: 0
+    Gravity: 1
   colorOfDoor: 1
   IsWhite: 0
   IsBig: 1

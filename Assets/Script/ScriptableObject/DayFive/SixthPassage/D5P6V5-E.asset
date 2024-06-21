@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D5P6V5-E
+  m_EditorClassIdentifier: 
+  name: "Owen D\xE9jant\xE9"
+  Acts:
+  - Desc: Acte de Guerre
+    Gravity: 1
+  - Desc: "Intol\xE9rance"
+    Gravity: 1
+  - Desc: Cannibalisme
+    Gravity: 1
+  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
+    Gravity: 0
+  - Desc: "G\xE2chait du vin pour montrer sa richesse"
+    Gravity: 1
+  - Desc: Confiant
+    Gravity: 0
+  - Desc: "A d\xE9j\xE0 mang\xE9 de la terre"
+    Gravity: 0
+  - Desc: Se croyait issu d'un demi-dieu
+    Gravity: 0
+  - Desc: Prenait plus que ce dont il avait besoin
+    Gravity: 1
+  - Desc: "A toujours d\xE9tourn\xE9 le regard"
+    Gravity: 1
+  colorOfDoor: 1
+  IsWhite: 0
+  IsBig: 0

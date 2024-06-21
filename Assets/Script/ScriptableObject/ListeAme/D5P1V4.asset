@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Luc Lier
   Acts:
-  - Desc: Adorait les animaux
+  - Desc: Semait des graines d'arbres
     Gravity: 0
   - Desc: "M\xE9nageais ses confr\xE8res"
     Gravity: 0

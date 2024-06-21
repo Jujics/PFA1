@@ -32,7 +32,7 @@ MonoBehaviour:
     Gravity: 1
   - Desc: Est parti acheter du lait
     Gravity: 1
-  - Desc: Adorait les animaux
+  - Desc: "Gardait les secrets confi\xE9s"
     Gravity: 0
   colorOfDoor: 1
   IsWhite: 0

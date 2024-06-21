@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: D5P4V5-4
   m_EditorClassIdentifier: 
-  name: 
+  name: Rosemarie Labrecque
   Acts:
   - Desc: Philosophe
     Gravity: 0

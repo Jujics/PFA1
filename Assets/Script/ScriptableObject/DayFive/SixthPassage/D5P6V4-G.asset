@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
+  m_Name: D5P6V4-G
+  m_EditorClassIdentifier: 
+  name: Samuel le Duc
+  Acts:
+  - Desc: Avide
+    Gravity: 1
+  - Desc: Recherchait le pouvoir
+    Gravity: 1
+  - Desc: Confiant
+    Gravity: 0
+  - Desc: "D\xE9loyal"
+    Gravity: 1
+  - Desc: "A \xE9t\xE9 retrouv\xE9 ivre mort"
+    Gravity: 1
+  - Desc: "Songeais souvent \xE0 songer plus souvent"
+    Gravity: 0
+  - Desc: "Avait d\xE9j\xE0 tout pr\xE9vu"
+    Gravity: 0
+  - Desc: "\xC9tait pr\xE9sent lors de l'Odyss\xE9e"
+    Gravity: 0
+  - Desc: Porte une marque de naissance en forme de U
+    Gravity: 0
+  - Desc: "N'\xE9tait pas sage \xE9tant petit"
+    Gravity: 0
+  colorOfDoor: 2
+  IsWhite: 0
+  IsBig: 1
