@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P4V4
+  m_Name: D5P4V2-E
   m_EditorClassIdentifier: 
-  name: Aubert Bois
+  name: Lowell Doiron
   Acts:
-  - Desc: "S'imaginait dans un monde cr\xE9e par des GD"
+  - Desc: "Elev\xE9 par des loups"
     Gravity: 0
-  - Desc: Esclavagisme
+  - Desc: "Elev\xE9 par des Otaries"
+    Gravity: 0
+  - Desc: Adorait les animaux
+    Gravity: 0
+  - Desc: "N'a jamais pris part \xE0 un d\xE9bat"
+    Gravity: 0
+  - Desc: "Coop\xE9ratif"
+    Gravity: 0
+  - Desc: "Affirmait que la Terre \xE9tait plate\t"
+    Gravity: 0
+  - Desc: "S'est d\xE9j\xE0 pris pour un envoy\xE9 des Dieux"
+    Gravity: 0
+  - Desc: A toujours menti
     Gravity: 1
-  - Desc: Se croyait issu d'un demi-dieu
-    Gravity: 0
-  - Desc: "A d\xE9j\xE0 fait tomber sa tablette \xE0 gravure"
-    Gravity: 0
-  - Desc: N'honorait pas les dieux
+  - Desc: Cannibalisme
     Gravity: 1
-  - Desc: Acte de Guerre
-    Gravity: 1
-  - Desc: N'agissait selon aucun code moral
-    Gravity: 1
-  - Desc: N'a jamais compris les maths
+  - Desc: Philosophe
     Gravity: 0
-  - Desc: Attentif
-    Gravity: 0
-  - Desc: Exceptionnellement fort
-    Gravity: 0
-  colorOfDoor: 2
+  colorOfDoor: 3
   IsWhite: 0
   IsBig: 0

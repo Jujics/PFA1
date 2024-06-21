@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P4V5
+  m_Name: D5P4V5-1-E
   m_EditorClassIdentifier: 
-  name: 
+  name: "No\xEBl Querry"
   Acts:
+  - Desc: S'agitait dans son sommeil
+    Gravity: 0
+  - Desc: "N'a jamais cauchemard\xE9"
+    Gravity: 0
+  - Desc: Fan du Pilate
+    Gravity: 0
+  - Desc: "S'entretenait avec lui-m\xEAme r\xE9guli\xE8rement"
+    Gravity: 0
   - Desc: Semait des graines d'arbres
     Gravity: 0
-  - Desc: Adorait les animaux
+  - Desc: Pacifiste
     Gravity: 0
-  - Desc: "M\xE9nageais ses confr\xE8res"
-    Gravity: 0
-  - Desc: Acte de Guerre
+  - Desc: Prenait plus que ce dont il avait besoin
+    Gravity: 1
+  - Desc: "A fait un march\xE9 et ne l'a jamais respect\xE9"
     Gravity: 1
   - Desc: "G\xE2chait du vin pour montrer sa richesse"
     Gravity: 1
-  - Desc: Est parti acheter du lait
+  - Desc: "Chassait des animaux sans n\xE9cessit\xE9"
     Gravity: 1
-  - Desc: Authentique
-    Gravity: 0
-  - Desc: N'honorait pas les dieux
-    Gravity: 1
-  - Desc: Adorait semer le chaos
-    Gravity: 1
-  - Desc: "Pensais se r\xE9incarner en mourrant"
-    Gravity: 0
   colorOfDoor: 1
   IsWhite: 0
   IsBig: 0

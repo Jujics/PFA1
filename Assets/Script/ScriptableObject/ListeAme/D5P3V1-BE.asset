@@ -10,29 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P1V1-B
+  m_Name: D5P3V1-BE
   m_EditorClassIdentifier: 
-  name: Trifonas Barou
+  name: Hyp Nos
   Acts:
-  - Desc: "A trouver qui a demand\xE9"
+  - Desc: "Avait des r\xEAves assez r\xE9guli\xE8rement"
     Gravity: 0
-  - Desc: "A sauv\xE9 un chat dans un arbre"
+  - Desc: "N'a jamais cauchemard\xE9"
     Gravity: 0
-  - Desc: "A aid\xE9 un fermier en difficult\xE9"
+  - Desc: "Ne faisais que cauchemard\xE9"
     Gravity: 0
-  - Desc: Semait des graines d'arbres
+  - Desc: S'agitait dans son sommeil
     Gravity: 0
-  - Desc: A partager ses richesses
+  - Desc: "Songeais souvent \xE0 songer plus souvent"
     Gravity: 0
-  - Desc: Est parti acheter du lait
-    Gravity: 1
+  - Desc: Peur du noir
+    Gravity: 0
+  - Desc: Adorait les animaux
+    Gravity: 0
+  - Desc: "Se battait pour l'\xE9galit\xE9"
+    Gravity: 0
+  - Desc: "M\xE9nageais ses confr\xE8res"
+    Gravity: 0
   - Desc: Confiant
-    Gravity: 0
-  - Desc: Serviable
-    Gravity: 0
-  - Desc: Attentif
-    Gravity: 0
-  - Desc: Bienfaiteur
     Gravity: 0
   colorOfDoor: 3
   IsWhite: 1

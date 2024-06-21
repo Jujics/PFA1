@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P3V1-B
+  m_Name: D5P4V5-E
   m_EditorClassIdentifier: 
-  name: Hyp Nos
+  name: Anastasie Beaujolie
   Acts:
-  - Desc: "Avait des r\xEAves assez r\xE9guli\xE8rement"
+  - Desc: Semait des graines d'arbres
     Gravity: 0
-  - Desc: "N'a jamais cauchemard\xE9"
-    Gravity: 0
-  - Desc: "Ne faisais que cauchemard\xE9"
-    Gravity: 0
-  - Desc: S'agitait dans son sommeil
-    Gravity: 0
-  - Desc: "Songeais souvent \xE0 songer plus souvent"
-    Gravity: 0
-  - Desc: Peur du noir
-    Gravity: 0
-  - Desc: "Recherche de pouvoir th\xE9ologique"
-    Gravity: 1
   - Desc: Adorait les animaux
     Gravity: 0
   - Desc: "M\xE9nageais ses confr\xE8res"
     Gravity: 0
-  - Desc: Confiant
+  - Desc: Acte de Guerre
+    Gravity: 1
+  - Desc: "G\xE2chait du vin pour montrer sa richesse"
+    Gravity: 1
+  - Desc: Cannibalisme
+    Gravity: 1
+  - Desc: Authentique
     Gravity: 0
-  colorOfDoor: 3
-  IsWhite: 1
+  - Desc: N'honorait pas les dieux
+    Gravity: 1
+  - Desc: Adorait semer le chaos
+    Gravity: 1
+  - Desc: "Pensais se r\xE9incarner en mourrant"
+    Gravity: 0
+  colorOfDoor: 1
+  IsWhite: 0
   IsBig: 0

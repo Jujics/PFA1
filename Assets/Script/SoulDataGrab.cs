@@ -25,6 +25,13 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public Slider TimeTimer;
     private float TimeLeft;
 
+    public SequenceManager sequenceManager;
+
+    void Start()
+    {
+        sequenceManager = GameObject.Find("SequenceManager").GetComponent<SequenceManager>();
+    }
+
     void OnEnable()
     {
         string soulName = AmeData.name;
@@ -58,11 +65,13 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             if (DieOutScreen && AmeData.IsWhite!)
             {
                 //Add FeedBack/Soul going out of screen
+                sequenceManager.StartSpicifiedCoroutine(0);
                 _PlayerTrust.LooseScore(ScoreData.DieOutScreen);
             }
             else if (DieWhileWait)
             {
                 //Add FeedBack/soul dying of old age
+                sequenceManager.StartSpicifiedCoroutine(0);
                 int index = new Random().Next(DedWhileWait.Length);
                 DedWhileWait[index].Play();
                 _PlayerTrust.LooseScore(ScoreData.DieWhileWait);
@@ -70,6 +79,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             else if (DieOnCorrectDoor)
             {
                 //Add FeedBack/Good Door
+                sequenceManager.StartSpicifiedCoroutine(1);
                 _PlayerTrust.GainScore(ScoreData.DieOnCorrectDoor);
                 int index = new Random().Next(SoulInDoor.Length);
                 SoulInDoor[index].Play();
@@ -78,6 +88,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             else if (DieOnWrongDoor)
             {
                 //Add FeedBack/Bad Door
+                sequenceManager.StartSpicifiedCoroutine(0);
                 _PlayerTrust.LooseScore(ScoreData.DieOnWrongDoor);
                 int index = new Random().Next(SoulInDoor.Length);
                 SoulInDoor[index].Play();
@@ -150,4 +161,5 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     {
         PanelInfo.SetActive(false);
     }
+
 }

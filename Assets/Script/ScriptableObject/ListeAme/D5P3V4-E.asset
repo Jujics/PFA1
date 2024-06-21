@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P4V2
+  m_Name: D5P3V4-E
   m_EditorClassIdentifier: 
-  name: Lowell Doiron
+  name: Bernard Tougas
   Acts:
-  - Desc: "Elev\xE9 par des loups"
-    Gravity: 0
-  - Desc: "Elev\xE9 par des Otaries"
-    Gravity: 0
-  - Desc: "Voudrait un autographe d'Had\xE8s"
-    Gravity: 0
-  - Desc: "N'a jamais pris part \xE0 un d\xE9bat"
-    Gravity: 0
-  - Desc: "Coop\xE9ratif"
-    Gravity: 0
-  - Desc: "Affirmait que la Terre \xE9tait plate\t"
-    Gravity: 0
-  - Desc: "S'est d\xE9j\xE0 pris pour un envoy\xE9 des Dieux"
+  - Desc: "Enl\xE8vement"
+    Gravity: 1
+  - Desc: N'a jamais menti
     Gravity: 0
   - Desc: A toujours menti
     Gravity: 1
-  - Desc: Cannibalisme
-    Gravity: 1
   - Desc: Philosophe
     Gravity: 0
-  colorOfDoor: 3
+  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
+    Gravity: 0
+  - Desc: Confiant
+    Gravity: 0
+  - Desc: Consommation d'Ambroisie
+    Gravity: 1
+  - Desc: Pour donner aux plus pauvres
+    Gravity: 1
+  - Desc: Cannibalisme
+    Gravity: 1
+  - Desc: "A invent\xE9 le lancer de disque"
+    Gravity: 0
+  colorOfDoor: 2
   IsWhite: 0
   IsBig: 0

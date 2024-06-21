@@ -45,9 +45,9 @@ public class BoatMovement : MonoBehaviour
             rectTransform.anchoredPosition = Vector2.Lerp(StartPosition, EndPosition, t);
         }
 
-        if (rectTransform.anchoredPosition == EndPosition)
+        if (rectTransform.anchoredPosition == EndPosition && CycleManagerHolder.GetComponent<CycleManager>().CurrentCycle != 6)
         {
-            NextButton.SetActive(true);
+                NextButton.SetActive(true);
         }
     }
 

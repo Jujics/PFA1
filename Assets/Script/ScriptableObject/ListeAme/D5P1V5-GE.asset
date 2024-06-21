@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
-  m_Name: D5P3V4
+  m_Name: D5P1V5-GE
   m_EditorClassIdentifier: 
-  name: Bernard Tougas
+  name: Beezow Bartholomew
   Acts:
-  - Desc: "Enl\xE8vement"
+  - Desc: "Sinc\xE8re"
+    Gravity: 0
+  - Desc: Pacifiste
+    Gravity: 0
+  - Desc: Volontaire
+    Gravity: 0
+  - Desc: Involontaire
     Gravity: 1
-  - Desc: N'a jamais menti
+  - Desc: "Tol\xE9rant"
     Gravity: 0
-  - Desc: A toujours menti
+  - Desc: "Intol\xE9rance"
     Gravity: 1
-  - Desc: Philosophe
+  - Desc: "Motiv\xE9"
     Gravity: 0
-  - Desc: "Mangeais 5 fruits et l\xE9gumes par jour"
-    Gravity: 0
-  - Desc: Confiant
-    Gravity: 0
-  - Desc: Consommation d'Ambroisie
+  - Desc: Paresseux
     Gravity: 1
-  - Desc: Pour donner aux plus pauvres
+  - Desc: Doux
+    Gravity: 0
+  - Desc: Violent
     Gravity: 1
-  - Desc: Adorait la nature
-    Gravity: 0
-  - Desc: "A invent\xE9 le lancer de disque"
-    Gravity: 0
-  colorOfDoor: 2
+  colorOfDoor: 1
   IsWhite: 0
-  IsBig: 0
+  IsBig: 1

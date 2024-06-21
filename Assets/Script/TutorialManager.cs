@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class TutorialManager : MonoBehaviour
 {
@@ -19,17 +18,13 @@ public class TutorialManager : MonoBehaviour
 
     private int currentGroupIndex = 0;
     private int currentPartIndex = 0;
-    private int currentTextIndex = 0;
     private bool isPaused = false;
-    private GameObject[] currentGroup;
     private GameObject currentPart;
     private Transform[] currentTexts;
+    private int currentTextIndex = 0;
 
     void Start()
     {
-        currentGroup = Group1Parts;
-        SetCurrentPart(0);
-
         HideAllTutorialTexts();
     }
 
@@ -41,69 +36,65 @@ public class TutorialManager : MonoBehaviour
         }
     }
 
-    public void StartTutorial()
+    public void StartTutorial(int groupIndex)
     {
         isPaused = true;
         Time.timeScale = 0;
-        DisplayNextText();
+        currentGroupIndex = groupIndex;
+        currentPartIndex = 0;
+        DisplayNextPart();
+    }
+
+    private void DisplayNextPart()
+    {
+        currentTextIndex = 0;
+        currentPart = GetCurrentPart();
+
+        if (currentPart != null)
+        {
+            currentTexts = new Transform[currentPart.transform.childCount];
+            for (int i = 0; i < currentPart.transform.childCount; i++)
+            {
+                currentTexts[i] = currentPart.transform.GetChild(i);
+                currentTexts[i].gameObject.SetActive(false);
+            }
+            DisplayNextText();
+        }
+        else
+        {
+            isPaused = false;
+            Time.timeScale = 1;
+        }
     }
 
     private void DisplayNextText()
     {
-        if (currentTexts != null && currentTextIndex < currentTexts.Length)
+        if (currentTextIndex > 0 && currentTextIndex <= currentTexts.Length)
+        {
+            currentTexts[currentTextIndex - 1].gameObject.SetActive(false);
+        }
+
+        if (currentTextIndex < currentTexts.Length)
         {
             currentTexts[currentTextIndex].gameObject.SetActive(true);
             currentTextIndex++;
         }
         else
         {
-           
-            if (!SetNextPart())
-            {
-                isPaused = false;
-                Time.timeScale = 1;
-            }
+            isPaused = false;
+            Time.timeScale = 1;
         }
     }
 
-    private bool SetNextPart()
+    private GameObject GetCurrentPart()
     {
-        currentTextIndex = 0;
+        GameObject[] currentGroup = GetGroupByIndex(currentGroupIndex);
 
-        if (currentPartIndex < currentGroup.Length - 1)
+        if (currentGroup != null && currentPartIndex < currentGroup.Length)
         {
-            currentPartIndex++;
-            SetCurrentPart(currentPartIndex);
-            return true;
+            return currentGroup[currentPartIndex++];
         }
-        else if (currentGroupIndex < 11) 
-        {
-            currentGroupIndex++;
-            currentGroup = GetGroupByIndex(currentGroupIndex);
-            currentPartIndex = 0;
-            SetCurrentPart(currentPartIndex);
-            return true;
-        }
-
-        return false;
-    }
-
-    private void SetCurrentPart(int partIndex)
-    {
-        if (currentPart != null)
-        {
-            foreach (Transform child in currentPart.transform)
-            {
-                child.gameObject.SetActive(false);
-            }
-        }
-
-        currentPart = currentGroup[partIndex];
-        currentTexts = new Transform[currentPart.transform.childCount];
-        for (int i = 0; i < currentPart.transform.childCount; i++)
-        {
-            currentTexts[i] = currentPart.transform.GetChild(i);
-        }
+        return null;
     }
 
     private GameObject[] GetGroupByIndex(int index)
@@ -153,4 +144,3 @@ public class TutorialManager : MonoBehaviour
         }
     }
 }
-
