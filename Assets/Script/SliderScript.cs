@@ -12,6 +12,7 @@ public class SliderScript : MonoBehaviour
     public UnityEvent OnBoatStartTime;
     public UnityEvent OnTimerEnd;
     public Slider Slider;
+    public CycleManager CycleManager;
     private float _currentTime;
     private bool EventTriggered = false;
     private bool Pause = true;
