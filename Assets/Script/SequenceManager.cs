@@ -58,7 +58,7 @@ public class SequenceManager : MonoBehaviour
         ScoreText.text = OriginalText + "\n" +playertrust;
     }
 
-        public void GoToEndScreenLoose(int playertrust)
+    public void GoToEndScreenLoose(int playertrust)
     {
         EndScreenLoose.SetActive(true);
         //ScoreAffiché = ScoreDuJour;         A prendre pour lier le score

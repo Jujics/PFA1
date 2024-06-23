@@ -141,40 +141,84 @@ public class CycleManager : MonoBehaviour
         bool isSmallerThanL4 = PlayerTrustFloat < L4[CurrentDay - 1];
         bool isSmallerThanL5 = PlayerTrustFloat < L5[CurrentDay - 1];
 
-        if (isSmallerThanL1 && isSmallerThanL2 && isSmallerThanL3 && isSmallerThanL4 && isSmallerThanL5)
+        switch (CurrentDay)
         {
-            //set end loose screen
-            sequenceManager.GoToEndScreenLoose(PlayerTrust.Score);
-            //set pause true
-
+            case 1:
+                if (isSmallerThanL1)
+                {
+                    sequenceManager.GoToEndScreenLoose(PlayerTrust.Score);
+                }
+                else
+                {
+                    sequenceManager.GoToEndScreenWin(PlayerTrust.Score);
+                }
+                break;
+            case 2:
+                if (isSmallerThanL2)
+                {
+                    sequenceManager.GoToEndScreenLoose(PlayerTrust.Score);
+                }
+                else
+                {
+                    sequenceManager.GoToEndScreenWin(PlayerTrust.Score);
+                }
+                break;
+            case 3:
+                if (isSmallerThanL3)
+                {
+                    sequenceManager.GoToEndScreenLoose(PlayerTrust.Score);
+                }
+                else
+                {
+                    sequenceManager.GoToEndScreenWin(PlayerTrust.Score);
+                }
+                break;
+            case 4:
+                if (isSmallerThanL4)
+                {
+                    sequenceManager.GoToEndScreenLoose(PlayerTrust.Score);
+                }
+                else
+                {
+                    sequenceManager.GoToEndScreenWin(PlayerTrust.Score);
+                }
+                break;
+            case 5:
+                if (isSmallerThanL5)
+                {
+                    sequenceManager.GoToEndScreenLoose(PlayerTrust.Score);
+                }
+                else
+                {
+                    sequenceManager.GoToEndScreenWin(PlayerTrust.Score);
+                }
+                break;
         }
-        else
+        if (CurrentDay == 1)
         {
-            if (CurrentDay == 1)
-            {
-                OrderToDel[0].SetActive(false);
-            }
-            else if (CurrentDay == 2)
-            {
-                OrderToDel[1].SetActive(false);
-            }
-            else if (CurrentDay == 3)
-            {
-                OrderToDel[2].SetActive(false);
-            }
-            else if (CurrentDay == 4)
-            {
-                OrderToDel[3].SetActive(false);
-            }
-            else if (CurrentDay == 5)
-            {
-                OrderToDel[4].SetActive(false);
-            }
-            else if (CurrentDay == 6)
-            {
-                OrderToDel[5].SetActive(false);
-            }
+            OrderToDel[0].SetActive(false);
         }
+        else if (CurrentDay == 2)
+        {
+            OrderToDel[1].SetActive(false);
+        }
+        else if (CurrentDay == 3)
+        {
+            OrderToDel[2].SetActive(false);
+        }
+        else if (CurrentDay == 4) 
+        {
+            OrderToDel[3].SetActive(false); 
+        }
+        else if (CurrentDay == 5)
+        { 
+            OrderToDel[4].SetActive(false);
+        }
+        else if (CurrentDay == 6)
+        {
+            OrderToDel[5].SetActive(false);
+        }
+        
     }
 
     void Update()
@@ -251,12 +295,8 @@ public class CycleManager : MonoBehaviour
     private IEnumerator WaitUntilEndLevel()
     {
         yield return new WaitForSeconds(TimeUntilEndDay);
-
-        //set end of day screen
-        
-        sequenceManager.GoToEndScreenWin(PlayerTrust.Score);
-        
-        //wait a little/wait for button click
+        bool HasWon = true;
+        ScoreCompare();
         Time.timeScale = 0;
         new WaitForUIButtons(CloseResultWinButton);
         Time.timeScale = 1;

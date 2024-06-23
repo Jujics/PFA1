@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: "Effe D\xE9p\xE9"
   Acts:
-  - Desc: pas
+  - Desc: Dit pas bonjour
     Gravity: 1
   - Desc: "A vraiment mang\xE9 ses morts"
     Gravity: 1
@@ -28,7 +28,7 @@ MonoBehaviour:
     Gravity: 1
   - Desc: Adorait semer le chaos
     Gravity: 1
-  - Desc: uuuuuuuuu
+  - Desc: Ne dit pas bonjour
     Gravity: 1
   - Desc: Recherchait le pouvoir
     Gravity: 1

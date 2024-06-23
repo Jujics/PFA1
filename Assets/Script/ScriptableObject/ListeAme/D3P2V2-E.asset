@@ -26,7 +26,7 @@ MonoBehaviour:
     Gravity: 0
   - Desc: Paresseux
     Gravity: 1
-  - Desc: Meurtre
+  - Desc: Acte de guerre
     Gravity: 1
   - Desc: "Est port\xE9 disparu"
     Gravity: 0
