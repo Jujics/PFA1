@@ -16,6 +16,7 @@ public class SequenceManager : MonoBehaviour
     public GameObject EndScreenLoose;
 
     public GameObject EndGame;
+    public GameObject PausePanel;
 
     public int[] BoatPassage;
 
@@ -90,6 +91,18 @@ public class SequenceManager : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void PauseGame()
+    {
+        PausePanel.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    public void UnpauseGame()
+    {
+        PausePanel.SetActive(false);
+        Time.timeScale = 1;
     }
 
 

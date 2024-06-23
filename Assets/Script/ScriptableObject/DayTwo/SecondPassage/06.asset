@@ -14,25 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   Acts:
-  - Desc: zzzzzzzzzz
+  - Desc: Mange Bio
     Gravity: 0
-  - Desc: rrrrrrrrrrrrrr
+  - Desc: "Est n\xE9 le 2 fevrier"
     Gravity: 0
-  - Desc: tttttttttttttt
+  - Desc: A eu 8 en math au bac
     Gravity: 0
-  - Desc: ppppppppppppppp
+  - Desc: Aimes les Chat
     Gravity: 0
-  - Desc: qqqqqqqqqqqqqq
+  - Desc: "Est pass\xE9 au poste"
     Gravity: 0
-  - Desc: sssssssssss
+  - Desc: "A defiscalis\xE9 son don contre le sida"
     Gravity: 0
-  - Desc: dddddddddddd
+  - Desc: A construit une maison
     Gravity: 0
-  - Desc: fffffffffffffff
+  - Desc: M'as dit bonjour
     Gravity: 0
-  - Desc: gggggggggggggggggg
+  - Desc: "A paus\xE9 une question"
     Gravity: 0
-  - Desc: yyyyyyyyyyyyyyyyyyyyy
-    Gravity: 1
+  - Desc: N'as pas remplis cette ame
+    Gravity: 0
   colorOfDoor: 0
-  IsWhite: 0
+  IsWhite: 1
+  IsBig: 0

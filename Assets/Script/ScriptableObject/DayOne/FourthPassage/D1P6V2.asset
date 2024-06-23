@@ -34,6 +34,6 @@ MonoBehaviour:
     Gravity: 1
   - Desc: "A d\xE9j\xE0 failli \xEAtre frapp\xE9 par l'orage"
     Gravity: 0
-  colorOfDoor: 3
+  colorOfDoor: 2
   IsWhite: 0
   IsBig: 0

@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acf333d53f469f842be75a0047437fbb, type: 3}
   m_Name: EventData
   m_EditorClassIdentifier: 
-  DayOfTheEvent: 0
-  PassageOfTheEvent: 0
+  DayOfTheEvent: 3
+  PassageOfTheEvent: 2
   IsCloseY1: 0
   IsCloseY2: 0
   IsCloseO1: 0
-  IsCloseO2: 0
+  IsCloseO2: 1
   IsCloseR1: 0
   IsCloseR2: 0
+  IsErebeClosed: 0
+  ForHowLong: 0

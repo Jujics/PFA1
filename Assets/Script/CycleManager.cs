@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
@@ -19,6 +20,7 @@ public class CycleManager : MonoBehaviour
     public GameObject[] OrderToDel;
     public AudioSource CharonIsComming;
     public WaitForUIButtons UiReset;
+    public Slider[] Sliders;
     public SequenceManager sequenceManager;
     
     public TutorialManager tutorialManager;
@@ -172,6 +174,77 @@ public class CycleManager : MonoBehaviour
             {
                 OrderToDel[5].SetActive(false);
             }
+        }
+    }
+
+    void Update()
+    {
+        float timeScale = BoatMovement.MaxTravelTime.Value * 5;
+        if (CurrentDay == 1)
+        {
+            float val1 = Sliders[0].value; 
+            float val2 = Sliders[1].value; 
+            float val3 = Sliders[2].value; 
+            float val4 = Sliders[3].value; 
+            float val5 = Sliders[4].value;
+            Sliders[0].value = Mathf.Lerp(val1,EnemiesDataHold.EnemyOne[0],timeScale);
+            Sliders[1].value = Mathf.Lerp(val2,EnemiesDataHold.EnemyTwo[0],timeScale);
+            Sliders[2].value = Mathf.Lerp(val3,EnemiesDataHold.EnemyThree[0],timeScale);
+            Sliders[3].value = Mathf.Lerp(val4,EnemiesDataHold.EnemyFour[0],timeScale);
+            Sliders[4].value = Mathf.Lerp(val5,EnemiesDataHold.EnemyFive[0],timeScale);
+            
+        }
+        else if (CurrentDay == 2)
+        {
+            float val1 = Sliders[0].value; 
+            float val2 = Sliders[1].value; 
+            float val3 = Sliders[2].value; 
+            float val4 = Sliders[3].value; 
+            float val5 = Sliders[4].value;
+            Sliders[0].value = Mathf.Lerp(val1,EnemiesDataHold.EnemyOne[1],timeScale);
+            Sliders[1].value = Mathf.Lerp(val2,EnemiesDataHold.EnemyTwo[1],timeScale);
+            Sliders[2].value = Mathf.Lerp(val3,EnemiesDataHold.EnemyThree[1],timeScale);
+            Sliders[3].value = Mathf.Lerp(val4,EnemiesDataHold.EnemyFour[1],timeScale);
+            Sliders[4].value = Mathf.Lerp(val5,EnemiesDataHold.EnemyFive[1],timeScale);
+        }
+        else if (CurrentDay == 3)
+        {
+            float val1 = Sliders[0].value; 
+            float val2 = Sliders[1].value; 
+            float val3 = Sliders[2].value; 
+            float val4 = Sliders[3].value; 
+            float val5 = Sliders[4].value;
+            Sliders[0].value = Mathf.Lerp(val1,EnemiesDataHold.EnemyOne[2],timeScale);
+            Sliders[1].value = Mathf.Lerp(val2,EnemiesDataHold.EnemyTwo[2],timeScale);
+            Sliders[2].value = Mathf.Lerp(val3,EnemiesDataHold.EnemyThree[2],timeScale);
+            Sliders[3].value = Mathf.Lerp(val4,EnemiesDataHold.EnemyFour[2],timeScale);
+            Sliders[4].value = Mathf.Lerp(val5,EnemiesDataHold.EnemyFive[2],timeScale);
+        }
+        else if (CurrentDay == 4)
+        {
+            float val1 = Sliders[0].value; 
+            float val2 = Sliders[1].value; 
+            float val3 = Sliders[2].value; 
+            float val4 = Sliders[3].value; 
+            float val5 = Sliders[4].value;
+            Sliders[0].value = Mathf.Lerp(val1,EnemiesDataHold.EnemyOne[3],timeScale);
+            Sliders[1].value = Mathf.Lerp(val2,EnemiesDataHold.EnemyTwo[3],timeScale);
+            Sliders[2].value = Mathf.Lerp(val3,EnemiesDataHold.EnemyThree[3],timeScale);
+            Sliders[3].value = Mathf.Lerp(val4,EnemiesDataHold.EnemyFour[3],timeScale);
+            Sliders[4].value = Mathf.Lerp(val5,EnemiesDataHold.EnemyFive[3],timeScale);
+        }
+        else if (CurrentDay == 5)
+        {
+            float val1 = Sliders[0].value; 
+            float val2 = Sliders[1].value; 
+            float val3 = Sliders[2].value; 
+            float val4 = Sliders[3].value; 
+            float val5 = Sliders[4].value;
+            Sliders[0].value = Mathf.Lerp(val1,EnemiesDataHold.EnemyOne[4],timeScale);
+            Sliders[1].value = Mathf.Lerp(val2,EnemiesDataHold.EnemyTwo[4],timeScale);
+            Sliders[2].value = Mathf.Lerp(val3,EnemiesDataHold.EnemyThree[4],timeScale);
+            Sliders[3].value = Mathf.Lerp(val4,EnemiesDataHold.EnemyFour[4],timeScale);
+            Sliders[4].value = Mathf.Lerp(val5,EnemiesDataHold.EnemyFive[4],timeScale);
         }
     }
 

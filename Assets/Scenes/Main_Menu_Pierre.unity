@@ -605,7 +605,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 476440269}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 623474743}
+        m_TargetAssemblyTypeName: SequenceManager, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &476440269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -812,11 +824,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SettingsPanel: {fileID: 974839824}
   MainMenuPanel: {fileID: 2071002481}
-  EndScreen: {fileID: 0}
+  EndScreenWin: {fileID: 0}
+  EndScreenLoose: {fileID: 0}
   EndGame: {fileID: 0}
   BoatPassage: 
   Enemies: 
   DayNumber: 0
+  ScoreText: {fileID: 0}
+  HadesHappyFeedBackTarget: {fileID: 0}
+  HadesAngryFeedBackTarget: {fileID: 0}
 --- !u!4 &623474744
 Transform:
   m_ObjectHideFlags: 0
@@ -1104,7 +1120,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &974839825
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1694,7 +1710,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 1.5643e-10, y: 388}
-  m_SizeDelta: {x: 587.9229, y: 218.8605}
+  m_SizeDelta: {x: 655.9651, y: 211.8217}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1563703825
 MonoBehaviour:
@@ -1716,7 +1732,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Titre du jeu
+  m_text: Styx'ocrate
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6b13a50090806f342b81f78fd428bc4c, type: 2}
   m_sharedMaterial: {fileID: -4257242721905759749, guid: 6b13a50090806f342b81f78fd428bc4c, type: 2}
