@@ -83,7 +83,6 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
                 _PlayerTrust.GainScore(ScoreData.DieOnCorrectDoor);
                 int index = new Random().Next(SoulInDoor.Length);
                 SoulInDoor[index].Play();
-                _PlayerTrust.LooseScore(ScoreData.DieWhileWait);
             }
             else if (DieOnWrongDoor)
             {
@@ -92,7 +91,6 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
                 _PlayerTrust.LooseScore(ScoreData.DieOnWrongDoor);
                 int index = new Random().Next(SoulInDoor.Length);
                 SoulInDoor[index].Play();
-                _PlayerTrust.LooseScore(ScoreData.DieWhileWait);
             }
         }
     }
@@ -102,7 +100,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
         if (AmeData.IsBig && AmeData.IsWhite)
         {
-            TimeLeft = 23;
+            TimeLeft = 33;
         }
         else if (AmeData.IsBig && !AmeData.IsWhite)
         {
@@ -110,7 +108,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         }
         else if (!AmeData.IsBig && AmeData.IsWhite)
         {
-            TimeLeft = 32;
+            TimeLeft = 42;
         }
         else if ((int)AmeData.colorOfDoor == 0)
         {
@@ -118,7 +116,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         }
         else
         {
-            TimeLeft = 32;
+            TimeLeft = 42;
         }
 
         TimeTimer.maxValue = TimeLeft;
