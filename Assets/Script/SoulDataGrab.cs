@@ -83,7 +83,6 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
                 _PlayerTrust.GainScore(ScoreData.DieOnCorrectDoor);
                 int index = new Random().Next(SoulInDoor.Length);
                 SoulInDoor[index].Play();
-                _PlayerTrust.LooseScore(ScoreData.DieWhileWait);
             }
             else if (DieOnWrongDoor)
             {
@@ -92,7 +91,6 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
                 _PlayerTrust.LooseScore(ScoreData.DieOnWrongDoor);
                 int index = new Random().Next(SoulInDoor.Length);
                 SoulInDoor[index].Play();
-                _PlayerTrust.LooseScore(ScoreData.DieWhileWait);
             }
         }
     }

@@ -105,6 +105,18 @@ public class SequenceManager : MonoBehaviour
         Time.timeScale = 1;
     }
 
+    public void MuteSound()
+    {
+        if (AudioListener.volume == 1)
+        {
+            AudioListener.volume = 0;
+        }
+        else
+        {
+            AudioListener.volume = 1;
+        }
+    }
+
 
 
     public void StartSpicifiedCoroutine(int n)
