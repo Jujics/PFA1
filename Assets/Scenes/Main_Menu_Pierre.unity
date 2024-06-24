@@ -827,6 +827,7 @@ MonoBehaviour:
   EndScreenWin: {fileID: 0}
   EndScreenLoose: {fileID: 0}
   EndGame: {fileID: 0}
+  PausePanel: {fileID: 0}
   BoatPassage: 
   Enemies: 
   DayNumber: 0
