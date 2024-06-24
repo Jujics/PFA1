@@ -82,9 +82,9 @@ public class FileManager : MonoBehaviour, IDropHandler
         Debug.Log("Door is closed for " + doorCooldown + " seconds.");
         Door.GetComponent<Animator>().SetBool("IsOpen",false);
         Aiguille.GetComponent<Animator>().SetBool("IsClosed",true);
-        DoorOpen.Play();
-        yield return new WaitForSeconds(doorCooldown);
         DoorClose.Play();
+        yield return new WaitForSeconds(doorCooldown);
+        DoorOpen.Play();
         Door.GetComponent<Animator>().SetBool("IsOpen",true);
         Aiguille.GetComponent<Animator>().SetBool("IsClosed",false);
         Debug.Log("Door is open.");

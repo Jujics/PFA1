@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01cb9faf08533f4782804b2f34937d7, type: 3}
+  m_Name: AllText
+  m_EditorClassIdentifier: 
+  DialogueText:
+  - "Vous \xEAtes au bal de fin d\u2019ann\xE9e des enfers"
+  - "Vous voyez au loin un s\xE9duisant monsieur"
+  - "Vous d\xE9cidez d\u2019aller lui adresser la parole"
+  - "Bonjour, Vous avez l\u2019air bien seul"
+  - "en effet je suis pas trop soir\xE9es a la base"
+  - "Je suis Had\xE8s enchant\xE9 "
+  - "enchant\xE9"
+  - Que faites-vous dans la mort ?
+  - "Je suis employ\xE9 de tri "
+  - "Vous devez me reconnaitre j\u2019\xE9tais employ\xE9 de la semaine la derni\xE8re
+    fois "
+  - "Oh ! c\u2019est vous vous \xEAtes mon meilleur employ\xE9 dans cette section
+    de l\u2019enfer "
+  - 'je suis heureux de vous rencontrer '
+  - "Moi de m\xEAme "
+  - 
+  - '!'
+  - "Qu\u2019est-ce que vous faites "
+  - "Ca fait un moment que je veux vous l\u2019annoncer je vous aimes Had\xE8s "
+  - 'Vous aussi !! '
+  - "Votre excellente performance la dernier fois m\u2019as fait r\xE9aliser que
+    vous seul \xEAtes capable de diriger l\u2019enfer avec moi "
+  - 'Je suis heureux que vous aussi pencez cela '
+  - Baffe le joueur
+  - 'nah mais ca va pas !!!! '
+  - "Mais Had\xE8s\u2026. "
+  - "Je pensais t\u2019aimer mais tu est comme tous les autres "
+  - Pars en pleurant
+  Name:
+  - 
+  - 
+  - 
+  - Vous
+  - ???
+  - "Had\xE8s"
+  - Vous
+  - "Had\xE8s"
+  - Vous
+  - Vous
+  - "Had\xE8s"
+  - "Had\xE8s"
+  - Vous
+  - 
+  - Hades
+  - "Had\xE8s"
+  - Vous
+  - "Had\xE8s"
+  - "Had\xE8s"
+  - Vous
+  - "Had\xE8s"
+  - "Had\xE8s"
+  - Vous
+  - "Had\xE8s"
+  - "Had\xE8s"

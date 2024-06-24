@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/)/FlappySoul.unity
     guid: af3cb53943c365f48ba36ad3fa8475b3
+  - enabled: 1
+    path: Assets/Scenes/)/DateSatan.unity
+    guid: c0fc4d7be694e4a4b807b881d0ffd2f9
   m_configObjects: {}

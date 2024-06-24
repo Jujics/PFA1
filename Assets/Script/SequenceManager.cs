@@ -4,6 +4,7 @@ using System.Globalization;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Random = System.Random;
 
 public class SequenceManager : MonoBehaviour
 {
@@ -17,7 +18,8 @@ public class SequenceManager : MonoBehaviour
 
     public GameObject EndGame;
     public GameObject PausePanel;
-
+    public AudioSource[] HadesHappySound;
+    public AudioSource[] HadesAngrySound;
     public int[] BoatPassage;
 
     public int[] Enemies;
@@ -130,6 +132,9 @@ public class SequenceManager : MonoBehaviour
     public IEnumerator HadesHappy()
     {
         HadesHappyFeedBackTarget.SetActive(true);
+        Random random = new Random();
+        int diceRoll = random.Next(0, 1); 
+        HadesHappySound[diceRoll].Play();
         yield return new WaitForSeconds(2);
         HadesHappyFeedBackTarget.SetActive(false);
     }
@@ -137,6 +142,9 @@ public class SequenceManager : MonoBehaviour
     public IEnumerator HadesAngry()
     {
         HadesAngryFeedBackTarget.SetActive(true);
+        Random random = new Random();
+        int diceRoll = random.Next(0, 1);        
+        HadesAngrySound[diceRoll].Play();
         yield return new WaitForSeconds(2);
         HadesAngryFeedBackTarget.SetActive(false);
     }

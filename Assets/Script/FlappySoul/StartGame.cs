@@ -16,10 +16,19 @@ public class StartGame : MonoBehaviour
         {
             LoadScene2();
         }
+        if (Input.GetKey(KeyCode.LeftAlt) && Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.D))
+        {
+            LoadScene3();
+        }
     }
     void LoadScene2()
     {
         Debug.Log("Loading Scene 2");
         SceneManager.LoadScene(2);
+    }
+    void LoadScene3()
+    {
+        Debug.Log("Loading Scene 3");
+        SceneManager.LoadScene(3);
     }
 }

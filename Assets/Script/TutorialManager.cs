@@ -15,7 +15,7 @@ public class TutorialManager : MonoBehaviour
     public GameObject[] Group10Parts;
     public GameObject[] Group11Parts;
     public GameObject[] Group12Parts;
-
+    public AudioSource HadesTalk;
     private int currentGroupIndex = 0;
     private int currentPartIndex = 0;
     private bool isPaused = false;
@@ -32,6 +32,7 @@ public class TutorialManager : MonoBehaviour
     {
         if (isPaused && Input.GetMouseButtonDown(0))
         {
+            HadesTalk.Play();
             DisplayNextText();
         }
     }
