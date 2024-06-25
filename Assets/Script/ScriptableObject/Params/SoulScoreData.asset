@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c03777c50bf5c24c9f6f7b28431587c, type: 3}
   m_Name: SoulScoreData
   m_EditorClassIdentifier: 
-  DieOutScreen: 10
-  DieOnCorrectDoor: 25
-  DieOnWrongDoor: 20
-  DieWhileWait: 20
+  DieOutScreen: 2
+  DieOnCorrectDoor: 3
+  DieOnWrongDoor: 2
+  DieWhileWait: 5
