@@ -299,6 +299,7 @@ public class CycleManager : MonoBehaviour
         ScoreCompare();
         Time.timeScale = 0;
         new WaitForUIButtons(CloseResultWinButton);
+        PlayerTrust.Score = 0;
         Time.timeScale = 1;
         if (CurrentDay < MaxDays.Value)
         {
