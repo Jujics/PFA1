@@ -1,4 +1,4 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,6 +11,7 @@ public class PlayerTrust : MonoBehaviour
 
     void Start()
     {
+        Slider.maxValue = MaxValue; 
         Score = 0;
     }
 
