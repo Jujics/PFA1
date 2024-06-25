@@ -104,7 +104,7 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
         }
         else if (AmeData.IsBig && !AmeData.IsWhite)
         {
-            TimeLeft = 23;
+            TimeLeft = 33;
         }
         else if (!AmeData.IsBig && AmeData.IsWhite)
         {
