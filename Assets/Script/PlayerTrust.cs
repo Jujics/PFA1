@@ -11,7 +11,6 @@ public class PlayerTrust : MonoBehaviour
 
     void Start()
     {
-        Slider.maxValue = MaxValue;
         Score = 0;
     }
 
