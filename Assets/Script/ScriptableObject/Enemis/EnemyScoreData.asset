@@ -13,32 +13,32 @@ MonoBehaviour:
   m_Name: EnemyScoreData
   m_EditorClassIdentifier: 
   EnemyOne:
-  - -50
+  - 30
   - -900000
   - -900000
   - -900000
   - -900000
   EnemyTwo:
-  - 5
-  - -20
+  - 35
+  - 40
   - -900000
   - -900000
   - -900000
   EnemyThree:
-  - 10
-  - 15
-  - -20
+  - 40
+  - 50
+  - 80
   - -900000
   - -900000
   EnemyFour:
-  - 30
-  - 40
-  - 20
-  - -10
-  - -900000
-  EnemyFive:
   - 50
   - 60
-  - 80
-  - 60
-  - 30
+  - 90
+  - 110
+  - -900000
+  EnemyFive:
+  - 0
+  - 70
+  - 100
+  - 130
+  - 150
