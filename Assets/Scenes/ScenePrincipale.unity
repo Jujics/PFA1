@@ -3489,8 +3489,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 1039502428}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
-  m_MinValue: -100
-  m_MaxValue: 100
+  m_MinValue: -200
+  m_MaxValue: 200
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -12511,8 +12511,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 1771789455}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
-  m_MinValue: -100
-  m_MaxValue: 100
+  m_MinValue: -200
+  m_MaxValue: 200
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -13661,8 +13661,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 1983481699}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
-  m_MinValue: -100
-  m_MaxValue: 100
+  m_MinValue: -200
+  m_MaxValue: 200
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -56094,8 +56094,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 970919605}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
-  m_MinValue: -100
-  m_MaxValue: 100
+  m_MinValue: -200
+  m_MaxValue: 200
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -65128,7 +65128,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -68549,7 +68549,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -70621,8 +70621,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 1899557300}
   m_HandleRect: {fileID: 0}
   m_Direction: 0
-  m_MinValue: -100
-  m_MaxValue: 100
+  m_MinValue: -200
+  m_MaxValue: 200
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -79235,7 +79235,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
