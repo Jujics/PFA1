@@ -8,27 +8,21 @@ using Random = System.Random;
 
 public class SequenceManager : MonoBehaviour
 {
+    public TMP_Text SoundText;
+    public GameObject soundText;
     public GameObject SettingsPanel;
-
     public GameObject MainMenuPanel;
-
     public GameObject EndScreenWin;
-
     public GameObject EndScreenLoose;
-
     public GameObject EndGame;
     public GameObject PausePanel;
     public AudioSource[] HadesHappySound;
     public AudioSource[] HadesAngrySound;
     public int[] BoatPassage;
-
     public int[] Enemies;
-
     public int DayNumber;
-
     public TMP_Text ScoreText;
     private TMP_Text OriginalText;
-
     public GameObject HadesHappyFeedBackTarget;
     public GameObject HadesAngryFeedBackTarget;
 
@@ -112,10 +106,13 @@ public class SequenceManager : MonoBehaviour
         if (AudioListener.volume == 1)
         {
             AudioListener.volume = 0;
+            StartCoroutine(SetSound(0)); 
         }
         else
         {
             AudioListener.volume = 1;
+            StartCoroutine(SetSound(1)); 
+
         }
     }
 
@@ -147,6 +144,24 @@ public class SequenceManager : MonoBehaviour
         HadesAngrySound[diceRoll].Play();
         yield return new WaitForSeconds(2);
         HadesAngryFeedBackTarget.SetActive(false);
+    }
+
+    public IEnumerator SetSound(int i)
+    {
+        if (i == 1)
+        {
+            soundText.SetActive(true);
+            SoundText.text = "Son activé";
+            yield return new WaitForSeconds(3);
+            soundText.SetActive(false);
+        }
+        else
+        {
+            soundText.SetActive(true);
+            SoundText.text = "Son Desactivé";
+            yield return new WaitForSeconds(3);
+            soundText.SetActive(false); 
+        }
     }
 
 }
