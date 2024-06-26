@@ -39,7 +39,7 @@ public class CycleManager : MonoBehaviour
         CurrentCycle++;
         if (CurrentCycle < MaxCycle.Value)
         {
-            if (CurrentCycle == MaxCycle.Value - 1)
+            if (CurrentCycle == 5)
             {
                 LastCycle();
             }
@@ -296,13 +296,13 @@ public class CycleManager : MonoBehaviour
     {
         yield return new WaitForSeconds(TimeUntilEndDay);
         bool HasWon = true;
-        ScoreCompare();
-        Time.timeScale = 0;
-        new WaitForUIButtons(CloseResultWinButton);
-        Time.timeScale = 1;
         if (CurrentDay < MaxDays.Value)
         {
             PlayerTrustFloat = PlayerTrust.Score;
+            ScoreCompare();
+            Time.timeScale = 0;
+            new WaitForUIButtons(CloseResultWinButton);
+            Time.timeScale = 1;
             CurrentDay++;
             CurrentCycle = 0;
             StartNewCycle();
