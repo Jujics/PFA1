@@ -6702,12 +6702,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f957ebb0efbb96647ba0152db3e1d317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SoundText: {fileID: 0}
+  soundText: {fileID: 0}
   SettingsPanel: {fileID: 0}
   MainMenuPanel: {fileID: 0}
+  MainMenuCanvas: {fileID: 0}
   EndScreenWin: {fileID: 436590780}
   EndScreenLoose: {fileID: 1592983889}
   EndGame: {fileID: 1764069585}
   PausePanel: {fileID: 1891070530}
+  StartScreenCanvas: {fileID: 0}
   HadesHappySound:
   - {fileID: 2120365514}
   - {fileID: 1628310618}
