@@ -12,10 +12,13 @@ public class SequenceManager : MonoBehaviour
     public GameObject soundText;
     public GameObject SettingsPanel;
     public GameObject MainMenuPanel;
+    public GameObject MainMenuCanvas;
     public GameObject EndScreenWin;
     public GameObject EndScreenLoose;
     public GameObject EndGame;
     public GameObject PausePanel;
+
+    public GameObject StartScreenCanvas;
     public AudioSource[] HadesHappySound;
     public AudioSource[] HadesAngrySound;
     public int[] BoatPassage;
@@ -28,6 +31,7 @@ public class SequenceManager : MonoBehaviour
 
     void Start()
     {
+        if(ScoreText != null)
         OriginalText.text = ScoreText.text;
         HadesHappyFeedBackTarget = GameObject.Find("Game/HadesHappyFeedBackTarget");
         HadesHappyFeedBackTarget.SetActive(false);
@@ -82,6 +86,12 @@ public class SequenceManager : MonoBehaviour
     {
         SettingsPanel.SetActive(false);
         MainMenuPanel.SetActive(true); 
+    }
+
+    public void CloseStartScreen()
+    {
+        StartScreenCanvas.SetActive(false);
+        MainMenuCanvas.SetActive(true);
     }
     
     public void QuitGame()
