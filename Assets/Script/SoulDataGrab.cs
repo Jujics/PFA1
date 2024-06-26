@@ -65,8 +65,11 @@ public class SoulDataGrab : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
             if (DieOutScreen && AmeData.IsWhite!)
             {
                 //Add FeedBack/Soul going out of screen
-                sequenceManager.StartSpicifiedCoroutine(0);
-                _PlayerTrust.LooseScore(ScoreData.DieOutScreen);
+                if ((int)AmeData.colorOfDoor != 0)
+                {
+                    sequenceManager.StartSpicifiedCoroutine(0);
+                    _PlayerTrust.LooseScore(ScoreData.DieOutScreen);
+                }
             }
             else if (DieWhileWait)
             {
