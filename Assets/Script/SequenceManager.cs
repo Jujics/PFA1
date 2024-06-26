@@ -18,6 +18,8 @@ public class SequenceManager : MonoBehaviour
 
     public GameObject EndGame;
     public GameObject PausePanel;
+
+    public GameObject StartScreenCanvas;
     public AudioSource[] HadesHappySound;
     public AudioSource[] HadesAngrySound;
     public int[] BoatPassage;
@@ -88,6 +90,11 @@ public class SequenceManager : MonoBehaviour
     {
         SettingsPanel.SetActive(false);
         MainMenuPanel.SetActive(true); 
+    }
+
+    public void CloseStartScreen()
+    {
+        StartScreenCanvas.SetActive(false);
     }
     
     public void QuitGame()
