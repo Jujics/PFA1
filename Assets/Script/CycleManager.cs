@@ -303,6 +303,8 @@ public class CycleManager : MonoBehaviour
             Time.timeScale = 0;
             new WaitForUIButtons(CloseResultWinButton);
             Time.timeScale = 1;
+            PlayerTrust.Slider.value = 0;
+            PlayerTrust.Score = 0;
             CurrentDay++;
             CurrentCycle = 0;
             StartNewCycle();
