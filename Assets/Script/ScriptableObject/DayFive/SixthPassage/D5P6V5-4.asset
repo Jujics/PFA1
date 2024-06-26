@@ -12,28 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34866eafb57f6ad4c97dfd517617b636, type: 3}
   m_Name: D5P6V5-4
   m_EditorClassIdentifier: 
-  name: "Na\xEFm"
+  name: "Na\xEFm Le Fossoyeur"
   Acts:
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
-  - Desc: 
-    Gravity: 0
+  - Desc: Ecoute NF
+    Gravity: 1
+  - Desc: N'a pas trop d'empathie
+    Gravity: 1
+  - Desc: Sociable
+    Gravity: 1
+  - Desc: "Obs\xE9d\xE9 par l'authenticit\xE9"
+    Gravity: 1
+  - Desc: Aime bien les jeux d'horreur
+    Gravity: 1
+  - Desc: Adore les animes
+    Gravity: 1
+  - Desc: Essaye beaucoup de choses
+    Gravity: 1
+  - Desc: Fan D'Hoyoverse
+    Gravity: 1
+  - Desc: Adore la romance
+    Gravity: 1
+  - Desc: Stress jamais
+    Gravity: 1
   colorOfDoor: 1
   IsWhite: 0
   IsBig: 0
