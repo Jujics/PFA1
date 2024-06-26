@@ -12,6 +12,7 @@ public class SequenceManager : MonoBehaviour
     public GameObject soundText;
     public GameObject SettingsPanel;
     public GameObject MainMenuPanel;
+    public GameObject MainMenuCanvas;
     public GameObject EndScreenWin;
     public GameObject EndScreenLoose;
     public GameObject EndGame;
@@ -30,6 +31,7 @@ public class SequenceManager : MonoBehaviour
 
     void Start()
     {
+        if(ScoreText != null)
         OriginalText.text = ScoreText.text;
         HadesHappyFeedBackTarget = GameObject.Find("Game/HadesHappyFeedBackTarget");
         HadesHappyFeedBackTarget.SetActive(false);
@@ -89,6 +91,7 @@ public class SequenceManager : MonoBehaviour
     public void CloseStartScreen()
     {
         StartScreenCanvas.SetActive(false);
+        MainMenuCanvas.SetActive(true);
     }
     
     public void QuitGame()
